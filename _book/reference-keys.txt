@@ -1,4 +1,5 @@
 fig:survey
+fig:figurename
 eq:binom
 thm:tri
 about
@@ -12,7 +13,9 @@ approach
 scope-of-group-activities-and-intended-products
 cross
 survey-respondents
-parts
+esri-survey123
+survey123-overview
+survey123-forms-options
 footnotes-and-citations
 footnotes
 citations
