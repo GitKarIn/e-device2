@@ -13,7 +13,6 @@ Surveys123 Survey Forms are created and stored through the ESRI web interface (s
 
 ```{r figurename, echo=FALSE, fig.cap="my caption", out.width = '90%'}
 knitr::include_graphics("figures/survey123/ESRIweb.png", error = FALSE)
-#knitr::include_graphics("Picture5.png")
 ```
 
 
