@@ -1,5 +1,4 @@
-fig:nice-fig
-tab:nice-tab
+fig:survey
 eq:binom
 thm:tri
 about
@@ -12,8 +11,7 @@ goals
 approach
 scope-of-group-activities-and-intended-products
 cross
-chapters-and-sub-chapters
-captioned-figures-and-tables
+survey-respondents
 parts
 footnotes-and-citations
 footnotes
