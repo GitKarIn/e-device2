@@ -20,3 +20,25 @@ There are two main options for designing a Survey123 survey form: the Web Design
 ```{r ESRIweb2, echo=FALSE, fig.cap="Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool.", out.width = '90%'}
 knitr::include_graphics("figures/survey123/ESRIweb2.png", error = FALSE)
 ```
+
+Survey123 Connect is an option for more advanced survey form design, such as a nested structure or calculated responses using user inputs.  The Survey123 Connect approach requires defining the more advanced form properties within an ‘XLSForm spreadsheet’ using the XLSForm coding language.  ESRI documentation for both Web designer and Connect can be found at: https://doc.arcgis.com/en/survey123/browser/create-surveys/createsurveys.htm
+XLSForm formatting language is described at: https://xlsform.org/en/
+
+```{r survey123_xlsform, echo=FALSE, fig.cap="Screen capture of ESRI Survey123 Connect software demonstrating the use of the XLSForm spreadsheet-based coding language and the ability to directly edit the JavaScript code that is linked to XLSForm parameters.", out.width = '90%'}
+knitr::include_graphics("figures/survey123/survey123_xlsform.png", error = FALSE)
+```
+```{r survey123_xlsform2, echo=FALSE, fig.cap="Screen capture of ArcGIS website description of the XLSForm features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-Apps-for-the-Field-State-of-ID.pdf.", out.width = '90%'}
+knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALSE)
+```
+
+
+
+
+
+
+
+
+
+
+
+

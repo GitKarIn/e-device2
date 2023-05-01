@@ -64,16 +64,7 @@
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
-<li><a class="" href="introduction.html"><span class="header-section-number">2</span> Introduction</a></li>
-<li><a class="" href="cross.html"><span class="header-section-number">3</span> E-device Survey</a></li>
-<li><a class="active" href="esri-survey123.html"><span class="header-section-number">4</span> ESRI Survey123</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></li>
-<li><a class="" href="references.html">References</a></li>
-</ul>
+        <ul class="book-toc list-unstyled"><li><a class="" href="index.html"><span class="header-section-number">Chapter 4</span> ESRI Survey123</a></li></ul>
 
         <div class="book-extra">
           <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
@@ -101,8 +92,6 @@
 <span style="display:block;" id="fig:ESRIweb"></span>
 <img src="figures/survey123/ESRIweb.png" alt="Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey." width="90%"><p class="caption">
 Figure 4.1: Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey.
-<<<<<<< HEAD
-=======
 </p>
 </div>
 <p>There are two main options for designing a Survey123 survey form: the Web Designer or Survey123 Connect tool. The Web Designer is a web-based menu-driven GUI that does not require learning any specific coding to set up a basic survey form. Survey questions and response types can be specified using a drag and drop tool.</p>
@@ -110,27 +99,28 @@ Figure 4.1: Screen capture of the ESRI web interface for Survey123 and the optio
 <span style="display:block;" id="fig:ESRIweb2"></span>
 <img src="figures/survey123/ESRIweb2.png" alt="Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool." width="90%"><p class="caption">
 Figure 4.2: Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool.
->>>>>>> ab86930 (continue survey123)
+</p>
+</div>
+<p>Survey123 Connect is an option for more advanced survey form design, such as a nested structure or calculated responses using user inputs. The Survey123 Connect approach requires defining the more advanced form properties within an ‘XLSForm spreadsheet’ using the XLSForm coding language. ESRI documentation for both Web designer and Connect can be found at: <a href="https://doc.arcgis.com/en/survey123/browser/create-surveys/createsurveys.htm" class="uri">https://doc.arcgis.com/en/survey123/browser/create-surveys/createsurveys.htm</a>
+XLSForm formatting language is described at: <a href="https://xlsform.org/en/" class="uri">https://xlsform.org/en/</a></p>
+<div class="figure">
+<img src="figures/survey123survey123_xlsform.png" alt="Screen capture of ESRI Survey123 Connect software demonstrating the use of the XLSForm spreadsheet-based coding language and the ability to directly edit the JavaScript code that is linked to XLSForm parameters." width="90%"><p class="caption">
+(#fig:survey123_xlsform)Screen capture of ESRI Survey123 Connect software demonstrating the use of the XLSForm spreadsheet-based coding language and the ability to directly edit the JavaScript code that is linked to XLSForm parameters.
 </p>
 </div>
 
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="cross.html"><span class="header-section-number">3</span> E-device Survey</a></div>
-<div class="next"><a href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></div>
+<div class="empty"></div>
+<div class="empty"></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#esri-survey123"><span class="header-section-number">4</span> ESRI Survey123</a></li>
-<li><a class="nav-link" href="#survey123-overview"><span class="header-section-number">4.1</span> Survey123 Overview</a></li>
-<li><a class="nav-link" href="#survey123-forms-options"><span class="header-section-number">4.2</span> Survey123 Forms Options</a></li>
-</ul>
+      <div id="book-on-this-page"></div>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/03-survey123.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/03-survey123.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+          
         </ul>
 </div>
     </nav>
@@ -150,34 +140,6 @@ Figure 4.2: Screen capture of the ESRI web interface for Survey123 highlighting 
   </div>
 
 </div></div>
-</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
-for (let popover of popovers) {
-  const div = document.createElement('div');
-  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
-  div.innerHTML = popover.getAttribute('data-content');
-
-  var has_math = div.querySelector("span.math");
-  if (has_math) {
-    document.body.appendChild(div);
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
-    MathJax.Hub.Queue(function() {
-      popover.setAttribute('data-content', div.innerHTML);
-      document.body.removeChild(div);
-    })
-  }
-}
-</script>
+</footer>
 </body>
 </html>
