@@ -15,3 +15,5 @@ Surveys123 Survey Forms are created and stored through the ESRI web interface (s
 <img src="figures/survey123/ESRIweb.png" alt="Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey." width="90%" />
 <p class="caption">(\#fig:ESRIweb)Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey.</p>
 </div>
+
+

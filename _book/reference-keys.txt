@@ -1,7 +1,6 @@
 fig:survey
-fig:figurename
+fig:ESRIweb
 eq:binom
-thm:tri
 about
 usage
 render-book
@@ -27,4 +26,3 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
