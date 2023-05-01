@@ -26,3 +26,8 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
+<<<<<<< HEAD
+=======
+fig:ESRIweb2
+url-your-book-url-like-httpsbookdown.orgyihuibookdown
+>>>>>>> ab86930 (continue survey123)
