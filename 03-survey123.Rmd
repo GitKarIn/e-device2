@@ -31,7 +31,17 @@ knitr::include_graphics("figures/survey123/survey123_xlsform.png", error = FALSE
 knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALSE)
 ```
 
+```{r display hrs per this pp, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
 
+library(kableExtra)
+
+df_pp %>% filter(Yr == mxyr ) %>% filter(wknum ==max(wknum)) %>%
+  #arrange(Budget_Cat)%>%
+  kbl() %>%
+  #kable_styling()
+kable_styling(full_width = F)
+
+```
 
 
 
