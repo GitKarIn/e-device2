@@ -1,6 +1,10 @@
 fig:survey
 fig:ESRIweb
+fig:ESRIweb2
+fig:xlsform
+fig:xlsform2
 eq:binom
+thm:tri
 about
 usage
 render-book
@@ -26,8 +30,3 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
-<<<<<<< HEAD
-=======
-fig:ESRIweb2
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
->>>>>>> ab86930 (continue survey123)

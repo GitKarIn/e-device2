@@ -14,7 +14,7 @@ The IEP e-device survey was run for approximately a month and received 24 respon
 See Figure \@ref(fig:survey).
 
 <div class="figure" style="text-align: center">
-<img src="02-survey_files/figure-epub3/survey-1.png" alt="The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources." width="80%" />
+<img src="02-survey_files/figure-html/survey-1.png" alt="The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources." width="80%" />
 <p class="caption">(\#fig:survey)The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources.</p>
 </div>
 
