@@ -12,8 +12,6 @@ From G2 Business Software Review: Survey123 is included with ArcGIS, and provide
 Surveys123 Survey Forms are created and stored through the ESRI web interface (see Figure 1); access requires a current ESRI license. Survey123 forms can be downloaded to tablets, iPhones or iPads, and data collection can be made while the device is offline. Survey results are uploaded to cloud storage next time the device is on-line. 
 
 <div class="figure">
-<img src="figures/survey123/ESRIweb.png" alt="my caption" width="90%" />
-<p class="caption">(\#fig:figurename)my caption</p>
+<img src="figures/survey123/ESRIweb.png" alt="Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey." width="90%" />
+<p class="caption">(\#fig:ESRIweb)Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey.</p>
 </div>
-
-
