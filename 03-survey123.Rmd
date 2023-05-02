@@ -33,18 +33,17 @@ knitr::include_graphics("figures/survey123/survey123_xlsform.png", error = FALSE
 knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALSE)
 ```
 
-```{r display hrs per this pp, echo = FALSE, include=FALSE,  message=FALSE, warning=FALSE  }
+```{r display hrs per this pp, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
 
 survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria.xlsx"))
-head(survey123 )
+#print(names(survey123))
 
-# library(kableExtra)
-# 
-# df_pp %>% filter(Yr == mxyr ) %>% filter(wknum ==max(wknum)) %>%
-#   #arrange(Budget_Cat)%>%
-#   kbl() %>%
-#   #kable_styling()
-# kable_styling(full_width = F)
+library(kableExtra)
+
+survey123$Forms_Options  %>%   #arrange(Budget_Cat)%>%
+  kbl() %>%
+  #kable_styling()
+kable_styling(full_width = F)
 
 ```
 
