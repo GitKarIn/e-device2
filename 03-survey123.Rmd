@@ -33,20 +33,17 @@ knitr::include_graphics("figures/survey123/survey123_xlsform.png", error = FALSE
 knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALSE)
 ```
 
-
-```{r display hrs per this pp, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
+```{r forms123, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
 
 survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria.xlsx"))
-#print(names(survey123))
-
 library(kableExtra)
 
-survey123$Forms_Options  %>%   #arrange(Budget_Cat)%>%
-  kbl() %>%
-  #kable_styling()
-kable_styling(full_width = F)
-
-```
+kable(survey123$Forms_Options,longtable = T, 
+      booktabs  = T,  caption = ' Survey123 Forms Options') %>%
+  add_header_above(c("Forms Options" = 3, " "= 4)) %>%
+  kable_styling(latex_options = "repeat_header",full_width = F)
+```  
+  
 
 
 
