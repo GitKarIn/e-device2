@@ -1,9 +1,12 @@
+fig:survey
 fig:ESRIweb
 fig:ESRIweb2
 fig:xlsform
 fig:xlsform2
 tab:forms123
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
+eq:binom
+thm:tri
+about
 usage
 render-book
 preview-book
@@ -28,3 +31,5 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
+url-your-book-url-like-httpsbookdown.orgyihuibookdown
+tab:unnamed-chunk-1

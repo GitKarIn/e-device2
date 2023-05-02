@@ -35,15 +35,31 @@ knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALS
 
 ```{r forms123, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
 source(file.path(data_scripts_root,"readin_tables.R"))
-#survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria.xlsx"))
+
 library(kableExtra)
 
 kable(survey123$Forms_Options,longtable = T, 
       booktabs  = T,  caption = ' Survey123 Forms Options') %>%
-  add_header_above(c("Forms Options" = 3, " "= 4))
+  add_header_above(c("Forms Options" = 3, " "= 4)) %>%
+  kable_styling(bootstrap_options = "striped",  position = "left", font_size = 12, fixed_thead = T)%>%
+  kable_paper(full_width = F) %>%
+  scroll_box(height = "600px")
 ```  
   
 
+```{r,  echo = FALSE, include=TRUE}
+library(flextable)
 
+ft <- flextable(airquality[ sample.int(10),])
+ft <- add_header_row(ft,
+  colwidths = c(4, 2),
+  values = c("Air quality", "Time")
+)
+ft <- theme_vanilla(ft)
+ft <- add_footer_lines(ft, "Daily air quality measurements in New York, May to September 1973.")
+ft <- color(ft, part = "footer", color = "#666666")
+ft <- set_caption(ft, caption = "New York Air Quality Measurements")
+ft
+```
 
 

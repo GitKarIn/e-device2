@@ -37,21 +37,21 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 <p class="caption">(\#fig:xlsform2)Screen capture of ArcGIS website description of the XLSForm features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-Apps-for-the-Field-State-of-ID.pdf.</p>
 </div>
 
-<table>
-<caption>(\#tab:forms123) Survey123 Forms Options</caption>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; "><table class="table table-striped lightable-paper" style='font-size: 12px;  font-family: "Arial Narrow", arial, helvetica, sans-serif; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:forms123) Survey123 Forms Options</caption>
  <thead>
 <tr>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="3"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Forms Options</div></th>
-<th style="empty-cells: hide;border-bottom:hidden;" colspan="4"></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;" colspan="3"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Forms Options</div></th>
+<th style="empty-cells: hide;border-bottom:hidden;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;" colspan="4"></th>
 </tr>
   <tr>
-   <th style="text-align:left;"> Feature </th>
-   <th style="text-align:left;"> Available </th>
-   <th style="text-align:left;"> Description </th>
-   <th style="text-align:left;"> Group Notes/Reviews/ Questions </th>
-   <th style="text-align:left;"> External Reviews </th>
-   <th style="text-align:right;"> Score (0-3) </th>
-   <th style="text-align:left;"> QC </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Available </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Description </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Group Notes/Reviews/ Questions </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> External Reviews </th>
+   <th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Score (0-3) </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> QC </th>
   </tr>
  </thead>
 <tbody>
@@ -94,7 +94,7 @@ https://doc.arcgis.com/en/survey123/browser/analyze-results/viewresults.htm#:~:t
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Survey123 Connect: XLSForm spreadsheet </td>
    <td style="text-align:left;"> XLSForm formatting language required some effort to pick up. </td>
@@ -112,7 +112,7 @@ https://doc.arcgis.com/en/survey123/browser/analyze-results/viewresults.htm#:~:t
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> XLSForm spreadsheet </td>
    <td style="text-align:left;"> Web designer is a GUI tool that is menu driven and does not require learning any coding </td>
@@ -121,7 +121,7 @@ https://doc.arcgis.com/en/survey123/browser/analyze-results/viewresults.htm#:~:t
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> NA </td>
    <td style="text-align:left;"> Survey123 Connect: XLSForm spreadsheet </td>
    <td style="text-align:left;"> Survey123 Connect is an option for more advanced survey designs which requires configuration of an ‘XLSForm spreadsheet’.  XLSForm is an ESRII coding language specific to forms configuration. </td>
@@ -152,7 +152,7 @@ https://www.g2.com/products/arcgis-survey123/reviews?page=2 </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Survey123 Connect: XLSForm spreadsheet </td>
    <td style="text-align:left;"> Above functionality, plus more advanced options such as: - select multiple responses from a list;smart fields: expressions and formulas to control the allowable input (e.g., total percentage &lt;= 100%)
@@ -173,7 +173,7 @@ Likert scale, and Rating questions </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Survey123 Connect: XLSForm spreadsheet </td>
    <td style="text-align:left;"> NA </td>
@@ -200,7 +200,7 @@ Likert scale, and Rating questions </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Survey123 Connect: XLSForm spreadsheet </td>
    <td style="text-align:left;"> In trial demo (Appendix 3): The XLSForm coding was required to represent a nested sampling design; this effort was time consuming to optimize </td>
@@ -218,7 +218,7 @@ Likert scale, and Rating questions </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Survey123 Connect: XLSForm spreadsheet </td>
    <td style="text-align:left;"> NA </td>
@@ -254,7 +254,7 @@ Likert scale, and Rating questions </td>
    <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;">  </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Survey123 Connect </td>
    <td style="text-align:left;"> In trial demo, it was difficult to produce a listing of the lengths which was needed for field QC </td>
@@ -281,9 +281,43 @@ Likert scale, and Rating questions </td>
    <td style="text-align:left;"> NA </td>
   </tr>
 </tbody>
-</table>
+</table></div>
   
 
 
+```r
+library(flextable)
+#> 
+#> Attaching package: 'flextable'
+#> The following objects are masked from 'package:kableExtra':
+#> 
+#>     as_image, footnote
+#> The following object is masked from 'package:purrr':
+#> 
+#>     compose
+
+ft <- flextable(airquality[ sample.int(10),])
+ft <- add_header_row(ft,
+  colwidths = c(4, 2),
+  values = c("Air quality", "Time")
+)
+ft <- theme_vanilla(ft)
+ft <- add_footer_lines(ft, "Daily air quality measurements in New York, May to September 1973.")
+ft <- color(ft, part = "footer", color = "#666666")
+ft <- set_caption(ft, caption = "New York Air Quality Measurements")
+ft
+```
+
+```{=html}
+<div class="tabwid"><style>.cl-248567de{}.cl-24700952{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-2470097a{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-2470097b{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(102, 102, 102, 1.00);background-color:transparent;}.cl-24771800{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-2477180a{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-247741d6{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741e0{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0.75pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741e1{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741ea{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 0.75pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741f4{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing='true' class='cl-248567de'>
+
+```
+
+<caption style="display:table-caption;margin:0pt;text-align:center;border-bottom: 0.00pt solid transparent;border-top: 0.00pt solid transparent;border-left: 0.00pt solid transparent;border-right: 0.00pt solid transparent;padding-top:3pt;padding-bottom:3pt;padding-left:3pt;padding-right:3pt;line-height: 1;background-color:transparent;">(\#tab:unnamed-chunk-1)<span>New York Air Quality Measurements</span></caption>
+
+```{=html}
+
+<thead><tr style="overflow-wrap:break-word;"><th  colspan="4"class="cl-247741d6"><p class="cl-24771800"><span class="cl-24700952">Air quality</span></p></th><th  colspan="2"class="cl-247741d6"><p class="cl-24771800"><span class="cl-24700952">Time</span></p></th></tr><tr style="overflow-wrap:break-word;"><th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Ozone</span></p></th><th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Solar.R</span></p></th><th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Wind</span></p></th><th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Temp</span></p></th><th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Month</span></p></th><th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Day</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">12</span></p></td><td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">149</span></p></td><td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">12.6</span></p></td><td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">74</span></p></td><td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">3</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">19</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">20.1</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">61</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">9</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">194</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8.6</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">69</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">10</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">41</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">190</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">7.4</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">67</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">23</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">299</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8.6</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">65</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">7</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">19</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">99</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">13.8</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">59</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">14.3</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">56</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">18</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">313</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">11.5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">62</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">28</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">14.9</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">66</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">6</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">36</span></p></td><td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">118</span></p></td><td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">8.0</span></p></td><td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">72</span></p></td><td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td><td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">2</span></p></td></tr></tbody><tfoot><tr style="overflow-wrap:break-word;"><td  colspan="6"class="cl-247741f4"><p class="cl-2477180a"><span class="cl-2470097b">Daily air quality measurements in New York, May to September 1973.</span></p></td></tr></tfoot></table></div>
+```
 
 
