@@ -1,3 +1,8 @@
+fig:ESRIweb
+fig:ESRIweb2
+fig:xlsform
+fig:xlsform2
+tab:forms123
 url-your-book-url-like-httpsbookdown.orgyihuibookdown
 usage
 render-book
