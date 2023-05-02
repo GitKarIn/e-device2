@@ -38,12 +38,16 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 </div>
 
 <table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<<<<<<< HEAD
 <caption>(\#tab:forms123) Survey123 Forms Options</caption>
  <thead>
 <tr>
 <th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="3"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Forms Options</div></th>
 <th style="empty-cells: hide;border-bottom:hidden;" colspan="4"></th>
 </tr>
+=======
+ <thead>
+>>>>>>> dfdb2d410baf9ceb475642b685d1c353274b929d
   <tr>
    <th style="text-align:left;"> Feature </th>
    <th style="text-align:left;"> Available </th>
@@ -284,6 +288,7 @@ Likert scale, and Rating questions </td>
 </table>
 
 
+<<<<<<< HEAD
 \begin{longtable}{lrrrrrrrrrrr}
 \toprule
 \multicolumn{1}{c}{ } & \multicolumn{6}{c}{a} & \multicolumn{5}{c}{b} \\
@@ -379,6 +384,12 @@ Ferrari Dino1 & 19.7 & 6 & 145.0 & 175 & 3.62 & 2.770 & 15.50 & 0 & 1 & 5 & 6\\
 Maserati Bora1 & 15.0 & 8 & 301.0 & 335 & 3.54 & 3.570 & 14.60 & 0 & 1 & 5 & 8\\
 Volvo 142E1 & 21.4 & 4 & 121.0 & 109 & 4.11 & 2.780 & 18.60 & 1 & 1 & 4 & 2\\*
 \end{longtable}
+=======
+
+
+
+
+>>>>>>> dfdb2d410baf9ceb475642b685d1c353274b929d
 
 
 
