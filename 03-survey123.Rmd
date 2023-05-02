@@ -40,8 +40,7 @@ library(kableExtra)
 
 kable(survey123$Forms_Options,longtable = T, 
       booktabs  = T,  caption = ' Survey123 Forms Options') %>%
-  add_header_above(c("Forms Options" = 3, " "= 4)) %>%
-  kable_styling(latex_options = "repeat_header",full_width = F)
+  add_header_above(c("Forms Options" = 3, " "= 4))
 ```  
   
 
