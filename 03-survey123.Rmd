@@ -33,26 +33,34 @@ knitr::include_graphics("figures/survey123/survey123_xlsform.png", error = FALSE
 knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALSE)
 ```
 
-```{r display hrs per this pp, echo = FALSE, include=FALSE,  message=FALSE, warning=FALSE  }
+```{r forms123, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
 
 survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria.xlsx"))
-head(survey123 )
+library(kableExtra)
 
-# library(kableExtra)
-# 
-# df_pp %>% filter(Yr == mxyr ) %>% filter(wknum ==max(wknum)) %>%
-#   #arrange(Budget_Cat)%>%
-#   kbl() %>%
-#   #kable_styling()
-# kable_styling(full_width = F)
+kable(survey123$Forms_Options,longtable = T, 
+      booktabs  = T,  caption = ' Survey123 Forms Options') %>%
+  add_header_above(c("Forms Options" = 3, " "= 4)) %>%
+  kable_styling(latex_options = "repeat_header",full_width = F)
+  
+  
+  # kable_styling(options = c("repeat_header"),full_width = F,
+  # repeat_header_continued = "\\textit{(Continued on Next Page...)}")
 
 ```
 
+```{r test, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
 
+library(knitr)
+library(kableExtra)
 
+dt <- rbind(mtcars, mtcars) 
 
+kable(dt, "latex", longtable = T, booktabs = T) %>%
+  add_header_above(c(" ", "a" = 6, "b" = 5)) %>%
+  kable_styling(latex_options = "repeat_header")
 
-
+```
 
 
 
