@@ -1,5 +1,5 @@
 --- 
-title: "Electronic Data Entry Software & Hardware Options"
+title: "Electronic Data Entry Software Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site

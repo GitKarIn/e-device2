@@ -34,8 +34,10 @@ knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALS
 ```
 
 ```{r display hrs per this pp, echo = FALSE, include=FALSE,  message=FALSE, warning=FALSE  }
-#Xdatafld
-#survey123 <- read_excel_allsheets(file.path(folder,"Survey123_app_criteria.xlsx"))
+
+survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria.xlsx"))
+head(survey123 )
+
 # library(kableExtra)
 # 
 # df_pp %>% filter(Yr == mxyr ) %>% filter(wknum ==max(wknum)) %>%

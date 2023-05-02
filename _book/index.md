@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Electronic Data Entry Software Options for IEP Surveys"
+author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
 date: "2023-05-02"
 site: bookdown::bookdown_site
 documentclass: book
