@@ -7,7 +7,8 @@ knitr::opts_chunk$set(
   collapse = TRUE
   )
 
-Xdatafld = "C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/DeviceComparisons"
+# Adjust this location wheree the edevice criteria tables stored
+Xdatfldr = "C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/DeviceComparisons"
 
 read_excel_allsheets <- function(filename, tibble = FALSE) {
   # I prefer straight data.frames

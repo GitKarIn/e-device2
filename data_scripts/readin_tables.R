@@ -1,6 +1,6 @@
 library(readxl)  
 
-folder = "C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/DeviceComparisons"
+Xdatfldr = "C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/DeviceComparisons"
 
 read_excel_allsheets <- function(filename, tibble = FALSE) {
   # I prefer straight data.frames
@@ -13,4 +13,4 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   x
 }
 
-survey123 <- read_excel_allsheets(file.path(folder,"Survey123_app_criteria.xlsx"))
+survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria.xlsx"))

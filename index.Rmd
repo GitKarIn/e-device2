@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Electronic Data Entry Software & Hardware Options"
+author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
