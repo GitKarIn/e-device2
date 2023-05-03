@@ -37,3 +37,7 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 <p class="caption">(\#fig:xlsform2)Screen capture of ArcGIS website description of the XLSForm features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-Apps-for-the-Field-State-of-ID.pdf.</p>
 </div>
 
+
+
+
+
