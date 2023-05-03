@@ -13,6 +13,7 @@ description: |
   set in the _output.yml file.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
+always_allow_html: yes
 ---
 
 # About

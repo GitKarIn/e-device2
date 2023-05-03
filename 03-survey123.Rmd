@@ -34,6 +34,44 @@ knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALS
 ```
 
 
+## Survey123 Forms Criteria Table
+
+
+
+```{r forms123, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
+source("setup.R")
+source(file.path(data_scripts_root,"readin_tables.R"))
+
+library(flextable)
+#library(webshot)
+# flextable does not work with the epub output; I have marked this out in the output yaml
+# (makes the render more quick anyway)
+# webshot does not help unforch: https://stackoverflow.com/questions/42543206/r-markdown-compile-error
+# nor does it work to add always_allow_html: yes to the YAML header
+# have removed epub fom output types
+
+#this seems the best for data_interface
+library(officer)
+std_border = fp_border(color="white", width = 24)
+
+ft <- flextable(survey123$Forms_Options)
+# ft <- add_header_row(ft,
+#  colwidths = c(1,  5, 1), values = c("a","b","c")
+# )
+
+ft <- theme_zebra(ft)
+ft <- add_footer_lines(ft, " Survey123 Forms Options footnote.")
+ft <- color(ft, part = "footer", color = "#666666")
+ft <- set_caption(ft, caption =  "Survey123 Forms Options")
+ft <-  width(ft, width = 4)
+  #set_table_properties(layout = "autofit")%>%
+  # width(j =2, width = 2) %>% # not  changing the column widths
+  # width(j = 4, width = 6)
+ft <- vline_right(ft, border = std_border )
+
+ft
+#dim(ft)
+```
 
 
 
