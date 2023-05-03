@@ -1,29 +1,37 @@
-# Sharing your book
+# Appendices
 
-## Publishing
-
-HTML books can be published online, see: https://bookdown.org/yihui/bookdown/publishing.html
-
-## 404 pages
-
-By default, users will be directed to a 404 page if they try to access a webpage that cannot be found. If you'd like to customize your 404 page instead of using the default, you may add either a `_404.Rmd` or `_404.md` file to your project root and use code and/or Markdown syntax.
-
-## Metadata for sharing
-
-Bookdown HTML books will provide HTML metadata for social sharing on platforms like Twitter, Facebook, and LinkedIn, using information you provide in the `index.Rmd` YAML. To setup, set the `url` for your book and the path to your `cover-image` file. Your book's `title` and `description` are also used.
+## E-device Survey
 
 
-This `bs4_book` provides enhanced metadata for social sharing, so that each chapter shared will have a unique description, auto-generated based on the content.
 
-Specify your book's source repository on GitHub as the `repo` in the `_output.yml` file, which allows users to view each chapter's source file or suggest an edit. Read more about the features of this output format here:
+```{r e_survey, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
-https://pkgs.rstudio.com/bookdown/reference/bs4_book.html
+source(file.path(data_scripts_root,"readin_tables.R"))
 
-Or use:
+library(flextable)
 
-```{r eval=FALSE}
-?bookdown::bs4_book
+std_border = fp_border(color="white", width = 24)
+
+ft <- flextable(survey123$Forms_Options)
+# ft <- add_header_row(ft,
+#  colwidths = c(1,  5, 1), values = c("a","b","c")
+# )
+
+ft <- theme_zebra(ft)
+ft <- add_footer_lines(ft, " Survey123 Forms Options footnote.")
+ft <- color(ft, part = "footer", color = "#666666")
+ft <- set_caption(ft, caption =  "Survey123 Forms Options")
+ft <-  width(ft, width = 4)
+  #set_table_properties(layout = "autofit")%>%
+  # width(j =2, width = 2) %>% # not  changing the column widths
+  # width(j = 4, width = 6)
+ft <- vline_right(ft, border = std_border )
+
+ft
+#dim(ft)
 ```
+
+## Survey123
 
 
 
