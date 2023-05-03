@@ -33,33 +33,38 @@ knitr::include_graphics("figures/survey123/survey123_xlsform.png", error = FALSE
 knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALSE)
 ```
 
-```{r forms123, echo = FALSE, include=TRUE,  message=FALSE, warning=FALSE  }
+
+## Survey123 Forms Criteria Table
+
+
+
+```{r forms123, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
+source("init.R")
 source(file.path(data_scripts_root,"readin_tables.R"))
 
-library(kableExtra)
-
-kable(survey123$Forms_Options,longtable = T, 
-      booktabs  = T,  caption = ' Survey123 Forms Options') %>%
-  add_header_above(c("Forms Options" = 3, " "= 4)) %>%
-  kable_styling(bootstrap_options = "striped",  position = "left", font_size = 12, fixed_thead = T)%>%
-  kable_paper(full_width = F) %>%
-  scroll_box(height = "600px")
-```  
-  
-
-```{r,  echo = FALSE, include=TRUE}
 library(flextable)
 
-ft <- flextable(airquality[ sample.int(10),])
-ft <- add_header_row(ft,
-  colwidths = c(4, 2),
-  values = c("Air quality", "Time")
-)
-ft <- theme_vanilla(ft)
-ft <- add_footer_lines(ft, "Daily air quality measurements in New York, May to September 1973.")
+#this seems the best for data_interface
+library(officer)
+std_border = fp_border(color="white", width = 24)
+
+ft <- flextable(survey123$Forms_Options)
+# ft <- add_header_row(ft,
+#  colwidths = c(1,  5, 1), values = c("a","b","c")
+# )
+
+ft <- theme_zebra(ft)
+ft <- add_footer_lines(ft, " Survey123 Forms Options footnote.")
 ft <- color(ft, part = "footer", color = "#666666")
-ft <- set_caption(ft, caption = "New York Air Quality Measurements")
+ft <- set_caption(ft, caption =  "Survey123 Forms Options")
+ft <-  width(ft, width = 4)
+  #set_table_properties(layout = "autofit")%>% 
+  # width(j =2, width = 2) %>% # not  changing the column widths
+  # width(j = 4, width = 6) 
+ft <- vline_right(ft, border = std_border )
 ft
+#dim(ft)
 ```
+
 
 
