@@ -66,7 +66,16 @@
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled"><li><a class="" href="index.html"><span class="header-section-number">Chapter 4</span> ESRI Survey123</a></li></ul>
+        <ul class="book-toc list-unstyled">
+<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
+<li><a class="" href="introduction.html"><span class="header-section-number">2</span> Introduction</a></li>
+<li><a class="" href="cross.html"><span class="header-section-number">3</span> E-device Survey</a></li>
+<li><a class="active" href="esri-survey123.html"><span class="header-section-number">4</span> ESRI Survey123</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">7</span> Sharing your book</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
 
         <div class="book-extra">
           <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
@@ -711,146 +720,138 @@ NA
 </tbody>
 </table></div>
 </div>
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ardata-fr.github.io/flextable-book/">flextable</a></span><span class="op">)</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt; Attaching package: 'flextable'</span></span>
-<span><span class="co">#&gt; The following objects are masked from 'package:kableExtra':</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt;     as_image, footnote</span></span>
-<span><span class="co">#&gt; The following object is masked from 'package:purrr':</span></span>
-<span><span class="co">#&gt; </span></span>
-<span><span class="co">#&gt;     compose</span></span>
-<span></span>
-<span><span class="va">ft</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/flextable/man/flextable.html">flextable</a></span><span class="op">(</span><span class="va">airquality</span><span class="op">[</span> <span class="fu"><a href="https://rdrr.io/r/base/sample.html">sample.int</a></span><span class="op">(</span><span class="fl">10</span><span class="op">)</span>,<span class="op">]</span><span class="op">)</span></span>
-<span><span class="va">ft</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/flextable/man/add_header_row.html">add_header_row</a></span><span class="op">(</span><span class="va">ft</span>,</span>
-<span>  colwidths <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">4</span>, <span class="fl">2</span><span class="op">)</span>,</span>
-<span>  values <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"Air quality"</span>, <span class="st">"Time"</span><span class="op">)</span></span>
-<span><span class="op">)</span></span>
-<span><span class="va">ft</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/flextable/man/theme_vanilla.html">theme_vanilla</a></span><span class="op">(</span><span class="va">ft</span><span class="op">)</span></span>
-<span><span class="va">ft</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/flextable/man/add_footer_lines.html">add_footer_lines</a></span><span class="op">(</span><span class="va">ft</span>, <span class="st">"Daily air quality measurements in New York, May to September 1973."</span><span class="op">)</span></span>
-<span><span class="va">ft</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/flextable/man/color.html">color</a></span><span class="op">(</span><span class="va">ft</span>, part <span class="op">=</span> <span class="st">"footer"</span>, color <span class="op">=</span> <span class="st">"#666666"</span><span class="op">)</span></span>
-<span><span class="va">ft</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/pkg/flextable/man/set_caption.html">set_caption</a></span><span class="op">(</span><span class="va">ft</span>, caption <span class="op">=</span> <span class="st">"New York Air Quality Measurements"</span><span class="op">)</span></span>
-<span><span class="va">ft</span></span></code></pre></div>
+<pre><code>#&gt; 
+#&gt; Attaching package: 'flextable'
+#&gt; The following objects are masked from 'package:kableExtra':
+#&gt; 
+#&gt;     as_image, footnote
+#&gt; The following object is masked from 'package:purrr':
+#&gt; 
+#&gt;     compose</code></pre>
 <div class="tabwid">
-<style>.cl-248567de{}.cl-24700952{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-2470097a{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-2470097b{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(102, 102, 102, 1.00);background-color:transparent;}.cl-24771800{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-2477180a{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-247741d6{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741e0{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0.75pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741e1{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741ea{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 0.75pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-247741f4{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style>
-<div class="inline-table"><table data-quarto-disable-processing="true" class="cl-248567de">
+<style>.cl-969e1e90{}.cl-95ed7ad6{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-95ed7afe{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-95ed7b08{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(102, 102, 102, 1.00);background-color:transparent;}.cl-9695c286{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-9695c29a{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-9695e158{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-9695e162{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0.75pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-9695e16c{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-9695e16d{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0.75pt solid rgba(102, 102, 102, 1.00);border-top: 0.75pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-9695e16e{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style>
+<div class="inline-table"><table data-quarto-disable-processing="true" class="cl-969e1e90">
 <caption style="display:table-caption;margin:0pt;text-align:center;border-bottom: 0.00pt solid transparent;border-top: 0.00pt solid transparent;border-left: 0.00pt solid transparent;border-right: 0.00pt solid transparent;padding-top:3pt;padding-bottom:3pt;padding-left:3pt;padding-right:3pt;line-height: 1;background-color:transparent;">
 <span id="tab:unnamed-chunk-1">Table 4.2: </span><span>New York Air Quality Measurements</span>
 </caption>
 
 <thead>
 <tr style="overflow-wrap:break-word;">
-<th colspan="4" class="cl-247741d6"><p class="cl-24771800"><span class="cl-24700952">Air quality</span></p></th>
-<th colspan="2" class="cl-247741d6"><p class="cl-24771800"><span class="cl-24700952">Time</span></p></th>
+<th colspan="4" class="cl-9695e158"><p class="cl-9695c286"><span class="cl-95ed7ad6">Air quality</span></p></th>
+<th colspan="2" class="cl-9695e158"><p class="cl-9695c286"><span class="cl-95ed7ad6">Time</span></p></th>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Ozone</span></p></th>
-<th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Solar.R</span></p></th>
-<th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Wind</span></p></th>
-<th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Temp</span></p></th>
-<th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Month</span></p></th>
-<th class="cl-247741e0"><p class="cl-24771800"><span class="cl-24700952">Day</span></p></th>
+<th class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7ad6">Ozone</span></p></th>
+<th class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7ad6">Solar.R</span></p></th>
+<th class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7ad6">Wind</span></p></th>
+<th class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7ad6">Temp</span></p></th>
+<th class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7ad6">Month</span></p></th>
+<th class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7ad6">Day</span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">12</span></p></td>
-<td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">149</span></p></td>
-<td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">12.6</span></p></td>
-<td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">74</span></p></td>
-<td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741e1"><p class="cl-24771800"><span class="cl-2470097a">3</span></p></td>
+<td class="cl-9695e16c"><p class="cl-9695c286"><span class="cl-95ed7afe"></span></p></td>
+<td class="cl-9695e16c"><p class="cl-9695c286"><span class="cl-95ed7afe"></span></p></td>
+<td class="cl-9695e16c"><p class="cl-9695c286"><span class="cl-95ed7afe">14.3</span></p></td>
+<td class="cl-9695e16c"><p class="cl-9695c286"><span class="cl-95ed7afe">56</span></p></td>
+<td class="cl-9695e16c"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16c"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">19</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">20.1</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">61</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">9</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">23</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">299</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">8.6</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">65</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">7</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">194</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8.6</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">69</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">10</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">18</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">313</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">11.5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">62</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">4</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">41</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">190</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">7.4</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">67</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">1</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">19</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">99</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">13.8</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">59</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">8</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">23</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">299</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8.6</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">65</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">7</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">36</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">118</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">8.0</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">72</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">2</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">19</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">99</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">13.8</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">59</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">8</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe"></span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">194</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">8.6</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">69</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">10</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">14.3</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">56</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">28</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe"></span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">14.9</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">66</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">6</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">18</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">313</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">11.5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">62</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">4</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">8</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">19</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">20.1</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">61</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">9</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">28</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a"></span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">14.9</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">66</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741ea"><p class="cl-24771800"><span class="cl-2470097a">6</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">12</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">149</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">12.6</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">74</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e16d"><p class="cl-9695c286"><span class="cl-95ed7afe">3</span></p></td>
 </tr>
 <tr style="overflow-wrap:break-word;">
-<td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">36</span></p></td>
-<td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">118</span></p></td>
-<td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">8.0</span></p></td>
-<td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">72</span></p></td>
-<td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">5</span></p></td>
-<td class="cl-247741e0"><p class="cl-24771800"><span class="cl-2470097a">2</span></p></td>
+<td class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7afe">41</span></p></td>
+<td class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7afe">190</span></p></td>
+<td class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7afe">7.4</span></p></td>
+<td class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7afe">67</span></p></td>
+<td class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7afe">5</span></p></td>
+<td class="cl-9695e162"><p class="cl-9695c286"><span class="cl-95ed7afe">1</span></p></td>
 </tr>
 </tbody>
-<tfoot><tr style="overflow-wrap:break-word;"><td colspan="6" class="cl-247741f4"><p class="cl-2477180a"><span class="cl-2470097b">Daily air quality measurements in New York, May to September 1973.</span></p></td></tr></tfoot>
+<tfoot><tr style="overflow-wrap:break-word;"><td colspan="6" class="cl-9695e16e"><p class="cl-9695c29a"><span class="cl-95ed7b08">Daily air quality measurements in New York, May to September 1973.</span></p></td></tr></tfoot>
 </table></div>
 </div>
 
 </div>
 </div>
   <div class="chapter-nav">
-<div class="empty"></div>
-<div class="empty"></div>
+<div class="prev"><a href="cross.html"><span class="header-section-number">3</span> E-device Survey</a></div>
+<div class="next"><a href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <div id="book-on-this-page"></div>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#esri-survey123"><span class="header-section-number">4</span> ESRI Survey123</a></li>
+<li><a class="nav-link" href="#survey123-overview"><span class="header-section-number">4.1</span> Survey123 Overview</a></li>
+<li><a class="nav-link" href="#survey123-forms-options"><span class="header-section-number">4.2</span> Survey123 Forms Options</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-          
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/03-survey123.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/03-survey123.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>
@@ -862,7 +863,7 @@ NA
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Electronic Data Entry Software Options for IEP Surveys</strong>" was written by IEP DUWG ‘e-Device’ Sub-group led by Karrin Alstad. It was last built on 2023-05-02.</p>
+    <p>"<strong>Electronic Data Entry Software Options for IEP Surveys</strong>" was written by IEP DUWG ‘e-Device’ Sub-group led by Karrin Alstad. It was last built on 2023-05-03.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
@@ -870,6 +871,34 @@ NA
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>
