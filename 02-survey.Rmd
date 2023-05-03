@@ -14,8 +14,23 @@ The IEP e-device survey was run for approximately a month and received 24 respon
 See Figure \@ref(fig:survey).
 
 ```{r survey, fig.cap='The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources.',echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+
+source("setup.R")
+
+sms <- Survey3  %>%  group_by(Agency) %>% summarize(n())
+smssum <- Survey3  %>%  summarize(n())
+
+pie_labels <- paste0(sms$Agency, " = ", round(100 *sms$`n()`/sum(sms$`n()`), 2), "%")
+pie_labels <- paste0(sms$Agency, " = ", sms$`n()`)
+
+pie(sms$`n()`, labels = pie_labels, col=c("#A9D18E", "#1B8CF0", "#E06F7D", "#D1BA26","#D3DEF1","#edd8e0"), 
+    main= paste0("IEP E-device Survey Responses: Total = ", smssum),
+    sub = "IEP Agencies not represented: SWRCB, NMFS, USEPA, USACE, USBR")
+
+
+
+
+
 ```
 
 Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  ). 

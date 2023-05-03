@@ -6,10 +6,10 @@
 
 ```{r e_survey, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
-source(file.path(data_scripts_root,"readin_tables.R"))
+source("setup.R")
 
 library(flextable)
-
+library(officer)
 std_border = fp_border(color="white", width = 24)
 
 ft <- flextable(survey123$Forms_Options)

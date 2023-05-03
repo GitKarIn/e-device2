@@ -1,4 +1,5 @@
-library(readxl)  
+library(readxl)
+library(dplyr)
 
 read_excel_allsheets <- function(filename, tibble = FALSE) {
   sheets <- readxl::excel_sheets(filename)
@@ -13,11 +14,7 @@ survey123$Forms_Options$Feature = ifelse(is.na(survey123$Forms_Options$Feature),
 
 ## e-device survey results
 
-library(readxl)
-library(dplyr)
-
-setwd("C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/SurveyResults/")
-Survey <- read_excel("Survey1.xlsx",sheet = "Sheet1")
+Survey <- read_excel("C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/SurveyResults/Survey1.xlsx",sheet = "Sheet1")
 
 Survey1 <- Survey %>% 
   select(-`Completion time`,-Email,-"Contact Email (optional)",-"Contact Phone (optional)",-Name) %>% 
@@ -49,8 +46,6 @@ Survey3$Agency[grepl("USFWS",Survey3$Agency)]<-"USFWS"
 Survey3$Agency[grepl("Water Resources",Survey3$Agency)]<-"DWR"
 Survey3$Agency[grepl("Fish and Wildlife",Survey3$Agency)]<-"CDFW"
 Survey3$Agency[grepl("UC",Survey3$Agency)]<-"UC"
-Survey3$Agency
-
 
 Survey3$exp_status[grepl("I have previously used",Survey3$exp_status)]<-"I have previously used"
 Survey3$exp_status[grepl("I am currently using",Survey3$exp_status)]<-"I am currently using"

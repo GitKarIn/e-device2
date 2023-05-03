@@ -13,14 +13,32 @@ The IEP e-device survey was run for approximately a month and received 24 respon
 
 See Figure \@ref(fig:survey).
 
-\begin{figure}
 
-{\centering \includegraphics[width=0.8\linewidth]{02-survey_files/figure-latex/survey-1} 
+```
+#> 
+#> Attaching package: 'dplyr'
+#> The following objects are masked from 'package:stats':
+#> 
+#>     filter, lag
+#> The following objects are masked from 'package:base':
+#> 
+#>     intersect, setdiff, setequal, union
+#> ── Attaching core tidyverse packages ──── tidyverse 2.0.0 ──
+#> ✔ forcats   1.0.0     ✔ readr     2.1.4
+#> ✔ ggplot2   3.4.2     ✔ stringr   1.5.0
+#> ✔ lubridate 1.9.2     ✔ tibble    3.2.1
+#> ✔ purrr     1.0.1     ✔ tidyr     1.3.0
+#> ── Conflicts ────────────────────── tidyverse_conflicts() ──
+#> ✖ dplyr::filter() masks stats::filter()
+#> ✖ dplyr::lag()    masks stats::lag()
+#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+#> here() starts at C:/Users/KAlstad/Documents/Github_C/e-device2
+```
 
-}
-
-\caption{The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources.}(\#fig:survey)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="02-survey_files/figure-html/survey-1.png" alt="The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources." width="80%" />
+<p class="caption">(\#fig:survey)The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources.</p>
+</div>
 
 Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  ). 
 
