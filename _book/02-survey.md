@@ -9,31 +9,9 @@ Three groups were targeted for this survey:
 
 ## Survey Respondents 
 
-The IEP e-device survey was run for approximately a month and received 24 responses.  A link to the original survey and to the compiled survey responses is included in the Appendix 2.   
-
-See Figure \@ref(fig:survey).
+The IEP e-device survey was run for approximately a month and received 24 responses (Figure \@ref(fig:survey). A link to the original survey and to the compiled survey responses is included in the Appendix 2.   
 
 
-```
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
-#> ── Attaching core tidyverse packages ──── tidyverse 2.0.0 ──
-#> ✔ forcats   1.0.0     ✔ readr     2.1.4
-#> ✔ ggplot2   3.4.2     ✔ stringr   1.5.0
-#> ✔ lubridate 1.9.2     ✔ tibble    3.2.1
-#> ✔ purrr     1.0.1     ✔ tidyr     1.3.0
-#> ── Conflicts ────────────────────── tidyverse_conflicts() ──
-#> ✖ dplyr::filter() masks stats::filter()
-#> ✖ dplyr::lag()    masks stats::lag()
-#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-#> here() starts at C:/Users/KAlstad/Documents/Github_C/e-device2
-```
 
 <div class="figure" style="text-align: center">
 <img src="02-survey_files/figure-html/survey-1.png" alt="The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources." width="80%" />

@@ -4,240 +4,293 @@
 
 
 
-
-```{=latex}
-\global\setlength{\Oldarrayrulewidth}{\arrayrulewidth}
-
-\global\setlength{\Oldtabcolsep}{\tabcolsep}
-
-\setlength{\tabcolsep}{0pt}
-
-\renewcommand*{\arraystretch}{1.5}
-
-
-
-\providecommand{\ascline}[3]{\noalign{\global\arrayrulewidth #1}\arrayrulecolor[HTML]{#2}\cline{#3}}
-
-\begin{longtable}[c]{|p{4.00in}|p{4.00in}|p{4.00in}|p{4.00in}|p{4.00in}|p{4.00in}|p{4.00in}}
-
-\caption{Survey123\ Forms\ Options}(\#tab:e_survey)\\
-
-\hhline{>{\arrayrulecolor[HTML]{000000}\global\arrayrulewidth=0pt}->{\arrayrulecolor[HTML]{000000}\global\arrayrulewidth=0pt}->{\arrayrulecolor[HTML]{000000}\global\arrayrulewidth=0pt}->{\arrayrulecolor[HTML]{000000}\global\arrayrulewidth=0pt}->{\arrayrulecolor[HTML]{000000}\global\arrayrulewidth=0pt}->{\arrayrulecolor[HTML]{000000}\global\arrayrulewidth=0pt}->{\arrayrulecolor[HTML]{000000}\global\arrayrulewidth=0pt}-}
-
-\multicolumn{1}{>{\cellcolor[HTML]{CFCFCF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\textbf{Feature}}}}} & \multicolumn{1}{>{\cellcolor[HTML]{CFCFCF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\textbf{Available}}}}} & \multicolumn{1}{>{\cellcolor[HTML]{CFCFCF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\textbf{Description}}}}} & \multicolumn{1}{>{\cellcolor[HTML]{CFCFCF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\textbf{Group\ Notes/Reviews/\ Questions}}}}} & \multicolumn{1}{>{\cellcolor[HTML]{CFCFCF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\textbf{External\ Reviews}}}}} & \multicolumn{1}{>{\cellcolor[HTML]{CFCFCF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\textbf{Score\ (0-3)}}}}} & \multicolumn{1}{>{\cellcolor[HTML]{CFCFCF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\textbf{QC}}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-\endhead
-
-
-
-\multicolumn{7}{>{\raggedright}m{\dimexpr 28in+12\tabcolsep}}{\textcolor[HTML]{666666}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\ Survey123\ Forms\ Options\ footnote.}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{FFFFFF}
-
-\endfoot
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Geo-referencing}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Every\ Survey123\ entry\ (object?)\ has\ an\ associated\ lat/long\ data}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Uses\ device\ navigation:\ phone\ app\ or\ GPS\ device;\ Data\ can\ open\ in\ data\ in\ ArcGIS\ maps\ directly;\ Can\ change\ base\ map;\ Default\ is\ current\ location;\ Can\ tap\ the\ map\ to\ change\ location\ \ }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{https://doc.arcgis.com/en/survey123/browser/analyze-results/viewresults.htm\#:\textasciitilde :text=Under\%20the\%20title\%20for\%20your,geodatabase)\%20and\%20download\%20your\%20data}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{3}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Off-line\ capacity}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Field\ App\ works\ offline\ and\ online}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Does\ the\ data\ uploads\ automatically\ when\ back\ on-line??}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Ease\ of\ Form\ Development}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Intuitive\ form\ design\ tool}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ designer}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ designer\ intuitive}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{No}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123\ Connect:\ XLSForm\ spreadsheet}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{XLSForm\ formatting\ language\ required\ some\ effort\ to\ pick\ up.}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{1}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Coding\ language\ required?}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{No}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ designer}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ designer\ is\ a\ GUI\ tool\ that\ is\ menu\ driven\ and\ does\ not\ require\ learning\ any\ coding}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{XLSForm\ spreadsheet}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123\ Connect\ is\ an\ option\ for\ more\ advanced\ survey\ designs\ which\ requires\ configuration\ of\ an\ ‘XLSForm\ spreadsheet’.\ \ XLSForm\ is\ an\ ESRII\ coding\ language\ specific\ to\ forms\ configuration.}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Can\ be\ hard\ to\ edit\ XLSForm\ code:\ }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{“Per\ my\ experience,\ if\ I\ delete\ some\ of\ the\ questions\ and\ add\ other\ [using]\ filters\ for\ the\ answers\ through\ the\ [XLSForm\ spread\ sheet],\ the\ answers\ will\ be\ totally.\ So,\ every\ time\ I\ have\ to\ make\ a\ new\ form\ for\ every\ survey\ in\ order\ to\ avoid\ messy\ information.”\ https://www.g2.com/products/arcgis-survey123/reviews\#survey-response-2728634}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{“If\ you\ make\ a\ change\ to\ the\ form\ after\ is\ has\ been\ published\ it\ is\ hard\ to\ get\ the\ new\ changes\ without\ deleting\ any\ previously\ gathered\ data.”}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{https://www.g2.com/products/arcgis-survey123/reviews?page=2}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Form\ Logic\ and\ Validation}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Constrained\ choices}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ Designer}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{-Restricted\ lengths,\ Default\ values\ (e.g.,\ Date,\ Time\ from\ device)}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123\ Connect:\ XLSForm\ spreadsheet}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Above\ functionality,\ plus\ more\ advanced\ options\ such\ as:\ -\ select\ multiple\ responses\ from\ a\ list;smart\ fields:\ expressions\ and\ formulas\ to\ control\ the\ allowable\ input\ (e.g.,\ total\ percentage\ <=\ 100\%)}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{-\ Auto\ limit\ by\ partial\ input}}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{-\ Auto-completed\ suggestion}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Rules\ guiding\ answer\ series\ (e.g.,\ “Conditional\ Questions”\ and\ “Skips”)}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ Designer }}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{This\ can\ be\ done\ with\ Web\ Designer\ using\ the\ ‘Set\ rule function’;\ However,\ in\ Web\ Designer,\ this\ function\ is\ limited\ to\ Single\ choice,\ Dropdown,\ }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{\linebreak }}}\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Likert\ scale,\ and\ Rating\ questions}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{https://support.esri.com/en/technical-article/000022942}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123\ Connect:\ XLSForm\ spreadsheet}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Form\ Look\ and\ Feel}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Flexibility\ to\ configure\ in\ a\ logical\ order\ for\ field\ entry}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{No}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ Designer }}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123\ Connect:\ XLSForm\ spreadsheet}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{In\ trial\ demo\ (Appendix\ 3):\ The\ XLSForm\ coding\ was\ required\ to\ represent\ a\ nested\ sampling\ design;\ this\ effort\ was\ time\ consuming\ to\ optimize}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Different\ styles\ of\ question\ types}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Web\ Designer }}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes,\ both\ Web\ designer\ and\ Connect\ provide\ a\ range\ of\ question\ types:}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{https://doc.arcgis.com/en/survey123/browser/create-surveys/webdesigneressentials.htm}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123\ Connect:\ XLSForm\ spreadsheet}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Form\ Storage\ and\ Permissions\ Management}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Muti-users\ of\ an\ app}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{More\ than\ one\ user\ can\ submit\ data\ to\ an\ app\ at\ a\ time\ (same\ database);\ Survey123 HUB:\ can\ review\ responses\ by\ user}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Real-time\ Data\ Review}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123 HUB}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{The\ HUB\ webbased\ tool\ allows\ one\ to\ review\ raw\ data\ and\ summarize\ data\ submitted\ to\ each\ survey\ in\ the\ ‘Data’\ and\ ‘Analyze’\ tabs;\ Other\ summaries:\ word\ clouds,\ frequency\ plots}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{No}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Survey123\ Connect}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{In\ trial\ demo,\ it\ was\ difficult\ to\ produce\ a\ listing\ of\ the\ lengths\ which\ was\ needed\ for\ field\ QC}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Real-time\ Edit\ (“on\ the\ fly”)}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{User\ needs\ to\ open\ a\ separate\ tab\ to\ edit\ the\ responses}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Multiple-language\ options}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Yes}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{Form\ can\ be\ transposed\ to\ other\ languages;\ language\ of\ stored\ responses\ can\ be\ specified.}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedright}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} & \multicolumn{1}{>{\cellcolor[HTML]{EFEFEF}\raggedleft}m{\dimexpr 4in+0\tabcolsep}!{\color[HTML]{FFFFFF}\vrule width 24pt}}{\textcolor[HTML]{000000}{\fontsize{11}{11}\selectfont{\global\setmainfont{Arial}{}}}} \\
-
-\noalign{\global\arrayrulewidth 0pt}\arrayrulecolor[HTML]{000000}
-
-
-
-
-
-\end{longtable}
-
-
-
-\arrayrulecolor[HTML]{000000}
-
-\global\setlength{\arrayrulewidth}{\Oldarrayrulewidth}
-
-\global\setlength{\tabcolsep}{\Oldtabcolsep}
-
-\renewcommand*{\arraystretch}{1}
-```
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:1500px; "><table class=" lightable-paper" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto;'>
+<caption>(\#tab:e_surv)Responses from Experience Users</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Agency </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> field_app </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> what_hard </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> what_soft </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> yr_reasons </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> CDFW </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1. The Trimble GPS data dictionary
+2. ESRI's "FieldMaps" app - tested with android and apple tablets and phones </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Trimble GPS (not sure which unit) - cost about 10,000 dollars each; software licensing separate.
+The FieldMaps app is free - can be used with any tablet or phone but works best with apple devices. We use it with a BadElf GNSS unit for GPS position information but accuracy is not great (cost - 700 dollars) </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1. GPS pathfinder for data dictionary for the Trimble GPS
+2. ArcGIS online for the FieldMaps app. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1. The trimble positional accuracy is great but it is very pricey. 2. The FieldMaps is free (probably because UCD has a huge contract with ESRI) but the Bad Elf accuracy is no better than a phone. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> CDFW </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Location, species, length, weight, water quality. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> iPad, tablet. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Custom software developed by contractors or internal state IT deparment. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Purchase restrictions, ease of use, and formatting. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> CDFW </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Used iPad for electronic data entry </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Not sure </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Not sure </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Not sure </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> USFWS </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Salmon and Steelhead spawning ground surveys </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Juniper Systems Mesa Tablet </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ArcCollector </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> NA </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> USFWS </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> I am a data manager on the tributary monitoring team of the red bluff USFWS office. We collect all of our data digitally, using either field tablet, laptop or cell phone. 
+1)spawning surveys
+2)Rotary screw trap data
+3)Habitat surveys </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1) Juniper mesa handheld tablet and juniper Mesa receiver, transitioning to ipad for handheld
+2)Juniper mesa handheld tablet transitioning (back) to Panasonic Toughbook laptop
+3) Same as 1 </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1) ESRI Collector
+2) Access form
+3) ESRI Collector </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Our applications require waterproof devices. This shapes much of our hardware selection. Juniper Mesa and Juniper Mesa were selected for our purposes following some extended testing in 2017. We are transitioning away from the Juniper Mesa tablet as ESRI field maps in not being developed for windows OS (and USFWS does not support the other OS offered android). We are transitioning to IPADs as they are what USFWS supports and will work with our intended software. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> USGS </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Water quality
+Velocity
+Discharge
+Water Level
+Field Notes </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Laptops (usually Dell -- various models) </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> SVMAQ (USGS Site Visit)
+Win River (Teledyne) </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> laptops are synchronized weekly with station meta data and any field software updates through the USGS network.  They are powerful enough to run the various software packages and are the systems that our team uses for office-based tasks as well. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> DWR </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> water quality and fish data (from beach seine, screw trap, fyke trap) </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ipad - not sure what model </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Survey123 </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ipads were already being used by others in our department and the software was free </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> UC </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1) geolocation of FAV and emergent vegetation patches and genera and associated characteristics (plant morphology and phenology, patch dimensions, percent cover, water quality).
+2) UAV-mapping of FAV emergent veg and SAV - eDevices used for flight planning and flight control </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1). Trimble Geo7x Handheld Data recorder and GNSS receiver.
+2.) A variety of android 4G tablets and phones (mostly samsung, but others as well). </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1.) Trimble commercial software - Devices runs windows mobile, with Trimble TerraSync for data collection. Trimble Pathfinder desktop software required for post-processing of files. Post-processed files compatible with any  OGC-standard GIS software.
+2.) DJI flight planner, Drone Deploy, and Pix4D (all have various strengths and weaknesses in the field). </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> 1.) Ease of use, integrated camera and laser range finder, high accuracy GNSS location, and full-integration with GIS and compatibility with ESRI. Warning, these are pricey, but if you need cm-scale GNSS locations, these are some of the best for handheld devices. 
+2.) We're still exploring best options. Usually start with manufacturer installs and recommendations and go from there. No strong opinions yet. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> DWR </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> I piloted use of e-devices for fish and zooplankton surveys with the fish restoration program. Types of data:
+1. Location of survey (latitude, logitude)
+2. Water quality information
+3. Trawl information (start time, stop time, gear used, etc)
+4. Fish catch (lenghts, species) </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> iPads, don't remember the brand
+Trimble field computers </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Pendragon forms
+Experimented with Survey 123 and ArcCollector </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Pendragon forms allowed for more nested forms and flexibility than any of the other options. Ipads were the cheapest and most user-friendly option that came with weatherproff cases. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> DWR </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> My group uses a customized application for Windows (MOPED) to collect and save water quality data during our field runs as well as data from our bbe FluoroProbe. We also use an iPad to record field data on a PDF when this is not available. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Windows Desktop computer, Apple iPad. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> MOPED (custom software for DWR), Adobe Acrobat for iPad, FluoroProbe custom softwater (bbe moldaenke). </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Convenience (iPad) and robust data applications (MOPED). </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ICF </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Wetlands, nesting bird surveys, Aquatic species surveys, botanical surveys, wildlife surveys, arborist surveys, carcass surveys, other custom data collection efforts.  All are able to collect point, line and polygon data. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> All iPad models.  Found that 64gig models are sufficient.  Recommend purchasing cellular models in order to get built-in GPS.  Don't need to activate cellular network to use GPS. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> iFormbuilder, Survey123, Fieldmaps, Collector, Fulcrum, Excel, Adobe PDF, Zoho </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Software reasons include, free with Esri licensing, customization, robust capabilities for automating reporting, robust mapping capabilities, survey grade mapping.
+
+Hardware - Apple iPad/iPhones.  They tend to be more stable and support a larger more robust suite of app capabilities.  Easier to manage devices of the same make/model then a variety of devices. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> CDFW </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ArcGIS QuickCapture - Application collects GPS coordinates during our aerial survey flights as well as tracking out flight path. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Samsung Galaxy Tab S3, iPad 9th gen, Iphone - all supported models </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ArcGIS QuickCapture has an online editor to edit data collection application for smartphones or tablets. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ArcGIS QuickCapture works on any current smartphone or tablet so the list of devices used with this application is because our program had it available. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> CDFW </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Tablet devices were used to collected commercial fishery landings data as well as well as basic data from collecting biological data from those landings. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> ASUS Transformer Book T100HA-C4-GR 10. 1 - inch 2 in 1 touchscreen laptop (Cherry Trail Quad-Vore Z8500 Processor, 4GB RAM, 64 GB Storage) </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Windows 10 and Microsoft Access </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> We did look at Dell Venue 10 Pro and iPad Air 2, but most the ASUS had the most RAM for the price which made it faster than all other options under $500 and it had the best battery life I’ve found, even of more expensive models (10-12 hours), 
+
+Our data was stored in Access so we needed something that would run Access data entry forms for easier upload into our larger database systems. </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> NEON </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> e-devices are used to collect field and lab data and metadata for about 100 of over 180 data products produced by NEON (freely available on data.neonscience.org). All of our observational data products use e-devices for at least part of the data collection and the aquatic instrument field calibration and maintenance data is collected on e-devices. I am happy to go into more details if there are questions about specific types of data that we collect. There is a lot of variety! </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> We use a variety of devices supported by our IT department that run iOS, android, windows, and apple OS. These include ipads (large and mini), iphones, android tablets (these are being phased out possibly), PC, and mac laptops. </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> We primarily use Fulcrum (www.fulcrumapp.com) for field data collection. However, we also use other software for interacting and troubleshooting sensors in the field, such as lab view and putty. There might be some others if I really dug into it, but they are more specific- than general-purpose. One of the biggest benefits that we have found with Fulcrum is the ability to write custom javascript code for validation of data prior to ingest into our database and create widgets and warnings for field scientists to address while collecting data. I think there are a lot of fee options that can be used like fulcrum to build forms, but don't have a lot of familiarity with them since we don't use them. Our data is ingested into our own database from the fulcrum cloud database on a nightly basis with different delays depending on the field data collection procedures. Also happy to demo or answer other questions! </td>
+   <td style="text-align:left;width: 4.5cm; font-weight: bold;font-style: italic;"> Hardware decisions are made by the IT and Field Science departments for NEON. I have no direct involvement in that choice. I could reach out to folks for more details if that would be helpful. </td>
+  </tr>
+</tbody>
+</table></div>
 
 ## Survey123
+
+<table>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> mpg </th>
+   <th style="text-align:right;"> cyl </th>
+   <th style="text-align:right;"> disp </th>
+   <th style="text-align:right;"> hp </th>
+   <th style="text-align:right;"> drat </th>
+   <th style="text-align:right;"> wt </th>
+   <th style="text-align:right;"> qsec </th>
+   <th style="text-align:right;"> vs </th>
+   <th style="text-align:right;"> am </th>
+   <th style="text-align:right;"> gear </th>
+   <th style="text-align:right;"> carb </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;width: 20em; font-weight: bold;font-style: italic;"> Mazda RX4 </td>
+   <td style="text-align:right;width: 20em; font-weight: bold;font-style: italic;"> 21.0 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 160 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 3.90 </td>
+   <td style="text-align:right;"> 2.620 </td>
+   <td style="text-align:right;"> 16.46 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 20em; font-weight: bold;font-style: italic;"> Mazda RX4 Wag </td>
+   <td style="text-align:right;width: 20em; font-weight: bold;font-style: italic;"> 21.0 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 160 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 3.90 </td>
+   <td style="text-align:right;"> 2.875 </td>
+   <td style="text-align:right;"> 17.02 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 4 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 20em; font-weight: bold;font-style: italic;"> Datsun 710 </td>
+   <td style="text-align:right;width: 20em; font-weight: bold;font-style: italic;"> 22.8 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 108 </td>
+   <td style="text-align:right;"> 93 </td>
+   <td style="text-align:right;"> 3.85 </td>
+   <td style="text-align:right;"> 2.320 </td>
+   <td style="text-align:right;"> 18.61 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 20em; font-weight: bold;font-style: italic;"> Hornet 4 Drive </td>
+   <td style="text-align:right;width: 20em; font-weight: bold;font-style: italic;"> 21.4 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 258 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 3.08 </td>
+   <td style="text-align:right;"> 3.215 </td>
+   <td style="text-align:right;"> 19.44 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 20em; font-weight: bold;font-style: italic;"> Hornet Sportabout </td>
+   <td style="text-align:right;width: 20em; font-weight: bold;font-style: italic;"> 18.7 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 360 </td>
+   <td style="text-align:right;"> 175 </td>
+   <td style="text-align:right;"> 3.15 </td>
+   <td style="text-align:right;"> 3.440 </td>
+   <td style="text-align:right;"> 17.02 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;width: 20em; font-weight: bold;font-style: italic;"> Valiant </td>
+   <td style="text-align:right;width: 20em; font-weight: bold;font-style: italic;"> 18.1 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 225 </td>
+   <td style="text-align:right;"> 105 </td>
+   <td style="text-align:right;"> 2.76 </td>
+   <td style="text-align:right;"> 3.460 </td>
+   <td style="text-align:right;"> 20.22 </td>
+   <td style="text-align:right;"> 1 </td>
+   <td style="text-align:right;"> 0 </td>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 1 </td>
+  </tr>
+</tbody>
+</table>
+
+
+\begin{tabular}{>{\color{red}}crrrrrrrrrrr}
+\toprule
+  & mpg & cyl & disp & hp & drat & wt & qsec & vs & am & gear & carb\\
+\midrule
+Mazda RX4 & 21.0 & 6 & 160 & 110 & 3.90 & 2.620 & 16.46 & 0 & 1 & 4 & 4\\
+Mazda RX4 Wag & 21.0 & 6 & 160 & 110 & 3.90 & 2.875 & 17.02 & 0 & 1 & 4 & 4\\
+Datsun 710 & 22.8 & 4 & 108 & 93 & 3.85 & 2.320 & 18.61 & 1 & 1 & 4 & 1\\
+Hornet 4 Drive & 21.4 & 6 & 258 & 110 & 3.08 & 3.215 & 19.44 & 1 & 0 & 3 & 1\\
+Hornet Sportabout & 18.7 & 8 & 360 & 175 & 3.15 & 3.440 & 17.02 & 0 & 0 & 3 & 2\\
+\addlinespace
+Valiant & 18.1 & 6 & 225 & 105 & 2.76 & 3.460 & 20.22 & 1 & 0 & 3 & 1\\
+\bottomrule
+\end{tabular}
+
+
+\begin{tabular}{lrrrrrrrrrrr}
+\toprule
+  & mpg & cyl & disp & hp & drat & wt & qsec & vs & am & gear & carb\\
+\midrule
+Mazda RX4 & 21.0 & 6 & 160 & 110 & 3.90 & 2.620 & 16.46 & 0 & 1 & 4 & 4\\
+Mazda RX4 Wag & 21.0 & 6 & 160 & 110 & 3.90 & 2.875 & 17.02 & 0 & 1 & 4 & 4\\
+Datsun 710 & 22.8 & 4 & 108 & 93 & 3.85 & 2.320 & 18.61 & 1 & 1 & 4 & 1\\
+Hornet 4 Drive & 21.4 & 6 & 258 & 110 & 3.08 & 3.215 & 19.44 & 1 & 0 & 3 & 1\\
+Hornet Sportabout & 18.7 & 8 & 360 & 175 & 3.15 & 3.440 & 17.02 & 0 & 0 & 3 & 2\\
+\addlinespace
+Valiant & 18.1 & 6 & 225 & 105 & 2.76 & 3.460 & 20.22 & 1 & 0 & 3 & 1\\
+\bottomrule
+\end{tabular}
+
+
+
+
+
+
+
+
+
 
 
 

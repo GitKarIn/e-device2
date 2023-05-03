@@ -9,11 +9,11 @@ Three groups were targeted for this survey:
 
 ## Survey Respondents 
 
-The IEP e-device survey was run for approximately a month and received 24 responses.  A link to the original survey and to the compiled survey responses is included in the Appendix 2.   
+The IEP e-device survey was run for approximately a month and received 24 responses (Figure \@ref(fig:survey). A link to the original survey and to the compiled survey responses is included in the Appendix 2.   
 
-See Figure \@ref(fig:survey).
 
-```{r survey, fig.cap='The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources.',echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
+
+```{r survey, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  fig.cap='The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources.',echo = FALSE, out.width='80%', fig.asp=.75, fig.align='center'}
 
 source("setup.R")
 
@@ -26,10 +26,6 @@ pie_labels <- paste0(sms$Agency, " = ", sms$`n()`)
 pie(sms$`n()`, labels = pie_labels, col=c("#A9D18E", "#1B8CF0", "#E06F7D", "#D1BA26","#D3DEF1","#edd8e0"), 
     main= paste0("IEP E-device Survey Responses: Total = ", smssum),
     sub = "IEP Agencies not represented: SWRCB, NMFS, USEPA, USACE, USBR")
-
-
-
-
 
 ```
 

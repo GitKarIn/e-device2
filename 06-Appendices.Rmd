@@ -4,7 +4,7 @@
 
 
 
-```{r e_survey, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
+```{r e_surv, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
 source("setup.R")
 
@@ -12,26 +12,70 @@ library(flextable)
 library(officer)
 std_border = fp_border(color="white", width = 24)
 
-ft <- flextable(survey123$Forms_Options)
-# ft <- add_header_row(ft,
-#  colwidths = c(1,  5, 1), values = c("a","b","c")
-# )
 
-ft <- theme_zebra(ft)
-ft <- add_footer_lines(ft, " Survey123 Forms Options footnote.")
-ft <- color(ft, part = "footer", color = "#666666")
-ft <- set_caption(ft, caption =  "Survey123 Forms Options")
-ft <-  width(ft, width = 4)
-  #set_table_properties(layout = "autofit")%>%
-  # width(j =2, width = 2) %>% # not  changing the column widths
-  # width(j = 4, width = 6)
-ft <- vline_right(ft, border = std_border )
+# Look at data from experience folks #
+Exp <- Survey3 %>% filter(grepl('I am currently',dev_exp))  %>%  select(Agency, field_app,   what_hard,  what_soft, yr_reasons )
 
-ft
-#dim(ft)
+
+
+Looking <- Survey3 %>% filter(grepl("I am interested" ,dev_exp)|grepl(" researching" ,dev_exp))  %>%  select(Agency,  field_app,   type_data, key_challenges, dev_consid )
+
+NoWay <- Survey3 %>% filter(grepl("e-devices will NOT work" ,dev_exp))  %>%  select(Agency, field_app, type_data_nohope, whathaveyoutried,   yr_reasons, reas_nodevice )
+
+
+Features <- Survey3 %>% select(Agency, field_app, type_data, type_data_nohope, hrdwr_feachz,sftwr_feachz,other_feachz,extern_contact)
+
+
+# library(htmlTable)
+# htmlTable(Exp, header=c("Agency", "Experience Status" ,"Field App", "Hardware", "Software"), rnames=FALSE,
+#                    align="left",widths = rep(200, 6))
+
+# ft <- flextable(Exp)
+# ft <- theme_zebra(ft)
+# ft <- add_footer_lines(ft, " .")
+# ft <- color(ft, part = "footer", color = "#666666")
+# ft <- set_caption(ft, caption =  "Survey Responses from Experience E-device Users")
+# ft <- vline_right(ft, border = std_border )
+# ft <-  width(ft, width = 1)
+# ft
+
+
+library(kableExtra)
+
+kbl(Exp,  caption = 'Responses from Experience Users') %>%
+  kable_paper() %>% column_spec(1:ncol(Exp), width = "4.5cm", bold = TRUE, italic = TRUE) %>%
+  scroll_box(width = "1500px", height = "500px")
+
+
+# kable(Exp,longtable = T, 
+#       booktabs  = T,  caption = 'Responses from Experience Users') %>%
+#   add_header_above(c("Forms Options" = 3, " "= 2)) %>%
+#   kable_styling(latex_options = "repeat_header",full_width = F)
+
 ```
 
 ## Survey123
+
+```{r e_surv2, echo = FALSE, include=T, message=FALSE, warning=FALSE }
+
+library(kableExtra)
+library(flextable)
+
+x <- knitr::kable(head(mtcars), "html")
+column_spec(x, 3:4, width = "20em", bold = TRUE, italic = TRUE) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "30em", background = "yellow")
+x
+```
+
+
+
+
+
+
+
+
+
 
 
 
