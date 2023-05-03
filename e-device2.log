@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.27)  3 MAY 2023 12:32
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.4.27)  3 MAY 2023 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -528,14 +528,7 @@ Package: amsthm 2020/05/29 v2.20.6
 \c@example=\count337
 \c@exercise=\count338
 \c@hypothesis=\count339
-(./e-device2.aux
-
-LaTeX Warning: Label `tab:forms123' multiply defined.
-
-
-LaTeX Warning: Label `tab:forms123' multiply defined.
-
-)
+No file e-device2.aux.
 \openout1 = `e-device2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
@@ -791,6 +784,9 @@ LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 154.
 Package hyperref Info: Link coloring OFF on input line 154.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 156.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -825,32 +821,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [2
 
-] (./e-device2.toc
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00092pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00064pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00046pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 2.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 2.
-[3])
+]
+No file e-device2.toc.
 \tf@toc=\write4
 \openout4 = `e-device2.toc'.
 
-[4]
-Chapter 1.
-[5
+[3] [4
 
 ]
+Chapter 1.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 164.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.0pt on input line 164.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00092pt on input line 164.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.00064pt on input line 164.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00046pt on input line 164.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99893pt on input line 164.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.99925pt on input line 164.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 164.
+[5]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 192.
 [6]
@@ -859,11 +855,19 @@ Chapter 2.
 
 ] [8]
 Chapter 3.
-File: 02-survey_files/figure-latex/survey-1.pdf Graphic file (type pdf)
-<use 02-survey_files/figure-latex/survey-1.pdf>
+
+LaTeX Warning: Reference `fig:survey' on page 9 undefined on input line 253.
+
 [9
 
-] [10] [11] [12
+]
+Overfull \hbox (201.0pt too wide) in paragraph at lines 274--274
+[]\TU/lmtt/m/n/10 #> i Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors[] 
+ []
+
+File: 02-survey_files/figure-latex/survey-1.pdf Graphic file (type pdf)
+<use 02-survey_files/figure-latex/survey-1.pdf>
+[10] [11] [12
 
 ]
 Chapter 4.
@@ -877,12 +881,12 @@ File: figures/survey123/survey123_xlsform.png Graphic file (type bmp)
 File: figures/survey123/survey123_xlsform2.png Graphic file (type bmp)
 <figures/survey123/survey123_xlsform2.png>
 
-Underfull \hbox (badness 1057) in paragraph at lines 300--300
+Underfull \hbox (badness 1057) in paragraph at lines 321--321
 []\TU/lmr/m/n/10 Figure 4.4: []Screen capture of ArcGIS website description of the XLS-
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 300--300
+Underfull \hbox (badness 1675) in paragraph at lines 321--321
 \TU/lmr/m/n/10 Form features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-
  []
 
@@ -938,7 +942,7 @@ Package fontspec Info: Font family 'Arial(0)' created for font 'Arial' with
 (fontspec)             <->s*[1]"Arial/BI/OT:script=latn;language=dflt;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/Arial(0)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 324.
+(Font)              scaled to size 11.0pt on input line 345.
 
 Package fontspec Info: Arial scale = 0.9999973249515148.
 
@@ -991,13 +995,13 @@ Package fontspec Info: Font family 'Arial(1)' created for font 'Arial' with
 (fontspec)             <->s*[0.9999973249515148]"Arial/BI/OT:script=latn;language=dflt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/Arial(1)/m/n on input line 324.
+(Font)                  TU/lmr/m/n --> TU/Arial(1)/m/n on input line 345.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/lmr/m/it --> TU/Arial(1)/m/it on input line 324.
+(Font)                  TU/lmr/m/it --> TU/Arial(1)/m/it on input line 345.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/lmr/bx/n --> TU/Arial(1)/b/n on input line 324.
+(Font)                  TU/lmr/bx/n --> TU/Arial(1)/b/n on input line 345.
 LaTeX Font Info:    Font shape `TU/Arial(0)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 324.
+(Font)              scaled to size 11.0pt on input line 345.
 
 Package fontspec Info: Arial scale = 0.8311536146592658.
 
@@ -1017,7 +1021,7 @@ Package fontspec Info: Arial scale = 0.8311536146592658.
 Package fontspec Info: Arial scale = 0.8311536146592658.
 
 
-Overfull \hbox (1702.5599pt too wide) in alignment at lines 318--328
+Overfull \hbox (1702.5599pt too wide) in alignment at lines 339--349
  [] [] [] [] [] [] [] 
  []
 
@@ -1025,7 +1029,7 @@ Overfull \hbox (1702.5599pt too wide) in alignment at lines 318--328
 Package fontspec Info: Arial scale = 0.8311536146592658.
 
 
-Overfull \hbox (1702.5599pt too wide) in alignment at lines 328--336
+Overfull \hbox (1702.5599pt too wide) in alignment at lines 349--357
  [] [] [] [] [] [] [] 
  []
 
@@ -1063,7 +1067,7 @@ Package fontspec Info: Arial scale = 0.8311536146592658.
 Package fontspec Info: Arial scale = 0.8311536146592658.
 
 
-Overfull \hbox (315.69443pt too wide) in paragraph at lines 344--344
+Overfull \hbox (315.69443pt too wide) in paragraph at lines 365--365
 \TU/Arial(0)/m/n/11 results/viewresults.htm#:~:text=Under%20the%20title%20for%20your,geodatabase)%20and%20download%20your%20data 
  []
 
@@ -1581,57 +1585,44 @@ Package fontspec Info: Arial scale = 0.8311536146592658.
 Package fontspec Info: Arial scale = 0.8311536146592658.
 
 
-Package fontspec Info: Arial scale = 0.8311536146592658.
-
-
-Package fontspec Info: Arial scale = 0.8311536146592658.
-
-
-Package fontspec Info: Arial scale = 0.8311536146592658.
-
-
-Package fontspec Info: Arial scale = 0.8311536146592658.
-
-
-Package fontspec Info: Arial scale = 0.8311536146592658.
-
-
-Package fontspec Info: Arial scale = 0.8311536146592658.
-
-
-Package fontspec Info: Arial scale = 0.8311536146592658.
-
-
-Overfull \hbox (1702.5599pt too wide) in alignment at lines 336--543
+Overfull \hbox (1702.5599pt too wide) in alignment at lines 357--556
  [] [] [] [] [] [] [] 
  []
 
 [15] [16] [17] [18]
 Chapter 5.
+
+Package natbib Warning: Citation `R-bookdown' on page 19 undefined on input line 581.
+
+
+Package natbib Warning: Citation `xie2015' on page 19 undefined on input line 581.
+
 [19
 
 ] [20
 
 ]
 Chapter 6.
+
+LaTeX Warning: Reference `eq:binom' on page 21 undefined on input line 601.
+
+
+LaTeX Warning: Reference `thm:tri' on page 21 undefined on input line 606.
+
 [21] [22]
 Chapter 7.
-[23
-
-] (./e-device2.bbl [24]) [25
-
-] (./e-device2.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.661 \caption{Survey123\ Forms\ Options}(\#tab:e_
+                                                  survey)\\ 
 Here is how much of TeX's memory you used:
- 18421 strings out of 478659
- 340996 string characters out of 5846106
- 1899698 words of memory out of 5000000
- 38255 multiletter control sequences out of 15000+600000
+ 18371 strings out of 478659
+ 340215 string characters out of 5846106
+ 1897698 words of memory out of 5000000
+ 38214 multiletter control sequences out of 15000+600000
  518898 words of font info for 105 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 86i,8n,128p,1550b,537s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,8n,128p,1515b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on e-device2.pdf (25 pages).
+Output written on e-device2.pdf (22 pages).
