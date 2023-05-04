@@ -43,17 +43,273 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 
 
 
-```{=html}
-<div class="tabwid"><style>.cl-15dbef7c{}.cl-1469784e{font-family:'Arial';font-size:11pt;font-weight:bold;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-1469786c{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-14697876{font-family:'Arial';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(102, 102, 102, 1.00);background-color:transparent;}.cl-15ceeea8{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-15ceeeb2{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-15cf1928{width:4in;background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf1932{width:4in;background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf193c{width:4in;background-color:rgba(207, 207, 207, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 24pt solid rgba(255, 255, 255, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf193d{width:4in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf1946{width:4in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf1947{width:4in;background-color:rgba(239, 239, 239, 1.00);vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 24pt solid rgba(255, 255, 255, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf1950{width:4in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf195a{width:4in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf195b{width:4in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 24pt solid rgba(255, 255, 255, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf1964{width:4in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 0 solid rgba(255, 255, 255, 0.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-15cf1965{width:4in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(255, 255, 255, 0.00);border-top: 0 solid rgba(255, 255, 255, 0.00);border-left: 0 solid rgba(255, 255, 255, 0.00);border-right: 24pt solid rgba(255, 255, 255, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing='true' class='cl-15dbef7c'>
 
-```
 
-<caption style="display:table-caption;margin:0pt;text-align:center;border-bottom: 0.00pt solid transparent;border-top: 0.00pt solid transparent;border-left: 0.00pt solid transparent;border-right: 0.00pt solid transparent;padding-top:3pt;padding-bottom:3pt;padding-left:3pt;padding-right:3pt;line-height: 1;background-color:transparent;">(\#tab:forms123)<span>Survey123 Forms Options</span></caption>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:800px; "><table class=" lightable-paper" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto;'>
+<caption>(\#tab:forms12b)Survey123 Forms Options</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Available </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Description </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Group Notes/Reviews/ Questions </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> External Reviews </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Score (0-3) </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> QC </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Geo-referencing </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Every Survey123 entry (object?) has an associated lat/long data </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Uses device navigation: phone app or GPS device; Data can open in data in ArcGIS maps directly; Can change base map; Default is current location; Can tap the map to change location [test](https://doc.arcgis.com/en/survey123/browser/analyze-results/viewresults.htm#:~:text=Under%20the%20title%20for%20your,geodatabase%20and%20download%20your%20data) </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> 3 </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Off-line capacity </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Field App works offline and online </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Does the data uploads automatically when back on-line?? </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Ease of Form Development </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Intuitive form design tool </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web designer </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web designer intuitive </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> No </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 Connect: XLSForm spreadsheet </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> XLSForm formatting language required some effort to pick up. </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> 1 </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Coding language required? </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> No </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web designer </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web designer is a GUI tool that is menu driven and does not require learning any coding </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> XLSForm spreadsheet </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 Connect is an option for more advanced survey designs which requires configuration of an ‘XLSForm spreadsheet’.  XLSForm is an ESRII coding language specific to forms configuration. </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Can be hard to edit XLSForm code: 
+“Per my experience, if I delete some of the questions and add other [using] filters for the answers through the [XLSForm spread sheet], the answers will be totally. So, every time I have to make a new form for every survey in order to avoid messy information.” https://www.g2.com/products/arcgis-survey123/reviews#survey-response-2728634
+
+“If you make a change to the form after is has been published it is hard to get the new changes without deleting any previously gathered data.”
+https://www.g2.com/products/arcgis-survey123/reviews?page=2 </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Form Logic and Validation </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Constrained choices </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web Designer </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> -Restricted lengths, Default values (e.g., Date, Time from device) </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 Connect: XLSForm spreadsheet </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Above functionality, plus more advanced options such as: - select multiple responses from a list;smart fields: expressions and formulas to control the allowable input (e.g., total percentage &lt;= 100%)
+- Auto limit by partial input
+- Auto-completed suggestion </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Rules guiding answer series (e.g., “Conditional Questions” and “Skips”) </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web Designer  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> This can be done with Web Designer using the ‘Set rule function’; However, in Web Designer, this function is limited to Single choice, Dropdown, Likert scale, and Rating questions </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> https://support.esri.com/en/technical-article/000022942 </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 Connect: XLSForm spreadsheet </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Form Look and Feel </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Flexibility to configure in a logical order for field entry </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> No </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web Designer  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 Connect: XLSForm spreadsheet </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> In trial demo (Appendix 3): The XLSForm coding was required to represent a nested sampling design; this effort was time consuming to optimize </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Different styles of question types </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Web Designer  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes, both Web designer and Connect provide a range of question types: </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> https://doc.arcgis.com/en/survey123/browser/create-surveys/webdesigneressentials.htm </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 Connect: XLSForm spreadsheet </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Form Storage and Permissions Management </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Muti-users of an app </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> More than one user can submit data to an app at a time (same database); Survey123 HUB: can review responses by user </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Real-time Data Review </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 HUB </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> The HUB webbased tool allows one to review raw data and summarize data submitted to each survey in the ‘Data’ and ‘Analyze’ tabs; Other summaries: word clouds, frequency plots </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> No </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Survey123 Connect </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> In trial demo, it was difficult to produce a listing of the lengths which was needed for field QC </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Real-time Edit (“on the fly”) </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> User needs to open a separate tab to edit the responses </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Multiple-language options </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Yes </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;"> Form can be transposed to other languages; language of stored responses can be specified. </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+   <td style="text-align:left;max-width: 3cm; font-weight: bold;font-style: italic;">  </td>
+  </tr>
+</tbody>
+</table></div>
 
-```{=html}
 
-<thead><tr style="overflow-wrap:break-word;"><th class="cl-15cf1928"><p class="cl-15ceeea8"><span class="cl-1469784e">Feature</span></p></th><th class="cl-15cf1928"><p class="cl-15ceeea8"><span class="cl-1469784e">Available</span></p></th><th class="cl-15cf1928"><p class="cl-15ceeea8"><span class="cl-1469784e">Description</span></p></th><th class="cl-15cf1928"><p class="cl-15ceeea8"><span class="cl-1469784e">Group Notes/Reviews/ Questions</span></p></th><th class="cl-15cf1928"><p class="cl-15ceeea8"><span class="cl-1469784e">External Reviews</span></p></th><th class="cl-15cf1932"><p class="cl-15ceeeb2"><span class="cl-1469784e">Score (0-3)</span></p></th><th class="cl-15cf193c"><p class="cl-15ceeeb2"><span class="cl-1469784e">QC</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Geo-referencing</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Every Survey123 entry (object?) has an associated lat/long data</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Uses device navigation: phone app or GPS device; Data can open in data in ArcGIS maps directly; Can change base map; Default is current location; Can tap the map to change location  </span><br><span class="cl-1469786c"></span><br><span class="cl-1469786c">https://doc.arcgis.com/en/survey123/browser/analyze-results/viewresults.htm#:~:text=Under%20the%20title%20for%20your,geodatabase)%20and%20download%20your%20data</span><br><span class="cl-1469786c"></span><br></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c">3</span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Off-line capacity</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Field App works offline and online</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Does the data uploads automatically when back on-line??</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Ease of Form Development</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Intuitive form design tool</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Web designer</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Web designer intuitive</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">No</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 Connect: XLSForm spreadsheet</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">XLSForm formatting language required some effort to pick up.</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c">1</span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Coding language required?</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">No</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Web designer</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Web designer is a GUI tool that is menu driven and does not require learning any coding</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">XLSForm spreadsheet</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 Connect is an option for more advanced survey designs which requires configuration of an ‘XLSForm spreadsheet’.  XLSForm is an ESRII coding language specific to forms configuration.</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Can be hard to edit XLSForm code: </span><br><span class="cl-1469786c">“Per my experience, if I delete some of the questions and add other [using] filters for the answers through the [XLSForm spread sheet], the answers will be totally. So, every time I have to make a new form for every survey in order to avoid messy information.” https://www.g2.com/products/arcgis-survey123/reviews#survey-response-2728634</span><br><span class="cl-1469786c"></span><br><span class="cl-1469786c">“If you make a change to the form after is has been published it is hard to get the new changes without deleting any previously gathered data.”</span><br><span class="cl-1469786c">https://www.g2.com/products/arcgis-survey123/reviews?page=2</span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Form Logic and Validation</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Constrained choices</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Web Designer</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">-Restricted lengths, Default values (e.g., Date, Time from device)</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 Connect: XLSForm spreadsheet</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Above functionality, plus more advanced options such as: - select multiple responses from a list;smart fields: expressions and formulas to control the allowable input (e.g., total percentage &lt;= 100%)</span><br><span class="cl-1469786c">- Auto limit by partial input</span><br><span class="cl-1469786c">- Auto-completed suggestion</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Rules guiding answer series (e.g., “Conditional Questions” and “Skips”)</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Web Designer </span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">This can be done with Web Designer using the ‘Set rule function’; However, in Web Designer, this function is limited to Single choice, Dropdown, </span><br><span class="cl-1469786c">Likert scale, and Rating questions</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">https://support.esri.com/en/technical-article/000022942</span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 Connect: XLSForm spreadsheet</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Form Look and Feel</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Flexibility to configure in a logical order for field entry</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">No</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Web Designer </span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 Connect: XLSForm spreadsheet</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">In trial demo (Appendix 3): The XLSForm coding was required to represent a nested sampling design; this effort was time consuming to optimize</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Different styles of question types</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Web Designer </span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes, both Web designer and Connect provide a range of question types:</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">https://doc.arcgis.com/en/survey123/browser/create-surveys/webdesigneressentials.htm</span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 Connect: XLSForm spreadsheet</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Form Storage and Permissions Management</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Muti-users of an app</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">More than one user can submit data to an app at a time (same database); Survey123 HUB: can review responses by user</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Real-time Data Review</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 HUB</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">The HUB webbased tool allows one to review raw data and summarize data submitted to each survey in the ‘Data’ and ‘Analyze’ tabs; Other summaries: word clouds, frequency plots</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">No</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Survey123 Connect</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">In trial demo, it was difficult to produce a listing of the lengths which was needed for field QC</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Real-time Edit (“on the fly”)</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c">User needs to open a separate tab to edit the responses</span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1950"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195a"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf195b"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Multiple-language options</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Yes</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c">Form can be transposed to other languages; language of stored responses can be specified.</span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf193d"><p class="cl-15ceeea8"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1946"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td><td class="cl-15cf1947"><p class="cl-15ceeeb2"><span class="cl-1469786c"></span></p></td></tr></tbody><tfoot><tr style="overflow-wrap:break-word;"><td  colspan="7"class="cl-15cf1964"><p class="cl-15ceeea8"><span class="cl-14697876"> Survey123 Forms Options footnote.</span></p></td></tr></tfoot></table></div>
-```
 
+
+
+\begin{table}
+\centering
+\begin{tabular}{>{\raggedleft\arraybackslash}p{1.5in}|>{\raggedleft\arraybackslash}p{1.5in}}
+\hline
+Reportable Range Min & Reportable Range Max\\
+\hline
+1 & 10\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{>{\raggedleft\arraybackslash}p{3in}|>{\raggedleft\arraybackslash}p{3in}}
+\hline
+Reportable Range Min & Reportable Range Max\\
+\hline
+1 & 10\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+\centering
+\begin{tabular}{>{\raggedleft\arraybackslash}p{3in}|>{\raggedleft\arraybackslash}p{2in}}
+\hline
+Reportable Range Min & Reportable Range Max\\
+\hline
+1 & 10\\
+\hline
+\end{tabular}
+\end{table}
 
 

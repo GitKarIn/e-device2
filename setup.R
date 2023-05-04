@@ -1,5 +1,6 @@
 # Load libraries --------------------------------------------------------------------
 library(dplyr)
+library(readxl)
 library(tidyverse)
 library(bookdown)
 library(png)
