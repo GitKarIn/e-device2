@@ -1,10 +1,13 @@
-# E-device Survey {#cross}
+# E-device Survey 
+
+## E-device Survey Outline
 
 An Electronic Field Data-Entry Device ("e-Device") Survey was distributed to IEP survey leads in July of 2022. The goals of this survey were: 1. To get an understanding of the current level of use of electronic field data entry devices among IEP Survey Staff; 2. To seek information from expert e-device users about both hardware and software considerations, and 3. To the learn specific roadblocks for those who are hesitant to consider shifting to electronic data entry methods.  
 
-Three groups were targeted for this survey:         
+Three groups were targeted for this survey:
+
 1. Experienced e-device users (internal IEP and external agencies),                            
-2. IEP Survey Staff who are researching e-devices for field application,                                        
+2. IEP Survey Staff who are researching e-devices for field application,                            
 3. IEP Survey Staff who don't believe electronic field data collection will work for their application.
 
 ## Survey Respondents 

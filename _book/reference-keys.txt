@@ -15,8 +15,10 @@ e-device-working-group-overview
 goals
 approach
 scope-of-group-activities-and-intended-products
-cross
+e-device-survey
+e-device-survey-outline
 survey-respondents
+key-questionsconcerns-about-using-e-devices-derived-from-the-e-device-survey
 esri-survey123
 survey123-overview
 survey123-forms-options
@@ -29,7 +31,5 @@ equations
 theorems-and-proofs
 callout-blocks
 appendices
-e-device-survey
+e-device-survey-1
 survey123
-url-your-book-url-like-httpsbookdown.orgyihuibookdown
-key-questionsconcerns-about-using-e-devices-derived-from-the-e-device-survey

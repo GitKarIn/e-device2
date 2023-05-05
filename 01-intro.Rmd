@@ -1,6 +1,6 @@
 # Introduction 
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+This bookdown document is intended to be a 'living document' which develops as more IEP survey leads adopt the use of electronic data entry tools.  Optimally, these direct experiences are shared with the IEP community through on-going presentations to the DUWG working group and are documented here. 
 
 ## E-device Working Group Overview
 
