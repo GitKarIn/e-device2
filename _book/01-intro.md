@@ -1,6 +1,6 @@
 # Introduction 
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
+This bookdown document is intended to be a 'living document' which develops as more IEP survey leads adopt the use of electronic data entry tools.  Optimally, these direct experiences are shared with the IEP community through on-going presentations to the DUWG working group and are documented here. 
 
 ## E-device Working Group Overview
 
@@ -21,4 +21,9 @@ Third, group members will potentially test specific e-devices apps by making use
 
 ### Scope of group activities and intended products
 
-The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (Table 1), the key questions/concerns about using e-devices (section below), as well as the key criteria that will be used to evaluate each software options explored by the working group (Tables 2-7).  The main categories considering include options within the forms building tools, including QC related factors such as constrained choices and rules that guide subsequent fields.  Other categories include IT security protocols, photo integration, cost of different product options, and factors related to the business model of each vendor, including the longevity of the company and the level/cost of customer/technical support.  
+The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (\@ref(fig:survey)) the key questions/concerns about using e-devices (section below), as well as the key criteria that will be used to evaluate each software options explored by the working group (Tables 2-7).  The main categories considering include options within the forms building tools, including QC related factors such as constrained choices and rules that guide subsequent fields.  Other categories include IT security protocols, photo integration, cost of different product options, and factors related to the business model of each vendor, including the longevity of the company and the level/cost of customer/technical support.  
+
+
+
+
+

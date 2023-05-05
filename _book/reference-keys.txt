@@ -30,6 +30,6 @@ blocks
 equations
 theorems-and-proofs
 callout-blocks
-appendices
+survey
 e-device-survey-1
 survey123
