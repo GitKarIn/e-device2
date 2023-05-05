@@ -3,7 +3,6 @@ fig:ESRIweb
 fig:ESRIweb2
 fig:xlsform
 fig:xlsform2
-tab:forms12b
 eq:binom
 thm:tri
 about

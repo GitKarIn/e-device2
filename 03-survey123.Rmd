@@ -52,22 +52,21 @@ form_ops <- survey123$Forms_Options
 
 library(kableExtra)
 
-# kbl(form_ops,  caption = 'Survey123 Forms Options',align = "lllllcc",
-#     format = "html", table.attr = "style='width:100%;'") %>%
-  #kable_classic(full_width = T, position = "center", ) %>% 
-  #kable_paper() %>% 
-  
 kable(form_ops, format = "html", escape = F) %>%
-  #kable_styling() %>%
   kable_paper() %>% 
-  # column_spec(1, width_max = "1cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(1, width_min = "1.5cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "2cm", bold = TRUE, italic = F) %>%
   column_spec(2, width_max = "1cm", bold = TRUE, italic = TRUE) %>%
-  #column_spec(3:5, width_max = "2cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(3:5, width_min = "2cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(5, width_min = "2.5cm", bold = TRUE, italic = TRUE) %>%
-
-  #scroll_box(width = "1200px", height = "500px")
-  scroll_box(width = "180%", height = "1000px")
+  column_spec(3, width_min = "2.5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(3, width_max = "3cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(4, width_min = "3.5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(4, width_max = "4cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(5, width_min = "3.5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(5, width_max = "4cm", bold = TRUE, italic = TRUE) %>%
+  scroll_box(width = "1200px", height = "1000px") %>%
+  kable_styling(fixed_thead = TRUE) 
+  
+  #scroll_box(width = "180%", height = "1000px", fixed_thead = TRUE)
 
 
 ```
