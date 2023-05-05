@@ -52,58 +52,23 @@ form_ops <- survey123$Forms_Options
 
 library(kableExtra)
 
-kbl(form_ops,  caption = 'Survey123 Forms Options') %>%
-  kable_paper() %>% column_spec(1:ncol(form_ops), width_max = "3cm", bold = TRUE, italic = TRUE) %>%
-  scroll_box(width = "800px", height = "500px")
+# kbl(form_ops,  caption = 'Survey123 Forms Options',align = "lllllcc",
+#     format = "html", table.attr = "style='width:100%;'") %>%
+  #kable_classic(full_width = T, position = "center", ) %>% 
+  #kable_paper() %>% 
+  
+kable(form_ops, format = "html", escape = F) %>%
+  #kable_styling() %>%
+  kable_paper() %>% 
+  # column_spec(1, width_max = "1cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(2, width_max = "1cm", bold = TRUE, italic = TRUE) %>%
+  #column_spec(3:5, width_max = "2cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(3:5, width_min = "2cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(5, width_min = "2.5cm", bold = TRUE, italic = TRUE) %>%
 
+  #scroll_box(width = "1200px", height = "500px")
+  scroll_box(width = "180%", height = "1000px")
 
 
 ```
-
-
-```{r global_options, include=FALSE}
-# Just some setup:
-
-sapply(c("knitr", "tidyverse", "kableExtra"), require, character.only = TRUE)
-
-options(knitr.kable.NA = '', knitr.table.format = "latex")
-
-knitr::opts_chunk$set(fig.path = 'figures/',
-                  echo = FALSE, warning = FALSE, message = FALSE)
-
-opts_chunk$set(echo = FALSE,
-           message = FALSE,
-           warning = FALSE,
-           fig.align = "center",
-           fig.width = 5,
-           fig.pos = 'H',
-           as.is = TRUE)
-```
-
-
-```{r variable-names-table, as.is=TRUE}
-# Size example 1; 1.5 inch columns
-data.frame(RRmin=1, RRmax=10) %>%
-    dplyr::rename(`Reportable Range Min` = RRmin, `Reportable Range Max` = RRmax) %>%
-   kable() %>%
-   kable_styling(c("bordered", "condensed"), full_width = F) %>%
-   column_spec(column = 1:2, width = "1.5in")
-
-# Size example 2; 3 inches
-data.frame(RRmin=1, RRmax=10) %>%
-    dplyr::rename(`Reportable Range Min` = RRmin, `Reportable Range Max` = RRmax) %>%
-   kable() %>%
-   column_spec(column = 1:2, width = "3in") %>%
-   kable_styling(c("bordered", "condensed"), full_width = F)
-
-# To set columns 1 and two to different sizes
-data.frame(RRmin=1, RRmax=10) %>%
-    dplyr::rename(`Reportable Range Min` = RRmin, `Reportable Range Max` = RRmax) %>%
-   kable() %>%
-   column_spec(column = 1, width = "3in") %>%
-   column_spec(column = 2, width = "2in") %>%
-   kable_styling(c("bordered", "condensed"), full_width = F)
-
-```
-
 
