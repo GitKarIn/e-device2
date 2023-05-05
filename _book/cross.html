@@ -65,16 +65,7 @@
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled">
-<li><a class="" href="index.html"><span class="header-section-number">1</span> About</a></li>
-<li><a class="" href="introduction.html"><span class="header-section-number">2</span> Introduction</a></li>
-<li><a class="active" href="cross.html"><span class="header-section-number">3</span> E-device Survey</a></li>
-<li><a class="" href="esri-survey123.html"><span class="header-section-number">4</span> ESRI Survey123</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
-<li><a class="" href="appendices.html"><span class="header-section-number">7</span> Appendices</a></li>
-<li><a class="" href="references.html">References</a></li>
-</ul>
+        <ul class="book-toc list-unstyled"><li><a class="" href="index.html"><span class="header-section-number">Chapter 3</span> E-device Survey</a></li></ul>
 
         <div class="book-extra">
           <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
@@ -102,23 +93,161 @@ Figure 3.1: The distribution of of e-device survey responders by agency associat
 </p>
 </div>
 <p>Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections. Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix ).</p>
-
+<div class="inline-table"><table class="table table-sm">
+<caption>
+<span id="tab:surv2">Table 3.1: </span>Most common e-device software applications used by the IEP members who responded to the e-device survey.
+</caption>
+<thead><tr>
+<th style="text-align:left;">
+Application
+</th>
+<th style="text-align:left;">
+Agency
+</th>
+<th style="text-align:left;">
+Type of Application/Data Collected
+</th>
+</tr></thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+ESRI Survey123
+</td>
+<td style="text-align:left;">
+ICF, NEON
+</td>
+<td style="text-align:left;">
+fish &amp; zooplankton surveys, water quality
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Pendragon
+</td>
+<td style="text-align:left;">
+DWR, CDFW
+</td>
+<td style="text-align:left;">
+fish &amp; zooplankton surveys, water quality
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fulcrum
+</td>
+<td style="text-align:left;">
+ICF, NEON
+</td>
+<td style="text-align:left;">
+field data collection, botanical &amp; wildlife surveys
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Adobe PDF Forms
+</td>
+<td style="text-align:left;">
+ICF, DWR
+</td>
+<td style="text-align:left;">
+field data collection
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+.NET customized
+</td>
+<td style="text-align:left;">
+DWR, USGS, CDFW
+</td>
+<td style="text-align:left;">
+MOPED water quality, SVMAQ water quality &amp; discharge
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+iFormbuilder
+</td>
+<td style="text-align:left;">
+ICF
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Zoho
+</td>
+<td style="text-align:left;">
+ICF
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Access, Excel
+</td>
+<td style="text-align:left;">
+ICF, USFWS
+</td>
+<td style="text-align:left;">
+tributary monitoring
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ESRI Collector, ESRI Field Maps
+</td>
+<td style="text-align:left;">
+USFWS, CDFW, UC
+</td>
+<td style="text-align:left;">
+geolocation of FAV, positional accuracy, spawning ground surveys
+</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div id="key-questionsconcerns-about-using-e-devices-derived-from-the-e-device-survey" class="section level2" number="3.2">
+<h2>
+<span class="header-section-number">3.2</span> Key questions/concerns about using e-devices (derived from the e-device survey)<a class="anchor" aria-label="anchor" href="#key-questionsconcerns-about-using-e-devices-derived-from-the-e-device-survey"><i class="fas fa-link"></i></a>
+</h2>
+<p>A series of key questions were extracted from the survey responses, and were further developed in the first several working group meetings. These questions outline most difficult hurdles that survey leads address when adopting electronic data entry technology for shipboard surveys.</p>
+<ul>
+<li><p>Forms:<br>
+Do I need to know a programming language to develop a data entry form?<br>
+Can the forms builder be used to represent a highly nested sampling design?<br>
+Can I review fish length data as a list? Can I edit my data ‘on-the-fly’?<br>
+Can I take photos and link to the record at various levels of a nested sampling design?</p></li>
+<li><p>Data Export Formats and Transfers:<br>
+What is the format of the exported data?<br>
+Can the exported data be integrated with an existing Access or SQL database?<br>
+What procedures are needed for uploading to the database (for each output type)?<br>
+Can I make a back-up of the data locally when an internet connection is not available?</p></li>
+<li><p>Reading external data inputs:<br>
+Can I incorporate data from an external sensor into the app? GPS, Fish boards, Barcodes?</p></li>
+<li><p>IT Security and Version Control:<br>
+Does the app have network security certificates; has the security been vetted?<br>
+Are there version control options for data pushed to cloud repositories from the field?</p></li>
+<li><p>Hardware:<br>
+Can a handheld device truly be weatherproof?<br>
+How can we keep these devices from dropping overboard during fishing and processing activities?</p></li>
+<li><p>QA/QC:<br>
+What features of the data entry software are critical for supporting quality assurance and quality control routines.</p></li>
+</ul>
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="introduction.html"><span class="header-section-number">2</span> Introduction</a></div>
-<div class="next"><a href="esri-survey123.html"><span class="header-section-number">4</span> ESRI Survey123</a></div>
+<div class="empty"></div>
+<div class="empty"></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#cross"><span class="header-section-number">3</span> E-device Survey</a></li>
-<li><a class="nav-link" href="#survey-respondents"><span class="header-section-number">3.1</span> Survey Respondents</a></li>
-</ul>
+      <div id="book-on-this-page"></div>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/02-survey.Rmd">View source <i class="fab fa-github"></i></a></li>
-          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/02-survey.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
+          
         </ul>
 </div>
     </nav>
@@ -130,7 +259,7 @@ Figure 3.1: The distribution of of e-device survey responders by agency associat
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Electronic Data Entry Software Options for IEP Surveys</strong>" was written by IEP DUWG ‘e-Device’ Sub-group led by Karrin Alstad. It was last built on 2023-05-04.</p>
+    <p>"<strong>Electronic Data Entry Software Options for IEP Surveys</strong>" was written by IEP DUWG ‘e-Device’ Sub-group led by Karrin Alstad. It was last built on 2023-05-05.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
@@ -138,34 +267,6 @@ Figure 3.1: The distribution of of e-device survey responders by agency associat
   </div>
 
 </div></div>
-</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    var src = "true";
-    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
-    if (location.protocol !== "file:")
-      if (/^https?:/.test(src))
-        src = src.replace(/^https?:/, '');
-    script.src = src;
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
-for (let popover of popovers) {
-  const div = document.createElement('div');
-  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
-  div.innerHTML = popover.getAttribute('data-content');
-
-  var has_math = div.querySelector("span.math");
-  if (has_math) {
-    document.body.appendChild(div);
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
-    MathJax.Hub.Queue(function() {
-      popover.setAttribute('data-content', div.innerHTML);
-      document.body.removeChild(div);
-    })
-  }
-}
-</script>
+</footer>
 </body>
 </html>

@@ -55,3 +55,6 @@ Survey3$exp_status[grepl("I am currently using",Survey3$exp_status)]<-"I am curr
 
 saveRDS(Survey3, file = "Survey3.rds")
 
+popapps <- read_excel("C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/SurveyResults/most_common_apps.xlsx",sheet = "Sheet1")
+popapps[is.na(popapps)] <- " "
+saveRDS(popapps, file = "popapps.rds")

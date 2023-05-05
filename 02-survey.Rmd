@@ -32,3 +32,53 @@ pie(sms$`n()`, labels = pie_labels, col=c("#A9D18E", "#1B8CF0", "#E06F7D", "#D1B
 Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  ). 
 
 
+
+```{r surv2, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Most common e-device software applications used by the IEP members who responded to the e-device survey.', out.width='80%', fig.asp=.75, fig.align='center'}
+
+
+library(kableExtra)
+
+popap_in <- readRDS("popapps.rds")
+
+kable(popap_in, 
+    escape = FALSE,
+    format = "html",
+    caption = 'Most common e-device software applications used by the IEP members who responded to the e-device survey.', booktabs = TRUE)
+
+```
+
+
+
+
+## Key questions/concerns about using e-devices (derived from the e-device survey)
+
+
+A series of key questions were extracted from the survey responses, and were further developed in the first several working group meetings. These questions outline most difficult hurdles that survey leads address when adopting electronic data entry technology for shipboard surveys.
+
+- Forms: 	
+   Do I need to know a programming language to develop a data entry form?  
+   Can the forms builder be used to represent a highly nested sampling design?  
+   Can I review fish length data as a list? Can I edit my data ‘on-the-fly’?  
+   Can I take photos and link to the record at various levels of a nested sampling design?  
+   
+- Data Export Formats and Transfers:  
+   What is the format of the exported data?  
+   Can the exported data be integrated with an existing Access or SQL database?  
+   What procedures are needed for uploading to the database (for each output type)?  
+   Can I make a back-up of the data locally when an internet connection is not available? 
+
+- Reading external data inputs:  
+Can I incorporate data from an external sensor into the app? GPS, Fish boards, Barcodes?
+
+- IT Security and Version Control:  
+   Does the app have network security certificates; has the security been vetted?  
+   Are there version control options for data pushed to cloud repositories from the field?
+
+- Hardware:  
+   Can a handheld device truly be weatherproof?  
+   How can we keep these devices from dropping overboard during fishing and processing activities?
+
+- QA/QC:  
+   What features of the data entry software are critical for supporting quality assurance and quality control routines.
+
+

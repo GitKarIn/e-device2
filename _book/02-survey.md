@@ -21,3 +21,97 @@ The IEP e-device survey was run for approximately a month and received 24 respon
 Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  ). 
 
 
+
+<table>
+<caption>(\#tab:surv2)Most common e-device software applications used by the IEP members who responded to the e-device survey.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;"> Application </th>
+   <th style="text-align:left;"> Agency </th>
+   <th style="text-align:left;"> Type of Application/Data Collected </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> ESRI Survey123 </td>
+   <td style="text-align:left;"> ICF, NEON </td>
+   <td style="text-align:left;"> fish & zooplankton surveys, water quality </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Pendragon </td>
+   <td style="text-align:left;"> DWR, CDFW </td>
+   <td style="text-align:left;"> fish & zooplankton surveys, water quality </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Fulcrum </td>
+   <td style="text-align:left;"> ICF, NEON </td>
+   <td style="text-align:left;"> field data collection, botanical & wildlife surveys </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Adobe PDF Forms </td>
+   <td style="text-align:left;"> ICF, DWR </td>
+   <td style="text-align:left;"> field data collection </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> .NET customized </td>
+   <td style="text-align:left;"> DWR, USGS, CDFW </td>
+   <td style="text-align:left;"> MOPED water quality, SVMAQ water quality & discharge </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> iFormbuilder </td>
+   <td style="text-align:left;"> ICF </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Zoho </td>
+   <td style="text-align:left;"> ICF </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Access, Excel </td>
+   <td style="text-align:left;"> ICF, USFWS </td>
+   <td style="text-align:left;"> tributary monitoring </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> ESRI Collector, ESRI Field Maps </td>
+   <td style="text-align:left;"> USFWS, CDFW, UC </td>
+   <td style="text-align:left;"> geolocation of FAV, positional accuracy, spawning ground surveys </td>
+  </tr>
+</tbody>
+</table>
+
+
+
+
+## Key questions/concerns about using e-devices (derived from the e-device survey)
+
+
+A series of key questions were extracted from the survey responses, and were further developed in the first several working group meetings. These questions outline most difficult hurdles that survey leads address when adopting electronic data entry technology for shipboard surveys.
+
+- Forms: 	
+   Do I need to know a programming language to develop a data entry form?  
+   Can the forms builder be used to represent a highly nested sampling design?  
+   Can I review fish length data as a list? Can I edit my data ‘on-the-fly’?  
+   Can I take photos and link to the record at various levels of a nested sampling design?  
+   
+- Data Export Formats and Transfers:  
+   What is the format of the exported data?  
+   Can the exported data be integrated with an existing Access or SQL database?  
+   What procedures are needed for uploading to the database (for each output type)?  
+   Can I make a back-up of the data locally when an internet connection is not available? 
+
+- Reading external data inputs:  
+Can I incorporate data from an external sensor into the app? GPS, Fish boards, Barcodes?
+
+- IT Security and Version Control:  
+   Does the app have network security certificates; has the security been vetted?  
+   Are there version control options for data pushed to cloud repositories from the field?
+
+- Hardware:  
+   Can a handheld device truly be weatherproof?  
+   How can we keep these devices from dropping overboard during fishing and processing activities?
+
+- QA/QC:  
+   What features of the data entry software are critical for supporting quality assurance and quality control routines.
+
+

@@ -1,4 +1,5 @@
 fig:survey
+tab:surv2
 fig:ESRIweb
 fig:ESRIweb2
 fig:xlsform
@@ -31,3 +32,4 @@ appendices
 e-device-survey
 survey123
 url-your-book-url-like-httpsbookdown.orgyihuibookdown
+key-questionsconcerns-about-using-e-devices-derived-from-the-e-device-survey
