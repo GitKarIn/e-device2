@@ -23,6 +23,85 @@ Third, group members will potentially test specific e-devices apps by making use
 
 The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (\@ref(fig:survey)) the key questions/concerns about using e-devices (section below), as well as the key criteria that will be used to evaluate each software options explored by the working group (Tables 2-7).  The main categories considering include options within the forms building tools, including QC related factors such as constrained choices and rules that guide subsequent fields.  Other categories include IT security protocols, photo integration, cost of different product options, and factors related to the business model of each vendor, including the longevity of the company and the level/cost of customer/technical support.  
 
+### Criteria for Comparison of E-device Apps 
+
+#### Forms Options
+
+```{r criteria, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Criteria', out.width='80%', fig.asp=.75, fig.align='center'}
+library(kableExtra)
+library(dplyr)
+criteria_in <- readRDS("criteria.rds") 
+forms <- criteria_in$Forms_Options %>% select(-QC)
+forms[] <- lapply(forms, function(x) ifelse(is.na(x), "", x))
+
+# Use kableExtra package to create HTML table
+library(kableExtra)
+forms %>%
+  # Group by category column and collapse repeating values
+  group_by(Category) %>%
+  mutate(Category = ifelse(duplicated(Category), "", Category))  %>%
+
+kable(forms, format = "html", escape = F) %>%
+  kable_paper() %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
+                font_size = 20) %>%
+
+  column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
+  column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  column_spec(3, width_max = "10cm", bold = F, italic = F) %>%
+  scroll_box(width = "110%", height = "1000px")
+
+```
+
+
+
+
+
+#### Data Interface
+
+```{r data, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Criteria', out.width='80%', fig.asp=.75, fig.align='center'}
+library(kableExtra)
+library(dplyr)
+criteria_in <- readRDS("criteria.rds") 
+dataint <- criteria_in$Data_Interface
+dataint[] <- lapply(dataint, function(x) ifelse(is.na(x), "", x))
+
+# Use kableExtra package to create HTML table
+library(kableExtra)
+dataint %>%
+  # Group by category column and collapse repeating values
+  group_by(Category) %>%
+  mutate(Category = ifelse(duplicated(Category), "", Category)) %>%
+
+kable(dataint, format = "html", escape = F) %>%
+  kable_paper() %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
+                font_size = 20) %>%
+
+  column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
+  column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  column_spec(3, width_max = "10cm", bold = F, italic = F) %>%
+  scroll_box(width = "110%", height = "1000px")
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 

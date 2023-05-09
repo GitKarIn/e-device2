@@ -1,12 +1,4 @@
-fig:survey
-tab:surv2
-fig:ESRIweb
-fig:ESRIweb2
-fig:xlsform
-fig:xlsform2
-eq:binom
-thm:tri
-about
+url-your-book-url-like-httpsbookdown.orgyihuibookdown
 usage
 render-book
 preview-book
@@ -15,6 +7,8 @@ e-device-working-group-overview
 goals
 approach
 scope-of-group-activities-and-intended-products
+criteria-for-comparison-of-e-device-apps
+forms-options
 e-device-survey
 e-device-survey-outline
 survey-respondents
@@ -33,3 +27,4 @@ callout-blocks
 survey
 e-device-survey-1
 survey123
+data-interface

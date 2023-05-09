@@ -58,3 +58,11 @@ saveRDS(Survey3, file = "Survey3.rds")
 popapps <- read_excel("C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/SurveyResults/most_common_apps.xlsx",sheet = "Sheet1")
 popapps[is.na(popapps)] <- " "
 saveRDS(popapps, file = "popapps.rds")
+
+
+## e-device criteria table for intro
+criteria <- read_excel_allsheets(file.path(Xdatfldr,"Template_app_criteria_intro.xlsx"))
+saveRDS(criteria, file = "criteria.rds")
+
+
+
