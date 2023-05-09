@@ -34,7 +34,7 @@ knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALS
 ```
 
 
-## Survey123 Forms Criteria Table
+## Survey123: Forms Options
 
 ```{r forminit, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
