@@ -65,4 +65,8 @@ criteria <- read_excel_allsheets(file.path(Xdatfldr,"Template_app_criteria_intro
 saveRDS(criteria, file = "criteria.rds")
 
 
+## speakers
+speakrs <- read_excel_allsheets(file.path(Xdatfldr,"speakers_locals.xlsx"))
+saveRDS(speakrs$Sheet1, file = "speakrs.rds")
+
 

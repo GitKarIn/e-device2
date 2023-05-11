@@ -54,6 +54,9 @@ library(kableExtra)
 
 kable(form_ops, format = "html", escape = F) %>%
   kable_paper() %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
+                font_size = 20) %>%
+
   column_spec(1, width_min = "1.5cm", bold = TRUE, italic = F) %>%
   column_spec(1, width_max = "2cm", bold = TRUE, italic = F) %>%
   column_spec(2, width_max = "1cm", bold = TRUE, italic = TRUE) %>%
@@ -63,11 +66,7 @@ kable(form_ops, format = "html", escape = F) %>%
   column_spec(4, width_max = "4cm", bold = TRUE, italic = TRUE) %>%
   column_spec(5, width_min = "3.5cm", bold = TRUE, italic = TRUE) %>%
   column_spec(5, width_max = "4cm", bold = TRUE, italic = TRUE) %>%
-  scroll_box(width = "1200px", height = "1000px") %>%
-  kable_styling(fixed_thead = TRUE) 
-  
-  #scroll_box(width = "180%", height = "1000px", fixed_thead = TRUE)
-
+  scroll_box(width = "1200px", height = "1000px") 
 
 ```
 

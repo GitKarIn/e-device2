@@ -38,14 +38,14 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 </div>
 
 
-## Survey123 Forms Criteria Table
+## Survey123: Forms Options
 
 
 
 
 
 
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:1000px; overflow-x: scroll; width:1200px;  margin-left: auto; margin-right: auto;" class="table"><table class=" lightable-paper" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto;'>
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:1000px; overflow-x: scroll; width:1200px; "><table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>

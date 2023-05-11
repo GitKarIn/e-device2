@@ -1,33 +1,109 @@
 # Introduction 
 
-This bookdown document is intended to be a 'living document' which develops as more IEP survey leads adopt the use of electronic data entry tools.  Optimally, these direct experiences are shared with the IEP community through on-going presentations to the DUWG working group and are documented here. 
+This bookdown document is intended to be a 'living document' which develops as more IEP survey leads adopt the use of electronic data entry tools.  Optimally, new e-device experiences and updated information can be shared with the IEP community through on-going presentations to the DUWG working group and on-going updates to this documented. 
 
 ## E-device Working Group Overview
 
 ### Goals
 
-In general, the goal of the electronic data entry sub-group of the DUWG is to research field data entry software and hardware devices (“e-devices”), and to generate resources that support IEP survey leads in selecting and deploying digital data-entry procedures.  This sub-group does not intend to suggest a single solution or software choice for all IEP surveys; rather, the sub-group aims to provide specific application reviews and testing, some methods development, and the start of an IEP e-device users network in effort to facilitate the independent decisions and potential transition of each IEP surveys to electronic data collection methods..
+In general, the goal of the electronic data entry sub-group of the DUWG is to research field data entry software and hardware devices (“e-devices”), and to generate resources that support IEP survey leads in selecting and deploying digital data-entry procedures.  This sub-group does not intend to suggest a single solution or software choice for all IEP surveys; rather, the sub-group aims to provide specific application reviews and research, and group members may report on direct hands-on software trials or testing of new methods. Potentially, these activities will initiate an IEP e-device users network as a resource for IEP survey members who are newer to these methods and technologies.
 
 ### Approach
 
 A general approach to the exploration of e-device applications was outlined and agreed on at the initial e-device meetings.  
 
-First, an e-device information gathering questionnaire (survey) would be distributed within IEP which specifically collects response data from: 1. Experienced e-device users, 2. Those who are currently researching e-device solutions for their survey applications; and 3. Those who have determined e-devices will not work for them. 
+First, an e-device information gathering questionnaire (survey) was distributed within IEP which specifically collects response data from: 1. Experienced e-device users, 2. Those who are currently researching e-device solutions for their survey applications; and 3. Those who have determined e-devices will not work for them. 
 
-Second, following leads from the responses to the survey, this distribution is expanded to include external associates (ICF, NEON, CDFW Marine).  Follow-up interviews of the experienced e-device users and vendors are conducted, and demonstrations are arranged for the most promising e-device options.
+Second, from the responses to the questionnaire, the distribution was expanded to include external associates (ICF, NEON, CDFW Marine).  Follow-up interviews of the experienced e-device users and vendors were conducted, and demonstrations were arranged for the most promising e-device options.
 
-Third, group members will potentially test specific e-devices apps by making use of free trial licenses, and these trials reported back to the group (SFBS & Yolo By-pass were early volunteers for trial forms development exercises).  Potentially other e-device methods will be researched and developed for demonstration purposes (e.g., collection and integration of external sensor data into e-device applications).
+Third, group members potentially test specific e-devices apps by making use of free trial licenses, and these trials reported back to the group (SFBS & Yolo By-pass were early volunteers for trial forms development exercises). Potentially other e-device methods will be researched and developed for demonstration purposes going forward (e.g., collection and integration of external sensor data and fish board data into e-device applications).
 
 
-### Scope of group activities and intended products
+### Scope of group activities and intended products {#crittop}
 
-The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (\@ref(fig:survey)) the key questions/concerns about using e-devices (section below), as well as the key criteria that will be used to evaluate each software options explored by the working group (Tables 2-7).  The main categories considering include options within the forms building tools, including QC related factors such as constrained choices and rules that guide subsequent fields.  Other categories include IT security protocols, photo integration, cost of different product options, and factors related to the business model of each vendor, including the longevity of the company and the level/cost of customer/technical support.  
+The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (\@ref(fig:survey)) the key questions/concerns about using e-devices [key questions](#keyqest) as well as the key criteria that will be used to evaluate each software options explored by the working group [criteria](#crittop).   These criteria served as the outline for software reviews.   
+
+Seven different field data entry software applications were evaluated over six months (\@ref(tab:spkr)); Each month, an expert user was invited to present the particular app, and efforts were made to find a local IEP representative to also trial the software and present their first hand impressions.
+
+The intended product from this DUWG subgroup research is a central repository document that summarizes the range of data entry software apps used by IEP and associated surveys, as well as reviews of the various methods used to transfer field data to published databases.  Eventually, this compilation may include information on field hardware devices/weatherizing kits, and methods used for integrating external sensors such as fish boards. The summary document intends to include a list of reference persons who have experience with one or more of the electronic data software or methods.  It is anticipated that this document can be used by survey leads to aid in decision making on electronic field data entry options.
+
+
+
+
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:700px; "><table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:spkr)Guest speakers and local trials.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Software </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Guest Presenter (Expert) </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Local Expert or Newby </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;"> Survey123 (ESRI) </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> -- </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> JT Robinson, DWR </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;"> Pendragon </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Daniel Phillips, Rep. </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Doug Burch, CDFW </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;"> Fulcrum </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Kaelin Cawley, NEON </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> -- </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;">  </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Jessica Morten, NOAA </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Jillian Burns, CDFW </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;"> FEED/VIMS </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Chris Bonzek, Rep. </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Initiated by SFBS </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;"> PowerApps/Canvas </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Tuongvan Nguyen, IEP/CDFW (new to P. App) </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Karrin Alstad &amp; Jillian Burns, CDFW </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;"> BigFin Scientific </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Chris Carol, Rep. </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Initiated by SFBS </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;">  </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; ">  </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; ">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 4.5cm; font-weight: bold;"> R scrape of PDF Forms </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Trinh Nguyen </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Currently have a SFBS template </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+
 
 ### Criteria for Comparison of E-device Apps 
 
-#### Forms Options
+The e-device subgroup identified 6 different groupings of criteria for comparing different data entry apps: Forms Options \@ref(forms), Data Interface Options \@ref(datint), Photo Integration and External Sensor Options, Hardware Platform Options, Security Factors, and Vendor Business Model. 
+The main categories considering include options within the forms building tools, including QC related factors such as constrained choices and rules that guide subsequent fields.  Other categories include IT security protocols, photo integration, cost of different product options, and factors related to the business model of each vendor, including the longevity of the company and the level/cost of customer/technical support. 
 
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:1000px; overflow-x: scroll; width:110%; "><table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+
+
+#### Forms Options Criteria {#forms} 
+
+<!-- [Top of section](#crittop) -->
+
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:1300px; overflow-x: scroll; width:900px; "><table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:forms)Forms Options.</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -123,9 +199,13 @@ The initial e-device questionnaire was used to identify the most common e-device
 
 
 
-#### Data Interface
+#### Data Interface Criteria {#datint}
 
-<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:1000px; overflow-x: scroll; width:110%; "><table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+[Top of section](#crittop)
+
+
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:800px; overflow-x: scroll; width:900px; "><table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:data)Data Interface Options.</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -176,10 +256,54 @@ Can data be edited after having been pushed to a remote location? </td>
    <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Direct integration with database </td>
    <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Can the form be directly configured to an SQL or Access database? If do, how difficult is this configuration? </td>
   </tr>
+</tbody>
+</table></div>
+
+
+
+
+
+
+
+#### Photo Integration and External Sensors {#datint}
+
+[Top of section](#crittop)
+
+
+<div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:900px; "><table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:photo)Photo Integration and External Sensors.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Description </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;min-width: 3.5cm; font-weight: bold;max-width: 4cm; font-weight: bold;"> Photo Integration </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Collect photo &amp; assoc. with element </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Can multiple photos can be linked to a single record? </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 3.5cm; font-weight: bold;max-width: 4cm; font-weight: bold;">  </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Ease of interface </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; ">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 3.5cm; font-weight: bold;max-width: 4cm; font-weight: bold;">  </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Multi-photo per element (and # limit) </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> What is the size limit for photos? </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;min-width: 3.5cm; font-weight: bold;max-width: 4cm; font-weight: bold;">  </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Drawing/Annotating on photo </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Can the user draw and annotate photos </td>
+  </tr>
   <tr>
    <td style="text-align:left;min-width: 3.5cm; font-weight: bold;max-width: 4cm; font-weight: bold;"> X-tern sensors </td>
-   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> Integrate GPS from device </td>
-   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> GPS precision only as good as app on device </td>
+   <td style="text-align:left;min-width: 6cm; max-width: 7cm; "> GPS from device </td>
+   <td style="text-align:left;min-width: 10cm; max-width: 10cm; "> Can the app integrate the GPS from device; how difficult? </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 3.5cm; font-weight: bold;max-width: 4cm; font-weight: bold;">  </td>
@@ -193,58 +317,6 @@ Can data be edited after having been pushed to a remote location? </td>
   </tr>
 </tbody>
 </table></div>
-
-
-
-
-
-
-
-```r
-library(kableExtra)
-df <- data.frame(
-  x = c(1, 2, 3),
-  y = c("A", "B", "C"),
-  z = c(TRUE, FALSE, TRUE)
-)
-df %>%
-  kable() %>%
-  kable_styling(full_width = FALSE, font_size = 20) %>%
-  scroll_box(width = "100%", height = "200px") %>%
-  kable_classic()
-```
-
-<div style='border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:200px; overflow-x: scroll; width:100%;  font-family: "Arial Narrow", "Source Sans Pro", sans-serif; margin-left: auto; margin-right: auto;' class=" lightable-classic"><table class="table" style="font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;">
- <thead>
-  <tr>
-   <th style="text-align:right;position: sticky; top:0; background-color: #FFFFFF;"> x </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> y </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> z </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:right;"> 1 </td>
-   <td style="text-align:left;"> A </td>
-   <td style="text-align:left;"> TRUE </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 2 </td>
-   <td style="text-align:left;"> B </td>
-   <td style="text-align:left;"> FALSE </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 3 </td>
-   <td style="text-align:left;"> C </td>
-   <td style="text-align:left;"> TRUE </td>
-  </tr>
-</tbody>
-</table></div>
-
-
-
-
-
 
 
 

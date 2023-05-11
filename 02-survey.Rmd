@@ -46,14 +46,16 @@ popap_in <- readRDS("popapps.rds")
 kable(popap_in, 
     escape = FALSE,
     format = "html",
-    caption = 'Most common e-device software applications used by the IEP members who responded to the e-device survey.', booktabs = TRUE)
-
+    caption = 'Most common e-device software applications used by the IEP members who responded to the e-device survey.', booktabs = TRUE) %>% 
+    kable_paper() %>% 
+    kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
+                font_size = 20)
 ```
 
 
 
 
-## Key questions/concerns about using e-devices (derived from the e-device survey)
+## Key questions/concerns about using e-devices (derived from the e-device survey) {#keyqest}
 
 
 A series of key questions were extracted from the survey responses, and were further developed in the first several working group meetings. These questions outline most difficult hurdles that survey leads address when adopting electronic data entry technology for shipboard surveys.

@@ -25,30 +25,30 @@ Among the 24 respondents, half of these were IEP associates and external contact
 
 
 
-<table>
-<caption>(\#tab:surv2)Most common e-device software applications used by the IEP members who responded to the e-device survey.</caption>
+<table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:surv2)Most common e-device software applications used by the IEP members who responded to the e-device survey.</caption>
  <thead>
   <tr>
-   <th style="text-align:left;"> Application </th>
-   <th style="text-align:left;"> Agency </th>
-   <th style="text-align:left;"> Type of Application/Data Collected </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Application </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Agency </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Type of Application/Data Collected </th>
   </tr>
  </thead>
 <tbody>
   <tr>
    <td style="text-align:left;"> ESRI Survey123 </td>
    <td style="text-align:left;"> ICF, NEON </td>
-   <td style="text-align:left;"> fish & zooplankton surveys, water quality </td>
+   <td style="text-align:left;"> fish &amp; zooplankton surveys, water quality </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Pendragon </td>
    <td style="text-align:left;"> DWR, CDFW </td>
-   <td style="text-align:left;"> fish & zooplankton surveys, water quality </td>
+   <td style="text-align:left;"> fish &amp; zooplankton surveys, water quality </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Fulcrum </td>
    <td style="text-align:left;"> ICF, NEON </td>
-   <td style="text-align:left;"> field data collection, botanical & wildlife surveys </td>
+   <td style="text-align:left;"> field data collection, botanical &amp; wildlife surveys </td>
   </tr>
   <tr>
    <td style="text-align:left;"> Adobe PDF Forms </td>
@@ -58,7 +58,7 @@ Among the 24 respondents, half of these were IEP associates and external contact
   <tr>
    <td style="text-align:left;"> .NET customized </td>
    <td style="text-align:left;"> DWR, USGS, CDFW </td>
-   <td style="text-align:left;"> MOPED water quality, SVMAQ water quality & discharge </td>
+   <td style="text-align:left;"> MOPED water quality, SVMAQ water quality &amp; discharge </td>
   </tr>
   <tr>
    <td style="text-align:left;"> iFormbuilder </td>
@@ -86,7 +86,7 @@ Among the 24 respondents, half of these were IEP associates and external contact
 
 
 
-## Key questions/concerns about using e-devices (derived from the e-device survey)
+## Key questions/concerns about using e-devices (derived from the e-device survey) {#keyqest}
 
 
 A series of key questions were extracted from the survey responses, and were further developed in the first several working group meetings. These questions outline most difficult hurdles that survey leads address when adopting electronic data entry technology for shipboard surveys.
