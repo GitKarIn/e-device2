@@ -41,32 +41,36 @@ knitr::include_graphics("figures/survey123/survey123_xlsform2.png", error = FALS
 source("setup.R")
 source(file.path(data_scripts_root,"readin_tables.R"))
 
-form_ops <- survey123$Forms_Options
+form_ops <- survey123$Forms_Options %>% select(-QC)
 
 ```
 
 
 
 
-```{r forms12b, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
+```{r forms12b, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='100%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
-kable(form_ops, format = "html", escape = F) %>%
+kable(form_ops, format = "html", escape = F, caption = 'Data Interface Criteria',
+      col.names = c("Feature"	,"Available",	"Description","Group Notes","External  Reviews","Score(0-3)"),
+      booktabs = TRUE, align =  "l") %>%
   kable_paper() %>% 
-  kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
-                font_size = 20) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE,  font_size = 20) %>%
+  
+  column_spec(1, width_min = "2cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "3cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "3cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(3, width_min = "4.5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(3, width_max = "5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(4, width_min = "4.5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(4, width_max = "5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(5, width_min = "4.5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(5, width_max = "5cm", bold = TRUE, italic = TRUE) %>%
+  column_spec(6, width_min = "2cm", bold = TRUE, italic = TRUE) %>%
+  #column_spec(7, width_min = "2cm", bold = TRUE, italic = TRUE) %>%
 
-  column_spec(1, width_min = "1.5cm", bold = TRUE, italic = F) %>%
-  column_spec(1, width_max = "2cm", bold = TRUE, italic = F) %>%
-  column_spec(2, width_max = "1cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(3, width_min = "2.5cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(3, width_max = "3cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(4, width_min = "3.5cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(4, width_max = "4cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(5, width_min = "3.5cm", bold = TRUE, italic = TRUE) %>%
-  column_spec(5, width_max = "4cm", bold = TRUE, italic = TRUE) %>%
-  scroll_box(width = "1200px", height = "1000px") 
+  scroll_box(width = "900px", height = "600px") 
 
 ```
 

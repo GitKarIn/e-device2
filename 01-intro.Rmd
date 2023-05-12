@@ -29,8 +29,7 @@ The intended product from this DUWG subgroup research is a central repository do
 
 
 
-
-```{r spkr, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='speakers', out.width='200%', fig.asp=.75, fig.align='left'}
+```{r spkr, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='speakers', out.width='100%', tab.asp=.75, tab.align='left'}
 
 library(kableExtra)
 library(dplyr)
@@ -44,18 +43,18 @@ spkrs %>%
   group_by(Software) %>%
   mutate(Software = ifelse(duplicated(Software), "", Software))  %>%
 
-kable(spkrs, format = "html", escape = F, caption = "Guest speakers and local trials.", booktabs = TRUE) %>%
+kable(spkrs, format = "html", escape = F, caption = "Guest speakers and local trials.", booktabs = TRUE,align='l') %>%
   kable_paper() %>% 
-  kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
-                font_size = 20) %>%
-
-  column_spec(1, width_min = "4cm", bold = TRUE, italic = F) %>%
+  # kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
+  #               font_size = 20) %>%
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  #column_spec(1, width_min = "4cm", bold = TRUE, italic = F) %>%
   column_spec(1, width_max = "4.5cm", bold = TRUE, italic = F) %>%
-  column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  #column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
   column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
-  column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  #column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
   column_spec(3, width_max = "10cm", bold = F, italic = F) %>%
-  scroll_box(width = "700px", height = "500px")
+  scroll_box(width = "800px")
 
 ```
 
@@ -73,7 +72,7 @@ The main categories considering include options within the forms building tools,
 
 <!-- [Top of section](#crittop) -->
 
-```{r forms, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Forms Criteria', out.width='200%', fig.asp=.75, fig.align='left'}
+```{r forms, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Forms Criteria', out.width='100%', fig.asp=.75, fig.align='left'}
 
 library(kableExtra)
 library(dplyr)
@@ -89,16 +88,16 @@ forms %>%
 
 kable(forms, format = "html", escape = F, caption = "Forms Options.", booktabs = TRUE) %>%
   kable_paper() %>% 
-  kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
-                font_size = 20) %>%
-
-  column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  # kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
+  #               font_size = 20) %>%
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  #column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
   column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
-  column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  #column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
   column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
-  column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
-  column_spec(3, width_max = "10cm", bold = F, italic = F) %>%
-  scroll_box(width = "900px", height = "1300px")
+  #column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  column_spec(3, width_max = "8cm", bold = F, italic = F) %>%
+  scroll_box(width = "800px")
 
 ```
 
@@ -111,7 +110,7 @@ kable(forms, format = "html", escape = F, caption = "Forms Options.", booktabs =
 [Top of section](#crittop)
 
 
-```{r data, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='200%', fig.asp=.75, fig.align='left'}
+```{r data, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='100%', fig.asp=.75, fig.align='left'}
 
 library(kableExtra)
 library(dplyr)
@@ -128,16 +127,16 @@ dataint %>%
 
 kable(dataint, format = "html", escape = F, caption = "Data Interface Options.", booktabs = TRUE) %>%
   kable_paper() %>% 
-  kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE, fixed_thead = TRUE,
-                font_size = 20) %>%
-  
-  column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  # kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE, fixed_thead = TRUE,
+  #               font_size = 20) %>%
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  #column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
   column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
-  column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  #column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
   column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
-  column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
-  column_spec(3, width_max = "10cm", bold = F, italic = F) %>%
-  scroll_box(width = "900px", height = "800px")
+  column_spec(3, width_min = "8cm", bold = F, italic = F) %>%
+  column_spec(3, width_max = "9cm", bold = F, italic = F) %>%
+  scroll_box(width = "800px")
 
 
 ```
@@ -148,12 +147,12 @@ kable(dataint, format = "html", escape = F, caption = "Data Interface Options.",
 
 
 
-#### Photo Integration and External Sensors {#datint}
+#### Photo Integration and External Sensors {#photo}
 
 [Top of section](#crittop)
 
 
-```{r photo, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='200%', fig.asp=.75, fig.align='left'}
+```{r photo, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='100%', tab.asp=.75, tab.align='left'}
 
 library(kableExtra)
 library(dplyr)
@@ -170,22 +169,21 @@ photsens %>%
 
   kable(format = "html", escape = F, caption = "Photo Integration and External Sensors.", booktabs = TRUE) %>%
   kable_paper() %>% 
-  kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE, fixed_thead = TRUE,
-                font_size = 20) %>%
+  kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
   
   column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
   column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
   column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
-  column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
+  #column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
   column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
-  column_spec(3, width_max = "10cm", bold = F, italic = F) %>%
-  scroll_box(width = "900px", height = "600px")
+  #column_spec(3, width_max = "10cm", bold = F, italic = F) #%>%
+  scroll_box(width = "800px")
 
 
 ```
 
 
 
-
+#### Hardware Platforms
 
 

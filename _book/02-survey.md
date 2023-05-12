@@ -24,8 +24,10 @@ The IEP e-device survey was run for approximately a month and received 24 respon
 Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  ). 
 
 
+## Most Common Software Applications Used
 
-<table class=" lightable-paper table table-striped table-hover" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 20px; width: auto !important; margin-left: auto; margin-right: auto;'>
+
+<table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
 <caption style="font-size: initial !important;">(\#tab:surv2)Most common e-device software applications used by the IEP members who responded to the e-device survey.</caption>
  <thead>
   <tr>
@@ -36,49 +38,49 @@ Among the 24 respondents, half of these were IEP associates and external contact
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> ESRI Survey123 </td>
-   <td style="text-align:left;"> ICF, NEON </td>
-   <td style="text-align:left;"> fish &amp; zooplankton surveys, water quality </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> ESRI Survey123 </td>
+   <td style="text-align:left;max-width: 7cm; "> ICF, NEON </td>
+   <td style="text-align:left;max-width: 10cm; "> fish &amp; zooplankton surveys, water quality </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Pendragon </td>
-   <td style="text-align:left;"> DWR, CDFW </td>
-   <td style="text-align:left;"> fish &amp; zooplankton surveys, water quality </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Pendragon </td>
+   <td style="text-align:left;max-width: 7cm; "> DWR, CDFW </td>
+   <td style="text-align:left;max-width: 10cm; "> fish &amp; zooplankton surveys, water quality </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Fulcrum </td>
-   <td style="text-align:left;"> ICF, NEON </td>
-   <td style="text-align:left;"> field data collection, botanical &amp; wildlife surveys </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Fulcrum </td>
+   <td style="text-align:left;max-width: 7cm; "> ICF, NEON </td>
+   <td style="text-align:left;max-width: 10cm; "> field data collection, botanical &amp; wildlife surveys </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Adobe PDF Forms </td>
-   <td style="text-align:left;"> ICF, DWR </td>
-   <td style="text-align:left;"> field data collection </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Adobe PDF Forms </td>
+   <td style="text-align:left;max-width: 7cm; "> ICF, DWR </td>
+   <td style="text-align:left;max-width: 10cm; "> field data collection </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> .NET customized </td>
-   <td style="text-align:left;"> DWR, USGS, CDFW </td>
-   <td style="text-align:left;"> MOPED water quality, SVMAQ water quality &amp; discharge </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> .NET customized </td>
+   <td style="text-align:left;max-width: 7cm; "> DWR, USGS, CDFW </td>
+   <td style="text-align:left;max-width: 10cm; "> MOPED water quality, SVMAQ water quality &amp; discharge </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> iFormbuilder </td>
-   <td style="text-align:left;"> ICF </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> iFormbuilder </td>
+   <td style="text-align:left;max-width: 7cm; "> ICF </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Zoho </td>
-   <td style="text-align:left;"> ICF </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Zoho </td>
+   <td style="text-align:left;max-width: 7cm; "> ICF </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Access, Excel </td>
-   <td style="text-align:left;"> ICF, USFWS </td>
-   <td style="text-align:left;"> tributary monitoring </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Access, Excel </td>
+   <td style="text-align:left;max-width: 7cm; "> ICF, USFWS </td>
+   <td style="text-align:left;max-width: 10cm; "> tributary monitoring </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> ESRI Collector, ESRI Field Maps </td>
-   <td style="text-align:left;"> USFWS, CDFW, UC </td>
-   <td style="text-align:left;"> geolocation of FAV, positional accuracy, spawning ground surveys </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> ESRI Collector, ESRI Field Maps </td>
+   <td style="text-align:left;max-width: 7cm; "> USFWS, CDFW, UC </td>
+   <td style="text-align:left;max-width: 10cm; "> geolocation of FAV, positional accuracy, spawning ground surveys </td>
   </tr>
 </tbody>
 </table>

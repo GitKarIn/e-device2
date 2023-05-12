@@ -8,6 +8,7 @@ fig:ESRIweb
 fig:ESRIweb2
 fig:xlsform
 fig:xlsform2
+tab:forms12b
 eq:binom
 thm:tri
 about
@@ -22,9 +23,12 @@ crittop
 criteria-for-comparison-of-e-device-apps
 forms
 datint
+photo
+hardware-platforms
 e-device-survey
 e-device-survey-outline
 survey-respondents
+most-common-software-applications-used
 keyqest
 esri-survey123
 survey123-overview
@@ -37,6 +41,9 @@ blocks
 equations
 theorems-and-proofs
 callout-blocks
-survey
 e-device-survey-1
+survey-questions
+survsect
+expusrz
+nonexp
 survey123

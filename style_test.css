@@ -1,0 +1,41 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+table thead tr{
+    display:block;
+}
+
+table  tbody{
+  display:block;
+  height:600px;
+  overflow:auto;//set tbody to auto
+}
+
+
+// Get the first row of the table
+const firstRow = document.querySelector('table tr:first-child');
+
+// Get the header row of the table
+const headerRow = document.querySelector('table tr th:first-child');
+
+// Loop through each cell in the first row
+for (let i = 0; i < firstRow.cells.length; i++) {
+
+  // Get the width of the cell using getBoundingClientRect()
+  const cellWidth = firstRow.cells[i].getBoundingClientRect().width;
+
+  // Set the width of the corresponding cell in the header row
+  headerRow.cells[i].style.width = `${cellWidth}px`;
+}
