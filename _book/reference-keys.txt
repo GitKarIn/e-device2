@@ -47,3 +47,5 @@ survsect
 expusrz
 nonexp
 survey123
+file-organization
+about-this-bookdown
