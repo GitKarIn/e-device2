@@ -14,7 +14,7 @@ csl: chicago-fullnote-bibliography.csl
 always_allow_html: yes
 ---
 
-# About this Bookdown 
+# About this bookdown document
 
 This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys.  This bookdown::bs4_book document is configured for HTML output format as set in the _output.yml file.
 
@@ -32,7 +32,7 @@ This Bookdown project uses the BS4_book output format and the file organization 
   * e-device2/: This is the main folder of the project which contains all of the .Rmd files which compose one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
 
-## To edit or contribute to the e-device book:
+## To edit or contribute to this e-device book:
 
 
 ### Direct changes to the e-device package using the Github interface:

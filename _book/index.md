@@ -1,15 +1,14 @@
 --- 
 title: "Electronic Data Entry Software Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
-date: "2023-05-12"
+date: "2023-05-16"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 url: https://github.com/GitKarIn/e-device2.git
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys.  
-  The HTML output format for this example is bookdown::bs4_book, set in the _output.yml file.
+  This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys. The HTML output format for this example is bookdown::bs4_book which is set in the _output.yml file.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 always_allow_html: yes
@@ -17,12 +16,11 @@ always_allow_html: yes
 
 # About this Bookdown 
 
-This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys.  
-The HTML output format for this example is bookdown::bs4_book, set in the _output.yml file.
+This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys.  This bookdown::bs4_book document is configured for HTML output format as set in the _output.yml file.
 
-## File Organization
+## Project File Organization
 
-In an R Markdown Bookdown project that uses the BS4_book output format, the file organization is as follows:
+This Bookdown project uses the BS4_book output format and the file organization is as follows:
 
   * _bookdown.yml: This file contains the configuration options for your Bookdown project, such as the output format, the location of your chapters, and the order of your chapters.
   * _output.yml: This file contains the configuration options for the output format that you're using, such as the theme, the CSS, and the JavaScript.

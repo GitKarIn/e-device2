@@ -12,7 +12,7 @@ tab:forms12b
 eq:binom
 thm:tri
 about-this-bookdown
-file-organization
+project-file-organization
 to-edit-or-contribute-to-the-e-device-book
 direct-changes-to-the-e-device-package-using-the-github-interface
 directly-communicate-your-proposed-changes-to
@@ -31,13 +31,13 @@ e-device-survey-outline
 survey-respondents
 most-common-software-applications-used
 keyqest
+criteria
+criteria-for-comparison-of-e-device-apps-1
+hardware-platforms-1
 esri-survey123
 survey123-overview
 survey123-forms-options
 survey123-forms-options-1
-footnotes-and-citations
-footnotes
-citations
 blocks
 equations
 theorems-and-proofs
@@ -48,3 +48,6 @@ survsect
 expusrz
 nonexp
 survey123
+footnotes-and-citations
+footnotes
+citations
