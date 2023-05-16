@@ -11,10 +11,11 @@ fig:xlsform2
 tab:forms12b
 eq:binom
 thm:tri
-about
-usage
-render-book
-preview-book
+about-this-bookdown
+file-organization
+to-edit-or-contribute-to-the-e-device-book
+direct-changes-to-the-e-device-package-using-the-github-interface
+directly-communicate-your-proposed-changes-to
 introduction
 e-device-working-group-overview
 goals
@@ -47,5 +48,3 @@ survsect
 expusrz
 nonexp
 survey123
-file-organization
-about-this-bookdown

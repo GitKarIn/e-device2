@@ -69,7 +69,16 @@ The HTML output format for this example is bookdown::bs4_book, set in the _outpu
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled"><li><a class="active" href="index.html"><span class="header-section-number">Chapter 1</span> About this Bookdown</a></li></ul>
+        <ul class="book-toc list-unstyled">
+<li><a class="active" href="index.html"><span class="header-section-number">1</span> About this Bookdown</a></li>
+<li><a class="" href="introduction.html"><span class="header-section-number">2</span> Introduction</a></li>
+<li><a class="" href="e-device-survey.html"><span class="header-section-number">3</span> E-device Survey</a></li>
+<li><a class="" href="esri-survey123.html"><span class="header-section-number">4</span> ESRI Survey123</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">5</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">6</span> Blocks</a></li>
+<li><a class="" href="appendices.html">APPENDICES</a></li>
+<li><a class="" href="references.html">References</a></li>
+</ul>
 
         <div class="book-extra">
           <p><a id="book-repo" href="https://github.com/rstudio/bookdown-demo">View book source <i class="fab fa-github"></i></a></p>
@@ -95,56 +104,60 @@ The HTML output format for this example is bookdown::bs4_book, set in the _outpu
 <li>01-chapter1.Rmd, 02-chapter2.Rmd, etc.: These are the chapter files for your book, which are numbered in the order that they appear in the table of contents.</li>
 <li>images/: This is the directory where you can store any images that you want to include in your book.</li>
 <li>data/: This is the directory where you can store any data files that you need to use in your book.</li>
+<li>e-device2/: This is the main folder of the project which contains all of the .Rmd files which compose one (and only one) chapter. A chapter <em>must</em> start with a first-level heading: <code># A good chapter</code>, and can contain one (and only one) first-level heading.</li>
 </ul>
 </div>
-<div id="usage" class="section level2" number="1.2">
+<div id="to-edit-or-contribute-to-the-e-device-book" class="section level2" number="1.2">
 <h2>
-<span class="header-section-number">1.2</span> Usage<a class="anchor" aria-label="anchor" href="#usage"><i class="fas fa-link"></i></a>
+<span class="header-section-number">1.2</span> To edit or contribute to the e-device book:<a class="anchor" aria-label="anchor" href="#to-edit-or-contribute-to-the-e-device-book"><i class="fas fa-link"></i></a>
 </h2>
-<p>Each <strong>bookdown</strong> chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter <em>must</em> start with a first-level heading: <code># A good chapter</code>, and can contain one (and only one) first-level heading.</p>
-<p>Use second-level and higher headings within chapters like: <code>## A short section</code> or <code>### An even shorter section</code>.</p>
-<p>The <code>index.Rmd</code> file is required, and is also your first book chapter. It will be the homepage when you render the book.</p>
-</div>
-<div id="render-book" class="section level2" number="1.3">
-<h2>
-<span class="header-section-number">1.3</span> Render book<a class="anchor" aria-label="anchor" href="#render-book"><i class="fas fa-link"></i></a>
-</h2>
-<p>You can render the HTML version of this example book without changing anything:</p>
+<div id="direct-changes-to-the-e-device-package-using-the-github-interface" class="section level3" number="1.2.1">
+<h3>
+<span class="header-section-number">1.2.1</span> Direct changes to the e-device package using the Github interface:<a class="anchor" aria-label="anchor" href="#direct-changes-to-the-e-device-package-using-the-github-interface"><i class="fas fa-link"></i></a>
+</h3>
 <ol style="list-style-type: decimal">
-<li><p>Find the <strong>Build</strong> pane in the RStudio IDE, and</p></li>
+<li><p>Create a fork off of the primary package: <a href="https://github.com/GitKarIn/e-device2.git" class="uri">https://github.com/GitKarIn/e-device2.git</a></p></li>
+<li><p>Clone this fork to your own system</p></li>
+<li><p>Render the book using the <strong>Build</strong> pane in the RStudio IDE, and</p></li>
 <li><p>Click on <strong>Build Book</strong>, then select your output format, or select “All formats” if you’d like to use multiple formats from the same book source files.</p></li>
 </ol>
 <p>Or build the book from the R console:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="fu">bookdown</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/bookdown/man/render_book.html">render_book</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
-<p>To render this example to PDF as a <code><a href="https://rdrr.io/pkg/bookdown/man/pdf_book.html">bookdown::pdf_book</a></code>, you’ll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <a href="https://yihui.org/tinytex/" class="uri">https://yihui.org/tinytex/</a>.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><p>Compose changes or updates to the book contents</p></li>
+<li><p>Check for merge conflicts and submit a pull request</p></li>
+</ol>
 </div>
-<div id="preview-book" class="section level2" number="1.4">
-<h2>
-<span class="header-section-number">1.4</span> Preview book<a class="anchor" aria-label="anchor" href="#preview-book"><i class="fas fa-link"></i></a>
-</h2>
-<p>As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in “Preview book”, or from the R console:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">bookdown</span><span class="fu">::</span><span class="fu"><a href="https://rdrr.io/pkg/bookdown/man/serve_book.html">serve_book</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<div id="directly-communicate-your-proposed-changes-to" class="section level3" number="1.2.2">
+<h3>
+<span class="header-section-number">1.2.2</span> Directly communicate your proposed changes to:<a class="anchor" aria-label="anchor" href="#directly-communicate-your-proposed-changes-to"><i class="fas fa-link"></i></a>
+</h3>
+<p><a href="mailto:karrin.alstad@wildlife.ca.gov" class="email">karrin.alstad@wildlife.ca.gov</a></p>
 
+</div>
 </div>
 </div>
   <div class="chapter-nav">
 <div class="empty"></div>
-<div class="empty"></div>
+<div class="next"><a href="introduction.html"><span class="header-section-number">2</span> Introduction</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#about-this-bookdown"><span class="header-section-number">Chapter 1</span> About this Bookdown</a></li>
+<li><a class="nav-link" href="#about-this-bookdown"><span class="header-section-number">1</span> About this Bookdown</a></li>
 <li><a class="nav-link" href="#file-organization"><span class="header-section-number">1.1</span> File Organization</a></li>
-<li><a class="nav-link" href="#usage"><span class="header-section-number">1.2</span> Usage</a></li>
-<li><a class="nav-link" href="#render-book"><span class="header-section-number">1.3</span> Render book</a></li>
-<li><a class="nav-link" href="#preview-book"><span class="header-section-number">1.4</span> Preview book</a></li>
+<li>
+<a class="nav-link" href="#to-edit-or-contribute-to-the-e-device-book"><span class="header-section-number">1.2</span> To edit or contribute to the e-device book:</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#direct-changes-to-the-e-device-package-using-the-github-interface"><span class="header-section-number">1.2.1</span> Direct changes to the e-device package using the Github interface:</a></li>
+<li><a class="nav-link" href="#directly-communicate-your-proposed-changes-to"><span class="header-section-number">1.2.2</span> Directly communicate your proposed changes to:</a></li>
+</ul>
+</li>
 </ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
-          
+<li><a id="book-source" href="https://github.com/rstudio/bookdown-demo/blob/master/index.Rmd">View source <i class="fab fa-github"></i></a></li>
+          <li><a id="book-edit" href="https://github.com/rstudio/bookdown-demo/edit/master/index.Rmd">Edit this page <i class="fab fa-github"></i></a></li>
         </ul>
 </div>
     </nav>
@@ -164,6 +177,34 @@ The HTML output format for this example is bookdown::bs4_book, set in the _outpu
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>

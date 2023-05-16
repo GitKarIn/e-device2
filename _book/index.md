@@ -31,42 +31,40 @@ In an R Markdown Bookdown project that uses the BS4_book output format, the file
   * 01-chapter1.Rmd, 02-chapter2.Rmd, etc.: These are the chapter files for your book, which are numbered in the order that they appear in the table of contents.
   * images/: This is the directory where you can store any images that you want to include in your book.
   * data/: This is the directory where you can store any data files that you need to use in your book.
+  * e-device2/: This is the main folder of the project which contains all of the .Rmd files which compose one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
 
 
+## To edit or contribute to the e-device book:
 
-## Usage 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+### Direct changes to the e-device package using the Github interface:
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+1. Create a fork off of the primary package: https://github.com/GitKarIn/e-device2.git
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+2. Clone this fork to your own system
 
-## Render book
+3. Render the book using the **Build** pane in the RStudio IDE, and
 
-You can render the HTML version of this example book without changing anything:
-
-1. Find the **Build** pane in the RStudio IDE, and
-
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
+3. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
 
 Or build the book from the R console:
-
 
 ```r
 bookdown::render_book()
 ```
 
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+4. Compose changes or updates to the book contents
 
-## Preview book
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
+5. Check for merge conflicts and submit a pull request
 
 
-```r
-bookdown::serve_book()
-```
+
+### Directly communicate your proposed changes to:
+
+karrin.alstad@wildlife.ca.gov
+
+
+
 
 
 
