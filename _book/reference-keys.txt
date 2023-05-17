@@ -39,6 +39,8 @@ esri-survey123
 survey123-overview
 survey123-forms-options
 survey123-forms-options-1
+powerapps-sf-bay-study-app
+e-device-hardware-options
 appendix---e-device-survey
 survey-questions
 survey-responses

@@ -16,7 +16,7 @@ always_allow_html: yes
 
 # About this bookdown document
 
-This bookdown document is intended as an on-going summary of information collected by IEP DUWG members (and any IEP associate) regarding the use of electronic data entry tools applied to IEP Surveys.  
+This bookdown document is intended as an repository of technical information on the use of electronic field data entry tools which has been collected from contributing IEP Survey Teams (and potentially external associates where useful).  The intent is that the document will serve as a resource for IEP Surveys seeking to update data entry protocols, and that the information in this document will be updated and maintained regularly by designated IEP DUWG members. 
 
 ## Project File Organization
 

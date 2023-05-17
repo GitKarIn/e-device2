@@ -1,6 +1,9 @@
+# (PART\*) Introduction and IEP E-device Poll {-}
+
+
 # Introduction 
 
-This bookdown document is intended to be a 'living document' which develops as more IEP survey leads adopt the use of electronic data entry tools.  Optimally, new e-device experiences and updated information can be shared with the IEP community through on-going presentations to the DUWG working group and on-going updates to this documented. 
+This bookdown document is intended to be a 'living document' which develops as more IEP surveys adopt the use of electronic data entry tools.  Optimally, new e-device experiences and information can be shared with the IEP community through on-going presentations to the DUWG working group and updates to this documented. 
 
 ## E-device Working Group Overview
 
