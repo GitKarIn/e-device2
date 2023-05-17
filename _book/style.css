@@ -28,3 +28,9 @@ table  tbody{
 tbody::-webkit-scrollbar {
   display: none;
 }
+
+table{
+   width:100%;
+   table-layout: fixed;
+   overflow-wrap: break-word;
+}

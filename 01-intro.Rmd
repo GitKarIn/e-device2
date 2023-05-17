@@ -19,9 +19,9 @@ Second, from the responses to the questionnaire, the distribution was expanded t
 Third, group members potentially test specific e-devices apps by making use of free trial licenses, and these trials reported back to the group (SFBS & Yolo By-pass were early volunteers for trial forms development exercises). Potentially other e-device methods will be researched and developed for demonstration purposes going forward (e.g., collection and integration of external sensor data and fish board data into e-device applications).
 
 
-### Scope of group activities and intended products {#crittop}
+### Scope of group activities and intended products 
 
-The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (\@ref(fig:survey)) the key questions/concerns about using e-devices [key questions](#keyqest) as well as the key criteria that will be used to evaluate each software options explored by the working group [criteria](#crittop).   These criteria served as the outline for software reviews.   
+The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (\@ref(fig:survey)) the key questions/concerns about using e-devices [key questions](#keyqest) as well as the key criteria that will be used to evaluate each software options explored by the working group [criteria](#crittop). These criteria served as the outline for software reviews.   
 
 Seven different field data entry software applications were evaluated over six months (\@ref(tab:spkr)); Each month, an expert user was invited to present the particular app, and efforts were made to find a local IEP representative to also trial the software and present their first hand impressions.
 

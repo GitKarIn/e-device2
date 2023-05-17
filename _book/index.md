@@ -1,7 +1,7 @@
 --- 
 title: "Electronic Data Entry Software Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
-date: "2023-05-16"
+date: "2023-05-17"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -72,7 +72,7 @@ bookdown::render_book()
 
 
 
-### Directly communicate your proposed changes to:
+### Send your proposed changes or additions to:
 
 karrin.alstad@wildlife.ca.gov
 

@@ -7,7 +7,7 @@ https://doc.arcgis.com/en/survey123/reference/whatissurvey123.htm
 
 From G2 Business Software Review: Survey123 is included with ArcGIS, and provides powerful features to help you leverage the power of location to boost your productivity while capturing data and analyzing the results of your surveys. https://www.g2.com/products/arcgis-survey123/reviews
 
-## Survey123 Forms Options
+## Survey123 Forms Options 
 
 Surveys123 Survey Forms are created and stored through the ESRI web interface (see Figure 1); access requires a current ESRI license. Survey123 forms can be downloaded to tablets, iPhones or iPads, and data collection can be made while the device is offline. Survey results are uploaded to cloud storage next time the device is on-line. 
 

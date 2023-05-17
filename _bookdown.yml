@@ -5,3 +5,22 @@ delete_merged_file: true
 language:
   ui:
     chapter_name: "Chapter "
+  label:
+    chapter: "Chapter"
+    appendix: "Appendix"
+    part: "Part"
+    figure: "Figure"
+    table: "Table"
+    equation: "Equation"
+    reference: "Reference"
+    code: "Code"
+# before_chapter_script: ["script1.R", "script2.R"]
+split_by: section
+rmd_files:
+  - index.Rmd
+  - 01-intro.Rmd
+  - 02-survey.Rmd
+  - 03-criteria.Rmd
+  - 04-survey123.Rmd
+  - appendix1.Rmd
+  - appendix2.Rmd

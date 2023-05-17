@@ -1,13 +1,13 @@
 # Criteria
 
-## Criteria for Comparison of E-device Apps 
+## Criteria for Comparison of E-device Apps {#crittop} 
 
-The e-device subgroup identified 6 different groupings of criteria for comparing different data entry apps: Forms Options \@ref(forms), Data Interface Options \@ref(datint), Photo Integration and External Sensor Options, Hardware Platform Options, Security Factors, and Vendor Business Model. 
+The e-device subgroup identified 6 different groupings of criteria for comparing different data entry apps: Forms Options \@ref(forms), Data Interface Options \@ref(datint), Photo Integration and External Sensor Options \@ref(photsens), Hardware Platform Options \@ref(hardware), Security Factors \@ref(securt), and Vendor Business Model \@ref(business). 
 The main categories considering include options within the forms building tools, including QC related factors such as constrained choices and rules that guide subsequent fields.  Other categories include IT security protocols, photo integration, cost of different product options, and factors related to the business model of each vendor, including the longevity of the company and the level/cost of customer/technical support. 
 
 
 
-### Forms Options Criteria {#forms} 
+### Forms Options Criteria {#forms}
 
 <!-- [Top of section](#crittop) -->
 
@@ -174,7 +174,7 @@ Can data be edited after having been pushed to a remote location? </td>
 
 
 
-### Photo Integration and External Sensors {#photo}
+### Photo Integration and External Sensors {#photsens}
 
 [Top of section](#crittop)
 
@@ -229,48 +229,48 @@ Can data be edited after having been pushed to a remote location? </td>
 
 
 
-### Hardware Platforms
+### Hardware Platforms {#hardware}
 
 [Top of section](#crittop)
 
 
 
-<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
+<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table style='width:90%; font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;' class=" lightable-paper table">
 <caption style="font-size: initial !important;">(\#tab:HWplat)Hardware Platforms Supported.</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Hardware/Operating System </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Yes/No </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Yes/No:  app can be used / HW type </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Smart Phones and Tablets </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 6.0cm; font-weight: bold;max-width: 6.5cm; font-weight: bold;"> Smart Phones and Tablets </td>
+   <td style="text-align:left;min-width: 8cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> -      iOS (phone and tablet) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 6.0cm; font-weight: bold;max-width: 6.5cm; font-weight: bold;"> -      iOS (phone and tablet) </td>
+   <td style="text-align:left;min-width: 8cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> -      Android(phone and tablet) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 6.0cm; font-weight: bold;max-width: 6.5cm; font-weight: bold;"> -      Android(phone and tablet) </td>
+   <td style="text-align:left;min-width: 8cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Desktop/laptop </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 6.0cm; font-weight: bold;max-width: 6.5cm; font-weight: bold;"> Desktop/laptop </td>
+   <td style="text-align:left;min-width: 8cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> - Windows 7,8,10 ?? </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 6.0cm; font-weight: bold;max-width: 6.5cm; font-weight: bold;"> -      Windows 7,8,10, 11 </td>
+   <td style="text-align:left;min-width: 8cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> -      MacOS (computer) </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 6.0cm; font-weight: bold;max-width: 6.5cm; font-weight: bold;"> -      MacOS (computer) </td>
+   <td style="text-align:left;min-width: 8cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> -      Ubuntu Linux </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 6.0cm; font-weight: bold;max-width: 6.5cm; font-weight: bold;"> -      Ubuntu Linux </td>
+   <td style="text-align:left;min-width: 8cm; ">  </td>
   </tr>
 </tbody>
 </table></div>
@@ -278,14 +278,14 @@ Can data be edited after having been pushed to a remote location? </td>
 
 
 
-### Secturity Factors
+### Security Factors {#securt}
 
 [Top of section](#crittop)
 
 
 
 <div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:security)Software Secturity Factors.</caption>
+<caption style="font-size: initial !important;">(\#tab:security)Software Security Factors.</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
@@ -294,24 +294,24 @@ Can data be edited after having been pushed to a remote location? </td>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Where’s the application/product origins from? </td>
-   <td style="text-align:left;"> IT have concerns about apps from countries that tend to distribute malware </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Where’s the application/product origins from? </td>
+   <td style="text-align:left;min-width: 6cm; "> IT have concerns about apps from countries that tend to distribute malware </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Is the application Cloud based, and if so, where? </td>
-   <td style="text-align:left;"> IT wants to know the location of a cloud storage service </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Is the application Cloud based, and if so, where? </td>
+   <td style="text-align:left;min-width: 6cm; "> IT wants to know the location of a cloud storage service </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Where is the data being stored for the application? </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Where is the data being stored for the application? </td>
+   <td style="text-align:left;min-width: 6cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Is the data center FedRAMP certified? </td>
-   <td style="text-align:left;"> Larger cloud services have all gone thru FedRAMP certification; but smaller services do not have this standard </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Is the data center FedRAMP certified? </td>
+   <td style="text-align:left;min-width: 6cm; "> Larger cloud services have all gone thru FedRAMP certification; but smaller services do not have this standard </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Online Security measures </td>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Online Security measures </td>
+   <td style="text-align:left;min-width: 6cm; ">  </td>
   </tr>
 </tbody>
 </table></div>
@@ -319,60 +319,37 @@ Can data be edited after having been pushed to a remote location? </td>
 
 
 
-### Business Model and Customer Support
+### Business Model and Customer Support {#business}
 
 [Top of section](#crittop)
 
 
 
 
-<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
+<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table style='width:100%; font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;' class=" lightable-paper table">
 <caption style="font-size: initial !important;">(\#tab:busmod)Business Model.</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Description </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> Option 1 </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Price (Option 1) </td>
+   <td style="text-align:left;min-width: 6cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Price (Option 2) </td>
+   <td style="text-align:left;min-width: 6cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;">  </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Business model </td>
+   <td style="text-align:left;min-width: 6cm; "> Size of company, Number of year in business, potential to stay in business </td>
   </tr>
   <tr>
-   <td style="text-align:left;"> Option 2 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Business model and Customer Support: What factors might prevent good working relationships with the vendor; what is the longevity outlook for the company? </td>
+   <td style="text-align:left;min-width: 5.0cm; font-weight: bold;max-width: 5.5cm; font-weight: bold;"> Technical Support </td>
+   <td style="text-align:left;min-width: 6cm; "> Cost for technical support, Quality of technical support </td>
   </tr>
 </tbody>
 </table></div>
-securfac[] <- lapply(securfac, function(x) ifelse(is.na(x), "", x))
-
-library(kableExtra)
-securfac %>%
-  # Group by category column and collapse repeating values
-  # group_by(Category) %>%
-  # mutate(Category = ifelse(duplicated(Category), "", Category)) %>%
-
-  kable(format = "html", escape = F, caption = "Software Secturity Factors.", booktabs = TRUE) %>%
-  kable_paper() %>% 
-  kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
-  
-  # column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
-  # column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
-  # column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
-  # #column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
-  # column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
-  #column_spec(3, width_max = "10cm", bold = F, italic = F) #%>%
-  scroll_box(width = "800px")
-
-
-```

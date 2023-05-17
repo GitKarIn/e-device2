@@ -1,9 +1,8 @@
-# APPENDICES {-}
+# (APPENDIX) Appendix {-}
 
-## E-device Survey
+#  Appendix - E-device Survey   
 
-### Survey Questions
-
+## Survey Questions 
 
 The IEP electronic data entry survey was distributed on June 15, 2022 and responses compiled on August 1, 2022. This survey may be downloaded from the following link:
 
@@ -11,14 +10,14 @@ The IEP electronic data entry survey was distributed on June 15, 2022 and respon
 xfun::embed_file("C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/IEP_Edevice_Survey.pdf")
 ```
 
-### Survey Responses {#survsect}
+## Survey Responses  
 
-The survey responses were separated into responses from [experienced e-device users](#expusrz) and responses from [non-experienced e-device users](#nonexp).
+The survey responses were separated into responses from experienced e-device users and responses from non-experienced e-device users.
 
 
-#### Responses from Experienced E-device Users  {#expusrz}
+### Responses from Experienced E-device Users   
 
-[Top of Section](#survsect)
+
 
 
 ```{r esurvdat, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE}
@@ -73,9 +72,8 @@ kable(Exp, format = "html", escape = F,
 
 
 
-#### Responses from Non-Experienced Seeking E-Solutions {#nonexp}
+#### Responses from Non-Experienced Seeking E-Solutions  
 
-[Top of Section](#survsect)
 
 ```{r e_surv3, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE, out.width='80%', fig.asp=.75, fig.align='left' }
 
@@ -100,35 +98,6 @@ kable(Look2, format = "html", escape = F,
   scroll_box(width = "900px", height = "600px")
 
 ```
-
-
-
-
-
-
-## Survey123
-
-```{r surv123, echo = FALSE, include=F, message=FALSE, warning=FALSE }
-
-library(kableExtra)
-
-text_tbl <- data.frame(
-  Items = c("Item 1", "Item 2", "Item 3"),
-  Features = c(
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vehicula tempor ex. Morbi malesuada sagittis turpis, at venenatis nisl luctus a. ",
-    "In eu urna at magna luctus rhoncus quis in nisl. Fusce in velit varius, posuere risus et, cursus augue. Duis eleifend aliquam ante, a aliquet ex tincidunt in. ", 
-    "Vivamus venenatis egestas eros ut tempus. Vivamus id est nisi. Aliquam molestie erat et sollicitudin venenatis. In ac lacus at velit scelerisque mattis. "
-  )
-)
-
-kbl(text_tbl) %>%
-  kable_paper(full_width = F) %>%
-  column_spec(1, bold = T, border_right = T) %>%
-  column_spec(2, width = "20em", background = "yellow")
-
-```
-
-
 
 
 
