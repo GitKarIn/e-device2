@@ -124,3 +124,116 @@ photsens %>%
 
 
 ### Hardware Platforms
+
+[Top of section](#crittop)
+
+
+
+```{r HWplat, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='100%', tab.asp=.75, tab.align='left'}
+
+library(kableExtra)
+library(dplyr)
+
+criteria_in <- readRDS("criteria.rds") 
+HWplats <- criteria_in$HW_Platforms
+HWplats[] <- lapply(HWplats, function(x) ifelse(is.na(x), "", x))
+
+library(kableExtra)
+HWplats %>%
+  # Group by category column and collapse repeating values
+  # group_by(Category) %>%
+  # mutate(Category = ifelse(duplicated(Category), "", Category)) %>%
+
+  kable(format = "html", escape = F, caption = "Hardware Platforms Supported.", booktabs = TRUE) %>%
+  kable_paper() %>% 
+  kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  # column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  # column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
+  # column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  # #column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
+  # column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  #column_spec(3, width_max = "10cm", bold = F, italic = F) #%>%
+  scroll_box(width = "800px")
+
+
+```
+
+
+
+
+### Secturity Factors
+
+[Top of section](#crittop)
+
+
+
+```{r security, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='100%', tab.asp=.75, tab.align='left'}
+
+library(kableExtra)
+library(dplyr)
+
+criteria_in <- readRDS("criteria.rds") 
+securfac <- criteria_in$Security_Factors
+securfac[] <- lapply(securfac, function(x) ifelse(is.na(x), "", x))
+
+library(kableExtra)
+securfac %>%
+  # Group by category column and collapse repeating values
+  # group_by(Category) %>%
+  # mutate(Category = ifelse(duplicated(Category), "", Category)) %>%
+
+  kable(format = "html", escape = F, caption = "Software Secturity Factors.", booktabs = TRUE) %>%
+  kable_paper() %>% 
+  kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  # column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  # column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
+  # column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  # #column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
+  # column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  #column_spec(3, width_max = "10cm", bold = F, italic = F) #%>%
+  scroll_box(width = "800px")
+
+
+```
+
+
+
+
+### Business Model and Customer Support
+
+[Top of section](#crittop)
+
+
+
+
+```{r busmod, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Business Model and Customer Support', out.width='100%', tab.asp=.75, tab.align='left'}
+
+library(kableExtra)
+library(dplyr)
+
+criteria_in <- readRDS("criteria.rds") 
+busmod <- criteria_in$Business_Model
+busmod[] <- lapply(busmod, function(x) ifelse(is.na(x), "", x))
+
+library(kableExtra)
+busmod %>%
+  # Group by category column and collapse repeating values
+  # group_by(Category) %>%
+  # mutate(Category = ifelse(duplicated(Category), "", Category)) %>%
+
+  kable(format = "html", escape = F, caption = "Business Model.", booktabs = TRUE) %>%
+  kable_paper() %>% 
+  kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  # column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  # column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
+  # column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  # #column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
+  # column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  #column_spec(3, width_max = "10cm", bold = F, italic = F) #%>%
+  scroll_box(width = "800px")
+
+
+```

@@ -21,7 +21,7 @@ The IEP e-device survey was run for approximately a month and received 24 respon
 source("setup.R")
 
 sms <- Survey3  %>%  group_by(Agency) %>% summarize(n())
-smssum <- Survey3  %>%  summarize(n())
+smssum <- Survey3  %>%  summarize(n()) 
 
 pie_labels <- paste0(sms$Agency, " = ", round(100 *sms$`n()`/sum(sms$`n()`), 2), "%")
 pie_labels <- paste0(sms$Agency, " = ", sms$`n()`)

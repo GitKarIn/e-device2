@@ -230,3 +230,149 @@ Can data be edited after having been pushed to a remote location? </td>
 
 
 ### Hardware Platforms
+
+[Top of section](#crittop)
+
+
+
+<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:HWplat)Hardware Platforms Supported.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Hardware/Operating System </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Yes/No </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Smart Phones and Tablets </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> -      iOS (phone and tablet) </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> -      Android(phone and tablet) </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Desktop/laptop </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> - Windows 7,8,10 ?? </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> -      MacOS (computer) </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> -      Ubuntu Linux </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+
+
+### Secturity Factors
+
+[Top of section](#crittop)
+
+
+
+<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:security)Software Secturity Factors.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Description </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Where’s the application/product origins from? </td>
+   <td style="text-align:left;"> IT have concerns about apps from countries that tend to distribute malware </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Is the application Cloud based, and if so, where? </td>
+   <td style="text-align:left;"> IT wants to know the location of a cloud storage service </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Where is the data being stored for the application? </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Is the data center FedRAMP certified? </td>
+   <td style="text-align:left;"> Larger cloud services have all gone thru FedRAMP certification; but smaller services do not have this standard </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Online Security measures </td>
+   <td style="text-align:left;">  </td>
+  </tr>
+</tbody>
+</table></div>
+
+
+
+
+### Business Model and Customer Support
+
+[Top of section](#crittop)
+
+
+
+
+<div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
+<caption style="font-size: initial !important;">(\#tab:busmod)Business Model.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Option 1 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Option 2 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Business model and Customer Support: What factors might prevent good working relationships with the vendor; what is the longevity outlook for the company? </td>
+  </tr>
+</tbody>
+</table></div>
+securfac[] <- lapply(securfac, function(x) ifelse(is.na(x), "", x))
+
+library(kableExtra)
+securfac %>%
+  # Group by category column and collapse repeating values
+  # group_by(Category) %>%
+  # mutate(Category = ifelse(duplicated(Category), "", Category)) %>%
+
+  kable(format = "html", escape = F, caption = "Software Secturity Factors.", booktabs = TRUE) %>%
+  kable_paper() %>% 
+  kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  # column_spec(1, width_min = "3.5cm", bold = TRUE, italic = F) %>%
+  # column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
+  # column_spec(2, width_min = "6cm", bold = F, italic = F) %>%
+  # #column_spec(2, width_max = "7cm", bold = F, italic = F) %>%
+  # column_spec(3, width_min = "10cm", bold = F, italic = F) %>%
+  #column_spec(3, width_max = "10cm", bold = F, italic = F) #%>%
+  scroll_box(width = "800px")
+
+
+```
