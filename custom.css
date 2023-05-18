@@ -1,14 +1,18 @@
-p.caption {
-  color: #777;
-  margin-top: 10px;
+
+/* Whole document: */
+body{
+  font-size: 16pt;
 }
-p code {
-  white-space: inherit;
+/* Headers */
+h2,h3,h4,h5,h6{
+  font-size: 24pt;
 }
-pre {
-  word-break: normal;
-  word-wrap: normal;
+h1.book-header{
+  font-size: 16pt;
 }
-pre code {
-  white-space: inherit;
+
+#toc li.part a {
+  font-size: 20px;
 }
+
+

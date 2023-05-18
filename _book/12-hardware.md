@@ -1,3 +1,3 @@
-# (PART\*) Hardware Reviews {-}
+# (PART\*) Hardware Reviews 
 
-# E-Device Hardware Options
+# E-Device Hardware Options {-}

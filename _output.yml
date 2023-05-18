@@ -3,7 +3,8 @@ bookdown::bs4_book:
   theme:
     primary: "#096B72"
     bootswatch: yeti
-  repo: https://github.com/rstudio/bookdown-demo
+    #h1-font-size: "2rem"
+  repo: https://github.com/GitKarIn/e-device2.git
 # bookdown::pdf_book:
 #   includes:
 #     in_header: preamble.tex

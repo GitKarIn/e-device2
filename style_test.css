@@ -35,27 +35,12 @@ table{
    overflow-wrap: break-word;
 }
 
-.sidebar li a {
-font-size: 16px;
+/* Whole document: */
+body{
+  font-family: Helvetica;
+  font-size: 16pt;
 }
-
-
-li.book-part {
-  font-size: 1.3em;
-  color: blue;
-}
-
-li.a[href="index.html" title="Electronic Data Entry Software Options for IEP Surveys"] {
-  font-size: 2em;
-}
-
-.sidebar h1 {
-  font-family: "Comic Sans MS", sans-serif;
-  font-size: 1.3em;
-}
-
-h1 {
-  font-family: "Comic Sans MS", sans-serif;
-  font-size: 2.5rem; /* adjust the font size as needed */
-  color: #333; /* adjust the color as needed */
+/* Headers */
+h1,h2,h3,h4,h5,h6{
+  font-size: 24pt;
 }

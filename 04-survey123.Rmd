@@ -1,6 +1,6 @@
-# ESRI Survey123
+# ESRI Survey123 {-}
 
-## Survey123 Overview
+## Survey123 Overview {-}
 
 From ESRI documentation: ArcGIS Survey123 is a complete, form-centric solution for creating, sharing, and analyzing surveys. Use it to create forms with skip logic, defaults, and support for multiple languages. Collect data using web or mobile devices, even when disconnected from the internet. Upload data securely, and analyze results on the web or in an ArcGIS app. 
 https://doc.arcgis.com/en/survey123/reference/whatissurvey123.htm
