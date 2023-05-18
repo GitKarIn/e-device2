@@ -5,18 +5,13 @@ date: "2023-05-18"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-url: https://github.com/GitKarIn/e-device2.git
-# cover-image: path to the social sharing image like images/cover.jpg
+#url: https://github.com/GitKarIn/e-device2.git
+cover-image: C:/Users/KAlstad/Documents/Github_C/e-device2/images/IEP_logo_compliant_colors.jpg
 description: |
-  This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys. The HTML output format for this example is bookdown::bs4_book which is set in the _output.yml file.
+  This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys. This project is in-progress and has not been fully reviewed by the IEP DUWG e-device team.
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 always_allow_html: yes
-#output:
-#  bookdown::bs4_book:
-#    css:
-#      - C:/Users/KAlstad/Documents/Github_C/e-device2/_book/libs/bootstrap-4.6.0/bootstrap.min.css
-#      - C:/Users/KAlstad/Documents/Github_C/e-device2/custom.css
 ---
 
 

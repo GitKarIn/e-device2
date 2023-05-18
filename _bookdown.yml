@@ -14,6 +14,8 @@ language:
     equation: "Equation"
     reference: "Reference"
     code: "Code"
+includes:
+      before_body: titlepage.html
 # before_chapter_script: ["script1.R", "script2.R"]
 split_by: section
 rmd_files:

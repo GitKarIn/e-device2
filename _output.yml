@@ -4,7 +4,7 @@ bookdown::bs4_book:
     primary: "#096B72"
     bootswatch: yeti
     #h1-font-size: "2rem"
-  repo: https://github.com/GitKarIn/e-device2.git
+  #repo: https://github.com/GitKarIn/e-device2.git
 # bookdown::pdf_book:
 #   includes:
 #     in_header: preamble.tex
