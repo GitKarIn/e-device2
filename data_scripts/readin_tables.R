@@ -9,8 +9,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   x
 }
 Xdatfldr = "C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/DeviceComparisons"
-survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria.xlsx"))
-survey123$Forms_Options[is.na(survey123$Forms_Options)] <- " "
+survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria2.xlsx"))
 
 
 ## e-device survey results

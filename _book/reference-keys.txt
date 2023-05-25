@@ -11,7 +11,11 @@ fig:ESRIweb
 fig:ESRIweb2
 fig:xlsform
 fig:xlsform2
-tab:forms12b
+tab:s123form
+tab:s123dat
+tab:s123phot
+tab:s123hard
+tab:s123sec
 project-file-organization
 two-ways-to-edit-or-contribute-to-this-e-device-book
 submit-changes-to-the-e-device-package-using-the-github-interface
@@ -33,8 +37,14 @@ photsens
 hardware
 securt
 business
+s123top
 survey123-forms-options
 survey123-forms-options-1
+S23dat
+s123phot
+s123hard
+s123sec
+s123bus
 part-software-demonstrations
 part-hardware-reviews
 appendix---e-device-survey

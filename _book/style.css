@@ -9,36 +9,15 @@ pre {
   word-break: normal;
   word-wrap: normal;
 }
+
 pre code {
   white-space: inherit;
 }
 
-table thead tr{
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-
-table  tbody{
-  display:block;
-  max-height:600px;
-  overflow:auto;//set tbody to auto
-}
-
-tbody::-webkit-scrollbar {
-  display: none;
-}
-
-table{
-   width:100%;
-   table-layout: fixed;
-   overflow-wrap: break-word;
-}
 
 .sidebar li a {
 font-size: 16px;
 }
-
 
 li.book-part {
   font-size: 1.3em;
@@ -60,16 +39,4 @@ h1 {
   color: #333; /* adjust the color as needed */
 }
 
-li.a[id="book-source"] {
-  display: none;
-}
 
-
-li.a[id="book-edit"] {
-  display: none;
-}
-
-#book-links li:nth-child(1),
-#book-links li:nth-child(2) {
-  display: none !important;
-}

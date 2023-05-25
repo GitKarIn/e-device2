@@ -1,8 +1,6 @@
 # (PART\*) Software Reviews 
 
 
-
-
 # Software Comparison Criteria {-}
 
 ## Criteria for Comparison of E-device Apps {#crittop} 
@@ -54,7 +52,7 @@ kable(forms, format = "html", escape = F, caption = "Forms Options.", booktabs =
 [Top of section](#crittop)
 
 
-```{r data, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='100%', fig.asp=.75, fig.align='left'}
+```{r data, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Criteria', out.width='100%',  tab.asp=.75, tab.align='left'}
 
 library(kableExtra)
 library(dplyr)
@@ -177,7 +175,6 @@ criteria_in <- readRDS("criteria.rds")
 securfac <- criteria_in$Security_Factors
 securfac[] <- lapply(securfac, function(x) ifelse(is.na(x), "", x))
 
-library(kableExtra)
 securfac %>%
 
   kable(format = "html", escape = F, caption = "Software Security Factors.", booktabs = TRUE) %>%
@@ -202,7 +199,7 @@ securfac %>%
 
 
 
-```{r busmod, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Business Model and Customer Support', out.width='100%', tab.asp=.75, tab.align='left'}
+```{r busmod, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap="Business Model and Customer Support", out.width='100%', tab.asp=.75, tab.align='left'}
 
 library(kableExtra)
 library(dplyr)
