@@ -14,12 +14,20 @@ csl: chicago-fullnote-bibliography.csl
 always_allow_html: yes
 ---
 
-
-#  R Bookdown Preamble {-}
+# Overview {-}
 
 This bookdown document is intended as an repository of technical information related to the use of electronic field data entry tools, including the software, hardware, and interface with downstream databases and external sensors.  This information is collected from contributing IEP Survey Teams (and external associates when helpful). The intent is that the document will serve as a resource for IEP Surveys seeking to update data entry protocols, and that the information in this document will be updated and maintained regularly by designated IEP DUWG members. 
 
-## Project File Organization
+
+## Summary Findings
+
+
+
+## What Still Needs To Be Reviewed 
+
+
+
+## Bookdown File Organization
 
 
 This document is configured using the bookdown::bs4_book format for HTML output and the file organization is as follows:
@@ -46,9 +54,7 @@ This document is configured using the bookdown::bs4_book format for HTML output 
   
 
 
-
-
-## Two ways to edit or contribute to this e-device book:
+## How to Contribute: Two Ways
 
 
 ### Submit changes to the e-device package using the Github interface:
@@ -73,7 +79,7 @@ bookdown::render_book()
 
 
 
-### Send your proposed changes or additions to:
+### Send proposed changes or additions to:
 
 karrin.alstad@wildlife.ca.gov
 

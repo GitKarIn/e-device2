@@ -576,7 +576,7 @@ https://www.esri.com/arcgis-blog/products/survey123/announcements/barcode-scanni
    <td style="text-align:left;min-width: 3cm; max-width: 4cm; "> Headquartered in Redlands, California </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; "> Product thoroughly vetted in state agencies. </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 3cm; font-weight: bold;max-width: 4cm; font-weight: bold;"> Is the application Cloud based, and if so, where? </td>
@@ -585,7 +585,7 @@ https://www.esri.com/arcgis-blog/products/survey123/announcements/barcode-scanni
 Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooling and prebuilt virtual machine images on two cloud platforms: Amazon Web Services (AWS) and Microsoft Azure: </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; "> You can deploy ArcGIS Enterprise on any cloud platform that provides virtual machines meeting the basic system requirements </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 3cm; font-weight: bold;max-width: 4cm; font-weight: bold;"> Where is the data being stored for the application? </td>
@@ -593,7 +593,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 3cm; max-width: 4cm; "> Everything stored in Azure. Storage exists in triplicate in specified data centers located around the world  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 3cm; font-weight: bold;max-width: 4cm; font-weight: bold;"> Is the data center FedRAMP certified? </td>
@@ -601,7 +601,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 3cm; max-width: 4cm; "> Azure maintains the following authorizations: FedRAMP High Provisional Authorization to Operate (P-ATO) issued by the FedRAMP Joint Authorization Board (JAB) </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 3cm; font-weight: bold;max-width: 4cm; font-weight: bold;"> Online Security measures </td>
@@ -609,7 +609,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 3cm; max-width: 4cm; "> ArcGIS Online secures all access to your information. User identity is established when the user signs in, which always takes place over an encrypted connection (HTTPS). </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; "> Subsequent transactions require the token acquired at sign in and can take place over encrypted or unencrypted connections. </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
 </tbody>
 </table></div>
@@ -624,7 +624,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:#s123bus)Business Model and Pricing</caption>
+<caption style="font-size: initial !important;">(\#tab:s123bus)Business Model and Pricing</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
@@ -642,7 +642,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 2cm; max-width: 2.5cm; "> $350/yr </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 5cm; font-weight: bold;">  </td>
@@ -650,7 +650,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 2cm; max-width: 2.5cm; "> $500/yr </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 5cm; font-weight: bold;">  </td>
@@ -658,7 +658,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 2cm; max-width: 2.5cm; "> $700/yr </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 5cm; font-weight: bold;"> Price (Option 2) </td>
@@ -666,7 +666,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 2cm; max-width: 2.5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 5cm; font-weight: bold;">  </td>
@@ -674,7 +674,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
    <td style="text-align:left;min-width: 2cm; max-width: 2.5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 5cm; font-weight: bold;"> Business model </td>
@@ -693,7 +693,7 @@ https://www.g2.com/products/arcgis-survey123/reviews#survey-response-2743872
 https://www.g2.com/products/arcgis-survey123/reviews?page=2#survey-response-766508
 
 https://www.g2.com/products/arcgis-survey123/reviews#survey-response-2743872 </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;min-width: 4cm; font-weight: bold;max-width: 5cm; font-weight: bold;"> Technical Support </td>
@@ -701,7 +701,7 @@ https://www.g2.com/products/arcgis-survey123/reviews#survey-response-2743872 </t
    <td style="text-align:left;min-width: 2cm; max-width: 2.5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; ">  </td>
-   <td style="text-align:left;min-width: 2cm; ">  </td>
+   <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
 </tbody>
 </table></div>

@@ -1,3 +1,1 @@
-# (PART\*) Software Demonstrations 
-
-# PowerApps SF Bay Study app {-}
+# SF Bay Study: PowerApps Trial app {-}

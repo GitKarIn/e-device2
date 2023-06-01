@@ -25,11 +25,7 @@ table  tbody{
   overflow:auto;//set tbody to auto
 }
 
-table  tbody{
-  display:block;
-  max-height:600px;
-  overflow:auto;//set tbody to auto
-}
+
 
 
 tbody::-webkit-scrollbar {

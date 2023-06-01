@@ -15,6 +15,23 @@ pre code {
 }
 
 
+table thead tr{
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+table  tbody{
+  display:block;
+  max-height:600px;
+  overflow:auto;//set tbody to auto
+}
+
+
+tbody::-webkit-scrollbar {
+  display: none;
+}
+
 .sidebar li a {
 font-size: 16px;
 }

@@ -15,6 +15,9 @@ survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria2.xl
 ## e-device survey results
 
 Survey <- read_excel("C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/SurveyResults/Survey1.xlsx",sheet = "Sheet1")
+tabs_root
+
+
 
 Survey1 <- Survey %>% 
   select(-`Completion time`,-Email,-"Contact Email (optional)",-"Contact Phone (optional)",-Name) %>% 
