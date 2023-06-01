@@ -24,6 +24,7 @@ rmd_files:
   - 02-survey.Rmd
   - 03-criteria.Rmd
   - 04-survey123.Rmd
+  - 10-survey123demo.Rmd
   - 11-powerappsdemo.Rmd
   - 12-hardware.Rmd
   - appendix1.Rmd

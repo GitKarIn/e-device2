@@ -250,7 +250,7 @@ kable(s123sec, format = "html", escape = F, caption = 'Security Factors', bookta
   column_spec(4, width_max = "5cm") %>%
   column_spec(5, width_min = "4.5cm") %>%
   column_spec(5, width_max = "5cm") %>%
-  column_spec(6, width_min = "2cm") %>%  
+  column_spec(6, width_min = "3cm") %>%  
   
   scroll_box(width = "800px", height = "600px") 
 
@@ -265,7 +265,7 @@ kable(s123sec, format = "html", escape = F, caption = 'Security Factors', bookta
 
 
 
-```{r #s123bus, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Business Model and Pricing', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r s123bus, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Business Model and Pricing', out.width='100%', tab.asp=.75, tab.align='left' }
 
 
 
@@ -289,7 +289,7 @@ kable(s123bus, format = "html", escape = F, caption = 'Business Model and Pricin
   column_spec(4, width_max = "5cm") %>%
   column_spec(5, width_min = "4.5cm") %>%
   column_spec(5, width_max = "5cm") %>%
-  column_spec(6, width_min = "2cm") %>%  
+  column_spec(6, width_min = "3cm") %>%  
   scroll_box(width = "800px", height = "600px") 
 
 
