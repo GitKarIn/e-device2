@@ -1,0 +1,291 @@
+# MS Power Apps {-}
+
+## Power Apps Overview {-}  {#pApptop} 
+
+
+
+## Power Apps Forms Options 
+
+
+
+```{r ESRIweb, echo=FALSE, fig.cap="Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey.", out.width = '90%'}
+knitr::include_graphics("images/PowerApps/Start_Canvas.jpg", error = FALSE)
+```
+
+
+
+```{r ESRIweb2, echo=FALSE, fig.cap="Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool.", out.width = '90%'}
+knitr::include_graphics("images/PowerApps/Start_Canvas3.jpg", error = FALSE)
+```
+
+
+
+```{r xlsform, echo=FALSE, fig.cap="Screen capture of ESRI Survey123 Connect software demonstrating the use of the XLSForm spreadsheet-based coding language and the ability to directly edit the JavaScript code that is linked to XLSForm parameters.", out.width = '90%'}
+knitr::include_graphics("images/PowerApps/Start_Canvas4.jpg", error = FALSE)
+```
+
+
+
+```{r xlsform2, echo=FALSE, fig.cap="Screen capture of ArcGIS website description of the XLSForm features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-Apps-for-the-Field-State-of-ID.pdf.", out.width = '90%'}
+knitr::include_graphics("images/PowerApps/Start_Canvas6.jpg", error = FALSE)
+```
+
+
+## Power Apps: Forms Options
+
+
+
+
+```{r pAppinit, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
+
+library(kableExtra)
+
+source("setup.R")
+source(file.path(data_scripts_root,"readin_tables.R"))
+
+pAppform <- powerapp$Forms_Options
+pAppdat <- powerapp$Data_Interface 
+pAppphot <- powerapp$Photos_ExtSensors
+pApphard <- powerapp$HW_Platforms
+pAppsec  <- powerapp$Security_Factors
+pAppbus  <- powerapp$Business_Model
+```
+
+
+
+
+
+
+```{r pAppform, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Forms Options', out.width='70%', tab.asp=.75, tab.align='left' }
+
+library(kableExtra)
+
+pAppform[] <- lapply(pAppform, function(x) ifelse(is.na(x), "", x))
+pAppform %>%
+  # Group by category column and collapse repeating values
+  group_by(Category) %>%
+  mutate(Category = ifelse(duplicated(Category), "", Category))  %>%
+  group_by(Feature) %>%
+  mutate(Feature = ifelse(duplicated(Feature), "", Feature))  %>%
+  
+  
+kable(pAppform, format = "html", escape = F, caption = 'Forms Options',
+      col.names = c("Category","Feature"	,"Available","Description",		"Group Notes","External  Reviews","Score(0-3)"),
+      booktabs = TRUE, align =  "l") %>%
+  kable_paper() %>% 
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  column_spec(1, width_min = "2cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "3cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "2cm" ) %>%
+  column_spec(2, width_max = "3cm" ) %>%
+  column_spec(3, width_min = "2cm") %>%
+  column_spec(3, width_max = "2.5cm") %>%
+  column_spec(4, width_min = "4.5cm") %>%
+  column_spec(4, width_max = "5cm") %>%
+  column_spec(5, width_min = "4.5cm") %>%
+  column_spec(5, width_max = "5cm") %>%
+  column_spec(6, width_min = "2cm") %>%  
+  column_spec(7, width_min = "3cm") %>%
+  scroll_box(width = "800px", height = "600px") 
+```
+
+
+## Power Apps: Data Interface {#pAppdat}
+
+
+
+```{r pAppdat, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Options', out.width='100%', tab.asp=.75, tab.align='left' }
+
+library(kableExtra)
+
+pAppdat[] <- lapply(pAppdat, function(x) ifelse(is.na(x), "", x))
+
+
+pAppdat %>%
+  # Group by category column and collapse repeating values
+  group_by(Category) %>%
+  mutate(Category = ifelse(duplicated(Category), "", Category))  %>%
+  group_by(Feature) %>%
+  mutate(Feature = ifelse(duplicated(Feature), "", Feature))  %>%
+  
+
+
+kable(pAppdat, format = "html", escape = F, caption = 'Data Interface Options',
+      col.names = c("Category","Feature"	,"Available","Description",		"Group Notes","External  Reviews","Score(0-3)"),
+      booktabs = TRUE, align =  "l") %>%
+  kable_paper() %>% 
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  column_spec(1, width_min = "2cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "3cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "2cm" ) %>%
+  column_spec(2, width_max = "3cm" ) %>%
+  column_spec(3, width_min = "2cm") %>%
+  column_spec(3, width_max = "2.5cm") %>%
+  column_spec(4, width_min = "4.5cm") %>%
+  column_spec(4, width_max = "5cm") %>%
+  column_spec(5, width_min = "4.5cm") %>%
+  column_spec(5, width_max = "5cm") %>%
+  column_spec(6, width_min = "2cm") %>%  
+  column_spec(7, width_min = "3cm") %>%
+  scroll_box(width = "800px", height = "600px") 
+
+```
+
+
+
+
+##  Power Apps: Photo Integration and External Sensors {#pAppphot}
+
+
+```{r pAppphot, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Photo Integration and External Sensors', out.width='100%', tab.asp=.75, tab.align='left' }
+
+
+library(kableExtra)
+
+pAppphot[] <- lapply(pAppphot, function(x) ifelse(is.na(x), "", x))
+
+pAppphot %>%
+  # Group by category column and collapse repeating values
+  group_by(Category) %>%
+  mutate(Category = ifelse(duplicated(Category), "", Category))  %>%
+  group_by(Feature) %>%
+  mutate(Feature = ifelse(duplicated(Feature), "", Feature))  %>%
+  
+
+
+kable(pAppphot, format = "html", escape = F, caption = 'Photo Integration and External Sensors',  
+      col.names = c("Category","Feature"	,"Available","Description",	"Group Notes","External  Reviews","Score(0-3)"),
+      booktabs = TRUE, align =  "l") %>%
+  kable_paper() %>% 
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  column_spec(1, width_min = "2cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "3cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "2cm" ) %>%
+  column_spec(2, width_max = "3cm" ) %>%
+  column_spec(3, width_min = "2cm") %>%
+  column_spec(3, width_max = "2.5cm") %>%
+  column_spec(4, width_min = "4.5cm") %>%
+  column_spec(4, width_max = "5cm") %>%
+  column_spec(5, width_min = "4.5cm") %>%
+  column_spec(5, width_max = "5cm") %>%
+  column_spec(6, width_min = "2cm") %>%  
+  column_spec(7, width_min = "3cm") %>%
+  
+  scroll_box(width = "800px", height = "600px") 
+
+```
+
+
+
+
+
+##  Power Apps:  Hardware Platforms  {#pApphard}
+
+[Top of section](#pApptop)
+
+
+
+```{r pApphard, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Hardware Platform Options', out.width='100%', tab.asp=.75, tab.align='left' }
+
+library(kableExtra)
+
+pApphard[] <- lapply(pApphard, function(x) ifelse(is.na(x), "", x)) 
+#pApphard <- pApphard #%>% select(1:3,)
+
+kable(pApphard, format = "html", escape = F, caption = 'Hardware Platform Options',
+      col.names = c("Feature"	,"Available",	"Group Notes","External  Reviews","Score(0-3)"),
+      booktabs = TRUE, align =  "l") %>%
+  kable_paper() %>% 
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  column_spec(1, width_min = "6cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "7cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "2cm" ) %>%
+  column_spec(2, width_max = "3cm" ) %>%
+  column_spec(3, width_min = "2cm") %>%
+  column_spec(3, width_max = "2.5cm") %>%
+  column_spec(4, width_min = "4.5cm") %>%
+  column_spec(4, width_max = "5cm") %>%
+  column_spec(5, width_min = "2.5cm") %>%
+  column_spec(5, width_max = "3cm") %>%
+
+  scroll_box(width = "800px", height = "600px") 
+
+```
+
+
+## Power Apps: Security Factors {#pAppsec}
+
+
+
+```{r pAppsec, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Security Factors', out.width='100%', tab.asp=.75, tab.align='left' }
+
+library(kableExtra)
+
+pAppsec[] <- lapply(pAppsec, function(x) ifelse(is.na(x), "", x))
+
+kable(pAppsec, format = "html", escape = F, caption = 'Security Factors', booktabs = TRUE, align =  "l",col.names = c("Feature"	,"Available",	"Description","Group Notes","External  Reviews","Score(0-3)")) %>%
+  kable_paper() %>% 
+  kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  column_spec(1, width_min = "3cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "4cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "2cm" ) %>%
+  column_spec(2, width_max = "3cm" ) %>%
+  column_spec(3, width_min = "3cm") %>%
+  column_spec(3, width_max = "4cm") %>%
+  column_spec(4, width_min = "4.5cm") %>%
+  column_spec(4, width_max = "5cm") %>%
+  column_spec(5, width_min = "4.5cm") %>%
+  column_spec(5, width_max = "5cm") %>%
+  column_spec(6, width_min = "3cm") %>%  
+  
+  scroll_box(width = "800px", height = "600px") 
+
+```
+
+
+
+
+## Power Apps: Business Model and Customer Support {#pAppbus}
+
+[Top of section](#pApptop)
+
+
+
+```{r pAppbus, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Business Model and Pricing', out.width='100%', tab.asp=.75, tab.align='left' }
+
+
+
+library(kableExtra)
+
+pAppbus[] <- lapply(pAppbus, function(x) ifelse(is.na(x), "", x))
+pAppbus %>%
+  group_by(Feature) %>%
+  mutate(Feature = ifelse(duplicated(Feature), "", Feature))  %>%
+kable(pAppbus, format = "html", escape = F, caption = 'Business Model and Pricing',  booktabs = TRUE,col.names = c("Feature"	,"Description","Price","Group Notes","External Reviews","Score(0-3)"), align =  "l") %>%
+  kable_paper() %>% 
+  kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
+  
+  column_spec(1, width_min = "4cm", bold = TRUE, italic = F) %>%
+  column_spec(1, width_max = "5cm", bold = TRUE, italic = F) %>%
+  column_spec(2, width_min = "4cm" ) %>%
+  column_spec(2, width_max = "5cm" ) %>%
+  column_spec(3, width_min = "2cm") %>%
+  column_spec(3, width_max = "2.5cm") %>%
+  column_spec(4, width_min = "4.5cm") %>%
+  column_spec(4, width_max = "5cm") %>%
+  column_spec(5, width_min = "4.5cm") %>%
+  column_spec(5, width_max = "5cm") %>%
+  column_spec(6, width_min = "3cm") %>%  
+  scroll_box(width = "800px", height = "600px") 
+
+
+```
+
+
+
+
