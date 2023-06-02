@@ -1,7 +1,7 @@
 --- 
 title: "Electronic Data Entry Software Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
-date: "2023-05-25"
+date: "2023-06-01"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
@@ -16,7 +16,7 @@ always_allow_html: yes
 
 # Overview {-}
 
-This bookdown document is intended as an repository of technical information related to the use of electronic field data entry tools, including the software, hardware, and interface with downstream databases and external sensors.  This information is collected from contributing IEP Survey Teams (and external associates when helpful). The intent is that the document will serve as a resource for IEP Surveys seeking to update data entry protocols, and that the information in this document will be updated and maintained regularly by designated IEP DUWG members. 
+This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools, including reviews different software options, hardware, and factors regarding interfacing with external sensor inputs and downstream databases.  This information had been gleaned from interviews and presentations from e-device vendors, experienced IEP survey teams and some external agencies. The intent is that this document will serve as a resource for IEP surveys seeking to update data entry protocols, and that the information in this document will be updated and maintained regularly by designated IEP DUWG members. 
 
 
 ## Summary Findings

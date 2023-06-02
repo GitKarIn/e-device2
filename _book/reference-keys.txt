@@ -17,6 +17,12 @@ tab:s123phot
 tab:s123hard
 tab:s123sec
 tab:s123bus
+tab:pAppform
+tab:pAppdat
+tab:pAppphot
+tab:pApphard
+tab:pAppsec
+tab:pAppbus
 fig:Yolodemo
 summary-findings
 what-still-needs-to-be-reviewed
@@ -49,6 +55,14 @@ s123phot
 s123hard
 s123sec
 s123bus
+pApptop
+power-apps-forms-options
+power-apps-forms-options-1
+pAppdat
+pAppphot
+pApphard
+pAppsec
+pAppbus
 part-iep-survey-e-device-demonstrations
 part-hardware-reviews
 appendix---e-device-survey
