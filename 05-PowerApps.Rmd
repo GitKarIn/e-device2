@@ -2,6 +2,7 @@
 
 ## Power Apps Overview {-}  {#pApptop} 
 
+The Power Apps 'Suite' is a collection of apps, services, connectors and (with an Azure subscription) a database platform. 
 
 
 ## Power Apps Forms Options 
@@ -254,7 +255,7 @@ kable(pAppsec, format = "html", escape = F, caption = 'Security Factors', bookta
 
 [Top of section](#pApptop)
 
-
+Microsoft Power Apps pricing plans include subscription plans and Pay-as-you-go plans (see https://powerapps.microsoft.com/en-us/pricing/).  Government plans seem to have the same pricing structure as the public plans.  
 
 ```{r pAppbus, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Business Model and Pricing', out.width='100%', tab.asp=.75, tab.align='left' }
 
