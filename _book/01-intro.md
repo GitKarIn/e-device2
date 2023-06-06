@@ -1,7 +1,6 @@
-# (PART\*) Intro and IEP E-device Survey 
+# (PART\*) Intro and IEP Questionnaire {-}
 
-
-# Introduction {-}
+# Introduction 
 
 This bookdown document is intended to be a 'living document' which develops as more IEP surveys adopt the use of electronic data entry tools.  Optimally, new e-device experiences and information can be shared with the IEP community through on-going presentations to the DUWG working group and updates to this documented. 
 

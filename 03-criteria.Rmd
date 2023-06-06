@@ -1,7 +1,7 @@
-# (PART\*) Software Reviews 
+# (PART\*) Software Reviews {-}
 
 
-# Software Comparison Criteria {-}
+# Software Comparison Criteria
 
 ## Criteria for Comparison of E-device Apps {#crittop} 
 

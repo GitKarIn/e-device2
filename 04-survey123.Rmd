@@ -1,13 +1,13 @@
-# ESRI Survey123 {-}
+# ESRI Survey123 
 
-## Survey123 Overview {-}  {#s123top} 
+## Survey123 Overview  {#s12top} 
 
 From ESRI documentation: ArcGIS Survey123 is a complete, form-centric solution for creating, sharing, and analyzing surveys. Use it to create forms with skip logic, defaults, and support for multiple languages. Collect data using web or mobile devices, even when disconnected from the internet. Upload data securely, and analyze results on the web or in an ArcGIS app. 
 https://doc.arcgis.com/en/survey123/reference/whatissurvey123.htm
 
 From G2 Business Software Review: Survey123 is included with ArcGIS, and provides powerful features to help you leverage the power of location to boost your productivity while capturing data and analyzing the results of your surveys. https://www.g2.com/products/arcgis-survey123/reviews
 
-## Survey123 Forms Options 
+### Survey123 Forms Options 
 
 Surveys123 Survey Forms are created and stored through the ESRI web interface (see \@ref(fig:ESRIweb)); access requires a current ESRI license. Survey123 forms can be downloaded to tablets, iPhones or iPads, and data collection can be made while the device is offline. Survey results are uploaded to cloud storage next time the device is on-line. 
 
@@ -40,7 +40,7 @@ knitr::include_graphics("images/survey123/survey123_xlsform2.png", error = FALSE
 ```
 
 
-## Survey123: Forms Options
+### Survey123: Forms Options
 
 
 
@@ -101,7 +101,7 @@ kable(s123form, format = "html", escape = F, caption = 'Forms Options',
 ```
 
 
-## Survey123: Data Interface {#S23dat}
+### Survey123: Data Interface {#S12dat}
 
 
 
@@ -146,7 +146,7 @@ kable(s123dat, format = "html", escape = F, caption = 'Data Interface Options',
 
 
 
-##  Survey123: Photo Integration and External Sensors {#s123phot}
+###  Survey123: Photo Integration and External Sensors {#s12pho}
 
 
 ```{r s123phot, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Photo Integration and External Sensors', out.width='100%', tab.asp=.75, tab.align='left' }
@@ -191,9 +191,9 @@ kable(s123phot, format = "html", escape = F, caption = 'Photo Integration and Ex
 
 
 
-##  Survey123:  Hardware Platforms  {#s123hard}
+###  Survey123:  Hardware Platforms  {#s12hrd}
 
-[Top of section](#s123top)
+[Top of section](#s12top)
 
 
 
@@ -226,7 +226,7 @@ kable(s123hard, format = "html", escape = F, caption = 'Hardware Platform Option
 ```
 
 
-## Survey123: Security Factors {#s123sec}
+### Survey123: Security Factors {#s12sec}
 
 
 
@@ -259,9 +259,9 @@ kable(s123sec, format = "html", escape = F, caption = 'Security Factors', bookta
 
 
 
-## Survey123: Business Model and Customer Support {#s123bus}
+### Survey123: Business Model and Customer Support {#s123bus}
 
-[Top of section](#s123top)
+[Top of section](#s12top)
 
 
 

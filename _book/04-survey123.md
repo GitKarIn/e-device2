@@ -1,13 +1,13 @@
-# ESRI Survey123 {-}
+# ESRI Survey123 
 
-## Survey123 Overview {-}  {#s123top} 
+## Survey123 Overview  {#s12top} 
 
 From ESRI documentation: ArcGIS Survey123 is a complete, form-centric solution for creating, sharing, and analyzing surveys. Use it to create forms with skip logic, defaults, and support for multiple languages. Collect data using web or mobile devices, even when disconnected from the internet. Upload data securely, and analyze results on the web or in an ArcGIS app. 
 https://doc.arcgis.com/en/survey123/reference/whatissurvey123.htm
 
 From G2 Business Software Review: Survey123 is included with ArcGIS, and provides powerful features to help you leverage the power of location to boost your productivity while capturing data and analyzing the results of your surveys. https://www.g2.com/products/arcgis-survey123/reviews
 
-## Survey123 Forms Options 
+### Survey123 Forms Options 
 
 Surveys123 Survey Forms are created and stored through the ESRI web interface (see \@ref(fig:ESRIweb)); access requires a current ESRI license. Survey123 forms can be downloaded to tablets, iPhones or iPads, and data collection can be made while the device is offline. Survey results are uploaded to cloud storage next time the device is on-line. 
 
@@ -44,7 +44,7 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 </div>
 
 
-## Survey123: Forms Options
+### Survey123: Forms Options
 
 
 
@@ -285,7 +285,7 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 </table></div>
 
 
-## Survey123: Data Interface {#S23dat}
+### Survey123: Data Interface {#S12dat}
 
 
 
@@ -339,7 +339,7 @@ ArcGIS Hub is a cloud-based engagement platform.  ArcGIS Hub is automatically
    <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; "> Survey responses submitted to the web-based database from a user's device can be edited from the Sent folder in the Survey123 field app
 
 The owner of a survey can also edit any responses sent for their survey on the survey's Data page on the Survey123 website, or in the web app using URL parameters.   https://doc.arcgis.com/en/survey123/browser/get-answers/editexistingdata.htm </td>
-   <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; "> In trial demo: User noted that it was not possible to view the full list of fish lengths, and it was not easy to edit responses ‘on-the-fly’) (Appendix: 3) </td>
+   <td style="text-align:left;min-width: 4.5cm; max-width: 5cm; "> In trial demo: User noted that it was not possible to view the full list of fish lengths, and it was not easy to edit responses ‘on-the-fly’) [See Yolo BiPass Survey123 Demo](#yoldem)) </td>
    <td style="text-align:left;min-width: 2cm; ">  </td>
    <td style="text-align:left;min-width: 3cm; ">  </td>
   </tr>
@@ -398,7 +398,7 @@ https://www.g2.com/products/arcgis-survey123/reviews#survey-response-2743872 </t
 
 
 
-##  Survey123: Photo Integration and External Sensors {#s123phot}
+###  Survey123: Photo Integration and External Sensors {#s12pho}
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
@@ -482,9 +482,9 @@ https://www.esri.com/arcgis-blog/products/survey123/announcements/barcode-scanni
 
 
 
-##  Survey123:  Hardware Platforms  {#s123hard}
+###  Survey123:  Hardware Platforms  {#s12hrd}
 
-[Top of section](#s123top)
+[Top of section](#s12top)
 
 
 
@@ -553,7 +553,7 @@ https://www.esri.com/arcgis-blog/products/survey123/announcements/barcode-scanni
 </table></div>
 
 
-## Survey123: Security Factors {#s123sec}
+### Survey123: Security Factors {#s12sec}
 
 
 
@@ -617,9 +617,9 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
 
 
 
-## Survey123: Business Model and Customer Support {#s123bus}
+### Survey123: Business Model and Customer Support {#s123bus}
 
-[Top of section](#s123top)
+[Top of section](#s12top)
 
 
 

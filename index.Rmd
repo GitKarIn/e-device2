@@ -1,5 +1,5 @@
 --- 
-title: "Electronic Data Entry Software Options for IEP Surveys"
+title: "Electronic Data Entry Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -48,7 +48,7 @@ This document is configured using the bookdown::bs4_book format for HTML output 
   
   * data_scripts/: This is the directory that contains all data handing scripts used in the e-device book.  Currently, one data read script is run prior to rendering the book. This script output .rds data tables to the main edevice2 folder for access by the Rmd files.
   
-  * data: currently the data is being read from K. Alstad's system.  These data files will need to moved to project folder.
+  * tables/: Excel files associated with the tables generated in this bookdown document are located in the tables/ folder.
   
   * style.css: contains css formatting instructions.  Beyond default settings, a couple of css codes for table formatting have been added.
   
@@ -78,7 +78,7 @@ bookdown::render_book()
 
 
 
-### Send proposed changes or additions to:
+### Send proposed changes or additions directly to:
 
 karrin.alstad@wildlife.ca.gov
 

@@ -1,24 +1,24 @@
-# E-device Survey {-}
+# E-device Questionnaire 
 
-## E-device Survey Outline
+## E-device Questionnaire Outline
 
-An Electronic Field Data-Entry Device ("e-Device") Survey was distributed to IEP survey leads in July of 2022. The goals of this survey were: 1. To get an understanding of the current level of use of electronic field data entry devices among IEP Survey Staff; 2. To seek information from expert e-device users about both hardware and software considerations, and 3. To the learn specific roadblocks for those who are hesitant to consider shifting to electronic data entry methods.  
+An Electronic Field Data-Entry Device ("e-Device") Questionnaire was distributed to IEP survey leads in July of 2022. The goals of this questionnaire were: 1. To get an understanding of the current level of use of electronic field data entry devices among IEP survey staff; 2. To seek information from expert e-device users about both hardware and software considerations, and 3. To the learn specific roadblocks for those who are hesitant to consider shifting to electronic data entry methods.  
 
-Three groups were targeted for this survey:
+Three groups were targeted for this questionnaire:
 
 1. Experienced e-device users (internal IEP and external agencies),                            
 2. IEP Survey Staff who are researching e-devices for field application,                            
 3. IEP Survey Staff who don't believe electronic field data collection will work for their application.
 
-## Survey Respondents 
+## Questionnaire Respondents 
 
-The IEP e-device survey was run for approximately a month and received 24 responses (Figure \@ref(fig:survey). A link to the original survey and to the compiled survey responses is included in the Appendix 2.   
+The IEP e-device questionnaire was run for approximately a month and received 24 responses (Figure \@ref(fig:survey). A link to the original questionnaire and to the compiled questionnaire responses is included in the Appendix 2.   
 
 
 
 <div class="figure" style="text-align: center">
-<img src="02-survey_files/figure-html/survey-1.png" alt="The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources." width="80%" />
-<p class="caption">(\#fig:survey)The distribution of of e-device survey responders by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after survey responses pointed to these expert resources.</p>
+<img src="02-survey_files/figure-html/survey-1.png" alt="The distribution of responses to the e-device questionnaire by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after the questionnaire responses pointed to these expert resources." width="80%" />
+<p class="caption">(\#fig:survey)The distribution of responses to the e-device questionnaire by agency association. Most of these respondents were CDFW staff, but USFWS and DWR responses were also represented.  Two external agencies (NEON and ICF) were specifically asked to participate after the questionnaire responses pointed to these expert resources.</p>
 </div>
 
 Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  ). 
@@ -28,7 +28,7 @@ Among the 24 respondents, half of these were IEP associates and external contact
 
 
 <table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:surv2)Most common e-device software applications used by the IEP members who responded to the e-device survey.</caption>
+<caption style="font-size: initial !important;">(\#tab:surv2)Most common e-device software applications used by the IEP members who responded to the e-device questionnaire.</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Application </th>
@@ -88,10 +88,10 @@ Among the 24 respondents, half of these were IEP associates and external contact
 
 
 
-## Key questions/concerns about using e-devices (derived from the e-device survey) {#keyqest}
+## Key questions/concerns about using e-devices (derived from the e-device questionnaire) {#keyqest}
 
 
-A series of key questions were extracted from the survey responses, and were further developed in the first several working group meetings. These questions outline most difficult hurdles that survey leads address when adopting electronic data entry technology for shipboard surveys.
+A series of key questions were extracted from the questionnaire responses, and were further developed in the first several working group meetings. These questions outline most difficult hurdles that questionnaire leads address when adopting electronic data entry technology for shipboard surveys.
 
 - Forms: 	
    Do I need to know a programming language to develop a data entry form?  
@@ -106,7 +106,7 @@ A series of key questions were extracted from the survey responses, and were fur
    Can I make a back-up of the data locally when an internet connection is not available? 
 
 - Reading external data inputs:  
-Can I incorporate data from an external sensor into the app? GPS, Fish boards, Barcodes?
+Can I incorporate data from an external sensor into the app? GPS, Fish boards, Bar Codes?
 
 - IT Security and Version Control:  
    Does the app have network security certificates; has the security been vetted?  

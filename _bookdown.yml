@@ -25,6 +25,7 @@ rmd_files:
   - 03-criteria.Rmd
   - 04-survey123.Rmd
   - 05-PowerApps.Rmd
+  - 06-Fulcrum.Rmd
   - 10-survey123demo.Rmd
   - 11-powerappsdemo.Rmd
   - 12-hardware.Rmd

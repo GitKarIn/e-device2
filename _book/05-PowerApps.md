@@ -1,46 +1,57 @@
-# MS Power Apps {-}
+# MS Power Apps 
 
-## Power Apps Overview {-}  {#pApptop} 
+## Power Apps Overview    {#powtop}
+
+The Power Apps 'Suite' is a collection of apps, services, connectors and (with an Azure subscription) a database platform. Power Apps provides two different form building methods: 1. A Canvas App starts with a blank canvas and provides Power Point-like drag-and-drop form building tools and Excel-like functions to control behavior and interaction of the entry fields; 2. A Model-driven App is an app that is integrated into a Common Data Service (CDS) which is a secure, cloud-based storage space that can use to store business application data (CDS requires the Azure subscription).  Canvas apps are ideal for building task-based forms (such as collecting Survey data).  Model-driven apps are better for creating end-to-end solutions such as a customer service support ticket that that must be created, routed, addressed, updated, marked as complete automatically based on conditions.  The Bay Study app demonstration uses a Canvas derived Power App approach [Bay Study P-App](#powdem).
 
 
+## Power Apps Features 
 
-## Power Apps Forms Options 
 
+#### Intuitive Form Developing Interface:  {-}
+
+The Power Apps form-building interface is intended to be a "LOW-code/NO-code" experience.  The use of the PowerFX commands provide familiar structure to Excel function commands and contain significant built-in functionality. As well, Power Apps has incorporated a high functioning AI interface that helps to convert natural language to FX code and provides the inverse interpretation of FX code. The Power Apps marketing statements indicates that this combination prevents the developer from "hitting a cliff” when progressing from a simple form design to more complex requirements such as a nested sampling design. The Bay Study Power App development team has substantiated this claim to a degree, finding it relatively easy to get up to speed when configuring the Power Apps form. [See Bay Study Power Apps demo](#powdem)
 
 
 <div class="figure">
-<img src="images/PowerApps/Start_Canvas.jpg" alt="Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey." width="90%" />
-<p class="caption">(\#fig:ESRIweb)Screen capture of the ESRI web interface for Survey123 and the option to Create New Survey.</p>
+<img src="images/PowerApps/Start_Canvas4.jpg" alt="Screen capture of a basic Power Apps data collection form demonstrating the FX code used to control the collection and display of variables." width="90%" />
+<p class="caption">(\#fig:padem1)Screen capture of a basic Power Apps data collection form demonstrating the FX code used to control the collection and display of variables.</p>
 </div>
 
 
 
 <div class="figure">
-<img src="images/PowerApps/Start_Canvas3.jpg" alt="Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool." width="90%" />
-<p class="caption">(\#fig:ESRIweb2)Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool.</p>
+<img src="images/PowerApps/Start_Canvas6.jpg" alt="Screen capture Power Apps during the initation of the connection with an existing database where specific table can be selected and the automated tool that populated data variables avaliable in the app builder." width="90%" />
+<p class="caption">(\#fig:padem2)Screen capture Power Apps during the initation of the connection with an existing database where specific table can be selected and the automated tool that populated data variables avaliable in the app builder.</p>
 </div>
 
+
+#### Data Interface and Exporting: {-}
+
+The seamless connections to either on-premise or online data sources is a notable feature of Power Apps. Users may initiate a Power App form by connecting to an existing database or starting a blank app.  Another Power Apps feature that stands out is the The on-premises data gateway acts as a bridge to provide quick and secure data transfer between on-premises data (data that isn't in the cloud) and several Microsoft cloud services. https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem
 
 
 <div class="figure">
-<img src="images/PowerApps/Start_Canvas4.jpg" alt="Screen capture of ESRI Survey123 Connect software demonstrating the use of the XLSForm spreadsheet-based coding language and the ability to directly edit the JavaScript code that is linked to XLSForm parameters." width="90%" />
-<p class="caption">(\#fig:xlsform)Screen capture of ESRI Survey123 Connect software demonstrating the use of the XLSForm spreadsheet-based coding language and the ability to directly edit the JavaScript code that is linked to XLSForm parameters.</p>
+<img src="images/PowerApps/Connections.jpg" alt="Graphical representation of the multiple types of Power Apps data connections established in Power Apps." width="90%" />
+<p class="caption">(\#fig:paconn)Graphical representation of the multiple types of Power Apps data connections established in Power Apps.</p>
 </div>
-
 
 
 <div class="figure">
-<img src="images/PowerApps/Start_Canvas6.jpg" alt="Screen capture of ArcGIS website description of the XLSForm features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-Apps-for-the-Field-State-of-ID.pdf." width="90%" />
-<p class="caption">(\#fig:xlsform2)Screen capture of ArcGIS website description of the XLSForm features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-Apps-for-the-Field-State-of-ID.pdf.</p>
+<img src="images/PowerApps/Start_Canvas.jpg" alt="Screen capture of the Canvas interface when initating a new Power Apps Form." width="90%" />
+<p class="caption">(\#fig:pastart)Screen capture of the Canvas interface when initating a new Power Apps Form.</p>
+</div>
+
+A Power App form may be developed for a tablet or phone formatting, and the tablet format also works on computer screens (Apple or PC).  Note that changing format between phone and tablet is not a build tool, but work around methods to transpose between formats have been developed. (find source)
+
+
+<div class="figure">
+<img src="images/PowerApps/Start_Canvas3.jpg" alt="Screen capture of the Canvas form building tool demonstrating options to selection from tablet or phone format." width="90%" />
+<p class="caption">(\#fig:paform)Screen capture of the Canvas form building tool demonstrating options to selection from tablet or phone format.</p>
 </div>
 
 
-## Power Apps: Forms Options
-
-
-
-
-
+### Power Apps: Forms Options 
 
 
 
@@ -48,7 +59,7 @@
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:pAppform)Forms Options</caption>
+<caption style="font-size: initial !important;">(\#tab:paform2)Forms Options</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -219,12 +230,12 @@ Speak to text has been demonstrated within Power Apps using the Premium licenses
 </table></div>
 
 
-## Power Apps: Data Interface {#pAppdat}
+### Power Apps: Data Interface {#powdat}
 
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:pAppdat)Data Interface Options</caption>
+<caption style="font-size: initial !important;">(\#tab:padat)Data Interface Options</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -324,11 +335,11 @@ Speak to text has been demonstrated within Power Apps using the Premium licenses
 
 
 
-##  Power Apps: Photo Integration and External Sensors {#pAppphot}
+###  Power Apps: Photo Integration and External Sensors {#powpho}
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:pAppphot)Photo Integration and External Sensors</caption>
+<caption style="font-size: initial !important;">(\#tab:paphot)Photo Integration and External Sensors</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -411,14 +422,14 @@ Speak to text has been demonstrated within Power Apps using the Premium licenses
 
 
 
-##  Power Apps:  Hardware Platforms  {#pApphard}
+###  Power Apps:  Hardware Platforms  {#powhrd}
 
-[Top of section](#pApptop)
+[Top of section](#powtop)
 
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:pApphard)Hardware Platform Options</caption>
+<caption style="font-size: initial !important;">(\#tab:paard)Hardware Platform Options</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
@@ -482,12 +493,12 @@ Speak to text has been demonstrated within Power Apps using the Premium licenses
 </table></div>
 
 
-## Power Apps: Security Factors {#pAppsec}
+### Power Apps: Security Factors {#powsec}
 
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:pAppsec)Security Factors</caption>
+<caption style="font-size: initial !important;">(\#tab:pasec)Security Factors</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
@@ -545,14 +556,14 @@ Speak to text has been demonstrated within Power Apps using the Premium licenses
 
 
 
-## Power Apps: Business Model and Customer Support {#pAppbus}
+### Power Apps: Business Model and Customer Support {#powbus}
 
-[Top of section](#pApptop)
+[Top of section](#powtop)
 
-
+Microsoft Power Apps pricing plans include subscription plans and Pay-as-you-go plans (see https://powerapps.microsoft.com/en-us/pricing/).  Government plans seem to have the same pricing structure as the public plans.  
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:pAppbus)Business Model and Pricing</caption>
+<caption style="font-size: initial !important;">(\#tab:pabus)Business Model and Pricing</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
