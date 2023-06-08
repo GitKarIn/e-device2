@@ -5,10 +5,10 @@
 The Power Apps 'Suite' is a collection of apps, services, connectors and (with an Azure subscription) a database platform. Power Apps provides two different form building methods: 1. A Canvas App starts with a blank canvas and provides Power Point-like drag-and-drop form building tools and Excel-like functions to control behavior and interaction of the entry fields; 2. A Model-driven App is an app that is integrated into a Common Data Service (CDS) which is a secure, cloud-based storage space that can use to store business application data (CDS requires the Azure subscription).  Canvas apps are ideal for building task-based forms (such as collecting Survey data).  Model-driven apps are better for creating end-to-end solutions such as a customer service support ticket that that must be created, routed, addressed, updated, marked as complete automatically based on conditions.  The Bay Study app demonstration uses a Canvas derived Power App approach [Bay Study P-App](#powdem).
 
 
-## Power Apps Features 
+## Power Apps: Key Features 
 
 
-#### Intuitive Form Developing Interface:  {-}
+### Intuitive Form Developing Interface
 
 The Power Apps form-building interface is intended to be a "LOW-code/NO-code" experience.  The use of the PowerFX commands provide familiar structure to Excel function commands and contain significant built-in functionality. As well, Power Apps has incorporated a high functioning AI interface that helps to convert natural language to FX code and provides the inverse interpretation of FX code. The Power Apps marketing statements indicates that this combination prevents the developer from "hitting a cliff” when progressing from a simple form design to more complex requirements such as a nested sampling design. The Bay Study Power App development team has substantiated this claim to a degree, finding it relatively easy to get up to speed when configuring the Power Apps form. [See Bay Study Power Apps demo](#powdem)
 
@@ -26,7 +26,7 @@ The Power Apps form-building interface is intended to be a "LOW-code/NO-code" ex
 </div>
 
 
-#### Data Interface and Exporting: {-}
+### Data Interface and Exporting
 
 The seamless connections to either on-premise or online data sources is a notable feature of Power Apps. Users may initiate a Power App form by connecting to an existing database or starting a blank app.  Another Power Apps feature that stands out is the The on-premises data gateway acts as a bridge to provide quick and secure data transfer between on-premises data (data that isn't in the cloud) and several Microsoft cloud services. https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem
 
@@ -50,6 +50,8 @@ A Power App form may be developed for a tablet or phone formatting, and the tabl
 <p class="caption">(\#fig:paform)Screen capture of the Canvas form building tool demonstrating options to selection from tablet or phone format.</p>
 </div>
 
+
+## Power Apps: Criteria Tables
 
 ### Power Apps: Forms Options 
 

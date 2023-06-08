@@ -73,4 +73,5 @@ saveRDS(speakrs$Sheet1, file = "speakrs.rds")
 
 survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria2.xlsx"))
 powerapp <- read_excel_allsheets(file.path(Xdatfldr,"Power_app_criteria.xlsx"))
+fulcrum <- read_excel_allsheets(file.path(Xdatfldr,"Fulcrum.xlsx"))
 

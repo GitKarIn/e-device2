@@ -7,10 +7,12 @@ https://doc.arcgis.com/en/survey123/reference/whatissurvey123.htm
 
 From G2 Business Software Review: Survey123 is included with ArcGIS, and provides powerful features to help you leverage the power of location to boost your productivity while capturing data and analyzing the results of your surveys. https://www.g2.com/products/arcgis-survey123/reviews
 
-### Survey123 Forms Options 
+
+## Survey123: Key Features 
+
+### Survey123 Form Developing Interface
 
 Surveys123 Survey Forms are created and stored through the ESRI web interface (see \@ref(fig:ESRIweb)); access requires a current ESRI license. Survey123 forms can be downloaded to tablets, iPhones or iPads, and data collection can be made while the device is offline. Survey results are uploaded to cloud storage next time the device is on-line. 
-
 
 
 <div class="figure">
@@ -26,6 +28,8 @@ There are two main options for designing a Survey123 survey form (\@ref(fig:ESRI
 <img src="images/survey123/ESRIweb2.png" alt="Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool." width="90%" />
 <p class="caption">(\#fig:ESRIweb2)Screen capture of the ESRI web interface for Survey123 highlighting the two main options for designing a Survey123 form: the web designer or the Survey123 Connect tool.</p>
 </div>
+
+
 
 Survey123 Connect is an option for more advanced survey form design, such as a nested structure or calculated responses using user inputs.  The Survey123 Connect approach requires defining the more advanced form properties within an ‘XLSForm spreadsheet’ using the XLSForm coding language (XLSForm spreadsheets: \@ref(fig:xlsform) and \@ref(fig:xlsform2)).  ESRI documentation for both Web designer and Connect can be found at: https://doc.arcgis.com/en/survey123/browser/create-surveys/createsurveys.htm
 XLSForm formatting language is described at: https://xlsform.org/en/.
@@ -43,6 +47,8 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 <p class="caption">(\#fig:xlsform2)Screen capture of ArcGIS website description of the XLSForm features: https://gis.idaho.gov/wp-content/uploads/2021/03/ArcGIS-Apps-for-the-Field-State-of-ID.pdf.</p>
 </div>
 
+
+## Survey123: Criteria Tables
 
 ### Survey123: Forms Options
 

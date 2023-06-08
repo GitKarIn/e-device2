@@ -4,10 +4,13 @@
 
 The Fulcrum App is a mobile data collection platform that provides tools to collect and analyze data in field surveys. There are two key components to the Fulcrum platform: the mobile app is for data collectors in the field and a web-based dashboard that provides an at-a-glance view of all field data collections in real time and summaries to date which can be accessible to anyone working on the project. Fulcrum is currently being used by at least two major ecosystem monitoring field surveys: NOAA Ship Strikes Survey and National Ecological Observatory Network (hundreds of Fulcrum applications are currently deployed).  Fulcrum can be use with both iOS and Android mobile devices. 
  
+ 
+Fulcrum is a hosted mobile forms platform that enables users to build custom apps for capturing information from the field. Users can design forms using the intuitive, web-based drag-and-drop designer and deploy to their mobile workforce for gathering information like Text, Photos, SpatialVideo, SpatialAudio, Signatures, Barcodes, GPS Location, and more.
+ 
 
-## Fulcrum App Features 
+## Fulcrum App: Key Features 
 
-#### Professional Look:  {-}
+### Professional Look
 
 The Fulcrum App provides a clean and professional look in both the mobile and the web interface which is a stand-out feature as compared to Survey123 and Power Apps.  
 
@@ -17,7 +20,7 @@ knitr::include_graphics("images/Fulcrum/profess_look.jpg", error = FALSE)
 ```
 
 
-#### Intuitive Form Developing Interface:  {-}
+### Intuitive Form Developing Interface
 
 The app development tools in Fulcrum are straight forward to use and has a fairly easy learning curve. Significant resources are available to beginning form developers and Fulcrum support staff are willing to assist new users to set up a functioning app using the trial license. However, for more detailed apps with complex nested design, there is potential of "hitting the cliff" in form development, at which point one must be able to program in the Fulcrum-JSON code to configure the form. The interface with the json code behind the app features is fairly straight forward and the Fulcrum documentation providing code syntax for field control is extensive. https://docs.fulcrumapp.com/docs/data-events-setminlength
 
@@ -33,7 +36,7 @@ knitr::include_graphics("images/Fulcrum/edit_json.jpg", error = FALSE)
 ```
 
 
-#### Cloud Storage and Data Interface and Exporting: {-}
+### Cloud Storage and Data Interface and Exporting
 
 The Fulcrum App is build on the Google Cloud Platform and Google Drive.  Google Drive is a storage platform that includes a generous free storage quota, secure sharing mechanisms, mobile apps for both Android & iOS, and desktop apps for integrated backup and sync.  
 
@@ -47,7 +50,7 @@ knitr::include_graphics("images/Fulcrum/googlecloud_fulcrum.jpg", error = FALSE)
 ```
 
 
-#### Mapping Layers:  {-}
+### Mapping Layers
 
 Fulcrum has been rated as one of the best apps for geolocation with custom maps. Fulcrum is built on the Google Maps Platform, which leverages Google Maps and can provide a variety of map layers for field reference, including streets, terrain, and aerial imagery, as well as points of interest wn both the web and mobile interfaces. Fulcrum also supports custom map layers, which can be combined with the standard base-maps or used completely independently. Fulcrum has recently partnered with ESRI to provide more advanced GIS features and mapping. https://help.fulcrumapp.com/en/articles/4352017-what-are-layers  https://www.fulcrumapp.com/blog/chart-new-territory-using-advanced-geospatial-capabilities-with-esri-integration/
 
@@ -63,6 +66,7 @@ knitr::include_graphics("images/Fulcrum/maps_office2.jpg", error = FALSE)
 ```
 
 
+## Fulcrum App: Criteria Tables
 
 
 
@@ -70,19 +74,19 @@ knitr::include_graphics("images/Fulcrum/maps_office2.jpg", error = FALSE)
 
 
 
-```{r powpinit, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
+```{r fulcinit, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
 library(kableExtra)
 
 source("setup.R")
 source(file.path(data_scripts_root,"readin_tables.R"))
 
-powpform <- powerapp$Forms_Options
-powpdat <- powerapp$Data_Interface 
-powpphot <- powerapp$Photos_ExtSensors
-powphard <- powerapp$HW_Platforms
-powpsec  <- powerapp$Security_Factors
-powpbus  <- powerapp$Business_Model
+fulcform <- fulcrum$Forms_Options
+fulcdat <- fulcrum$Data_Interface 
+fulcphot <- fulcrum$Photos_ExtSensors
+fulchard <- fulcrum$HW_Platforms
+fulcsec  <- fulcrum$Security_Factors
+fulcbus  <- fulcrum$Business_Model
 ```
 
 
@@ -90,12 +94,12 @@ powpbus  <- powerapp$Business_Model
 
 
 
-```{r powpform, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Forms Options', out.width='70%', tab.asp=.75, tab.align='left' }
+```{r fulcform, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Forms Options', out.width='70%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
-powpform[] <- lapply(powpform, function(x) ifelse(is.na(x), "", x))
-powpform %>%
+fulcform[] <- lapply(fulcform, function(x) ifelse(is.na(x), "", x))
+fulcform %>%
   # Group by category column and collapse repeating values
   group_by(Category) %>%
   mutate(Category = ifelse(duplicated(Category), "", Category))  %>%
@@ -103,7 +107,7 @@ powpform %>%
   mutate(Feature = ifelse(duplicated(Feature), "", Feature))  %>%
   
   
-kable(powpform, format = "html", escape = F, caption = 'Forms Options',
+kable(fulcform, format = "html", escape = F, caption = 'Forms Options',
       col.names = c("Category","Feature"	,"Available","Description",		"Group Notes","External  Reviews","Score(0-3)"),
       booktabs = TRUE, align =  "l") %>%
   kable_paper() %>% 
@@ -129,14 +133,14 @@ kable(powpform, format = "html", escape = F, caption = 'Forms Options',
 
 The data connectivity options in Fulcrum App are significant, as noted above and outlined in the Data Interface table. An important note is the ability of the Fulcrum App Mobile components that supports exporting the 'Collections' on a mobile device to a standard .json file.  This is a stand-out feature compared to Survey123 and Fulcrum, and can be critical when building in a back-up protocol for cases when internet data transfer is not available.  The Bay Study Power App project included this option to export to .json because there are some survey stations in which internet access is low or not available [See Bay Study Fulcrum App demo](#powdem).
 
-```{r powpdat, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Options', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r fulcdat, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Options', out.width='100%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
-powpdat[] <- lapply(powpdat, function(x) ifelse(is.na(x), "", x))
+fulcdat[] <- lapply(fulcdat, function(x) ifelse(is.na(x), "", x))
 
 
-powpdat %>%
+fulcdat %>%
   # Group by category column and collapse repeating values
   group_by(Category) %>%
   mutate(Category = ifelse(duplicated(Category), "", Category))  %>%
@@ -145,7 +149,7 @@ powpdat %>%
   
 
 
-kable(powpdat, format = "html", escape = F, caption = 'Data Interface Options',
+kable(fulcdat, format = "html", escape = F, caption = 'Data Interface Options',
       col.names = c("Category","Feature"	,"Available","Description",		"Group Notes","External  Reviews","Score(0-3)"),
       booktabs = TRUE, align =  "l") %>%
   kable_paper() %>% 
@@ -173,14 +177,14 @@ kable(powpdat, format = "html", escape = F, caption = 'Data Interface Options',
 ###  Fulcrum App: Photo Integration and External Sensors {#fulpho}
 
 
-```{r powpphot, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Photo Integration and External Sensors', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r fulcphot, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Photo Integration and External Sensors', out.width='100%', tab.asp=.75, tab.align='left' }
 
 
 library(kableExtra)
 
-powpphot[] <- lapply(powpphot, function(x) ifelse(is.na(x), "", x))
+fulcphot[] <- lapply(fulcphot, function(x) ifelse(is.na(x), "", x))
 
-powpphot %>%
+fulcphot %>%
   # Group by category column and collapse repeating values
   group_by(Category) %>%
   mutate(Category = ifelse(duplicated(Category), "", Category))  %>%
@@ -189,8 +193,8 @@ powpphot %>%
   
 
 
-kable(powpphot, format = "html", escape = F, caption = 'Photo Integration and External Sensors',  
-      col.names = c("Category","Feature"	,"Available","Description",	"Group Notes","External  Reviews","Score(0-3)"),
+kable(fulcphot, format = "html", escape = F, caption = 'Photo Integration and External Sensors',  
+      col.names = c("Category","Feature"	,"Available",	"Description", "Group Notes","External  Reviews","Score(0-3)"),
       booktabs = TRUE, align =  "l") %>%
   kable_paper() %>% 
   kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
@@ -222,14 +226,14 @@ kable(powpphot, format = "html", escape = F, caption = 'Photo Integration and Ex
 
 
 
-```{r powphard, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Hardware Platform Options', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r fulchard, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Hardware Platform Options', out.width='100%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
-powphard[] <- lapply(powphard, function(x) ifelse(is.na(x), "", x)) 
-#powphard <- powphard #%>% select(1:3,)
+fulchard[] <- lapply(fulchard, function(x) ifelse(is.na(x), "", x)) 
+#fulchard <- fulchard #%>% select(1:3,)
 
-kable(powphard, format = "html", escape = F, caption = 'Hardware Platform Options',
+kable(fulchard, format = "html", escape = F, caption = 'Hardware Platform Options',
       col.names = c("Feature"	,"Available",	"Group Notes","External  Reviews","Score(0-3)"),
       booktabs = TRUE, align =  "l") %>%
   kable_paper() %>% 
@@ -255,13 +259,13 @@ kable(powphard, format = "html", escape = F, caption = 'Hardware Platform Option
 
 
 
-```{r powpsec, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Security Factors', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r fulcsec, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Security Factors', out.width='100%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
-powpsec[] <- lapply(powpsec, function(x) ifelse(is.na(x), "", x))
+fulcsec[] <- lapply(fulcsec, function(x) ifelse(is.na(x), "", x))
 
-kable(powpsec, format = "html", escape = F, caption = 'Security Factors', booktabs = TRUE, align =  "l",col.names = c("Feature"	,"Available",	"Description","Group Notes","External  Reviews","Score(0-3)")) %>%
+kable(fulcsec, format = "html", escape = F, caption = 'Security Factors', booktabs = TRUE, align =  "l",col.names = c("Feature"	,"Available",	"Description","Group Notes","External  Reviews","Score(0-3)")) %>%
   kable_paper() %>% 
   kable_styling(full_width =FALSE, fixed_thead = TRUE, font_size = 18) %>%
   
@@ -296,11 +300,11 @@ kable(powpsec, format = "html", escape = F, caption = 'Security Factors', bookta
 
 library(kableExtra)
 
-powpbus[] <- lapply(powpbus, function(x) ifelse(is.na(x), "", x))
-powpbus %>%
+fulcbus[] <- lapply(fulcbus, function(x) ifelse(is.na(x), "", x))
+fulcbus %>%
   group_by(Feature) %>%
   mutate(Feature = ifelse(duplicated(Feature), "", Feature))  %>%
-kable(powpbus, format = "html", escape = F, caption = 'Business Model and Pricing',  booktabs = TRUE,col.names = c("Feature"	,"Description","Price","Group Notes","External Reviews","Score(0-3)"), align =  "l") %>%
+kable(fulcbus, format = "html", escape = F, caption = 'Business Model and Pricing',  booktabs = TRUE,col.names = c("Feature"	,"Description","Price","Group Notes","External Reviews","Score(0-3)"), align =  "l") %>%
   kable_paper() %>% 
   kable_styling(full_width =TRUE, fixed_thead = TRUE, font_size = 18) %>%
   
