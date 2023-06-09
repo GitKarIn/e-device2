@@ -78,11 +78,6 @@ knitr::include_graphics("images/Fulcrum/maps_office2.jpg", error = FALSE)
 
 ```{r fulcinit, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
-library(kableExtra)
-
-source("setup.R")
-source(file.path(data_scripts_root,"readin_tables.R"))
-
 fulcform <- fulcrum$Forms_Options
 fulcdat <- fulcrum$Data_Interface 
 fulcphot <- fulcrum$Photos_ExtSensors
