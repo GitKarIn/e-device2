@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 tab:proscons
 tab:spkr
 fig:survey
@@ -29,6 +30,8 @@ tab:paphot
 tab:paard
 tab:pasec
 tab:pabus
+=======
+>>>>>>> aa5eec3996ca6aa71f2add66353077b48e69686a
 fig:fulook
 fig:fumenu
 fig:fujson
@@ -42,6 +45,7 @@ tab:fulchard
 tab:fulcsec
 tab:fulpbus
 fig:Yolodemo
+output
 bookdown-file-organization
 how-to-contribute-two-ways
 submit-changes-to-the-e-device-package-using-the-github-interface
