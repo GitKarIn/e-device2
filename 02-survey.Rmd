@@ -42,8 +42,7 @@ Among the 24 respondents, half of these were IEP associates and external contact
 
 
 library(kableExtra)
-
-popap_in <- readRDS("popapps.rds")
+popap_in <- readRDS(here(data,"popapps.rds"))
 
 kable(popap_in, format = "html", escape = F, caption = 'Most common e-device software applications used by the IEP members who responded to the e-device questionnaire.', booktabs = TRUE, align='l') %>%
    kable_paper() %>% 

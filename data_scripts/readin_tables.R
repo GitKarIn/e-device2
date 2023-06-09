@@ -1,5 +1,9 @@
 library(readxl)
 library(dplyr)
+library(here)
+
+# reset tabs for testing readin_tables.R as a stand alone
+tabs <-    here("tables")
 
 read_excel_allsheets <- function(filename, tibble = FALSE) {
   sheets <- readxl::excel_sheets(filename)
@@ -8,11 +12,10 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   names(x) <- sheets
   x
 }
-Xdatfldr = "C:/Users/KAlstad/Documents/Github_C/e-device2/tables"
 
 ## e-device survey results
 
-Survey <- read_excel(file.path(Xdatfldr,"Survey1.xlsx"),sheet = "Sheet1")
+Survey <- read_excel(file.path(tabs,"Survey1.xlsx"),sheet = "Sheet1")
 
 
 Survey1 <- Survey %>% 
@@ -50,28 +53,32 @@ Survey3$exp_status[grepl("I have previously used",Survey3$exp_status)]<-"I have 
 Survey3$exp_status[grepl("I am currently using",Survey3$exp_status)]<-"I am currently using"
 
 ## Save to .rs file ##
+# Maybe I don't need to save to rds
+saveRDS(Survey3, file = here(data,"Survey3.rds"))
 
-saveRDS(Survey3, file = "Survey3.rds")
-
-popapps <- read_excel(file.path(Xdatfldr,"most_common_apps.xlsx"),sheet = "Sheet1")
+popapps <- read_excel(file.path(tabs,"most_common_apps.xlsx"),sheet = "Sheet1")
 popapps[is.na(popapps)] <- " "
-saveRDS(popapps, file = "popapps.rds")
+saveRDS(popapps, file = here(data,"popapps.rds"))
+
+
+## pros cons table for summary
+proscons <- read_excel_allsheets(file.path(tabs,"ProsCons.xlsx"))
+saveRDS(proscons, file = here(data,"proscons.rds"))
 
 
 ## e-device criteria table for intro
-criteria <- read_excel_allsheets(file.path(Xdatfldr,"Template_app_criteria_intro.xlsx"))
-saveRDS(criteria, file = "criteria.rds")
+criteria <- read_excel_allsheets(file.path(tabs,"Template_app_criteria_intro.xlsx"))
+saveRDS(criteria, file = here(data,"criteria.rds"))
 
 
 ## speakers
-speakrs <- read_excel_allsheets(file.path(Xdatfldr,"speakers_locals.xlsx"))
-saveRDS(speakrs$Sheet1, file = "speakrs.rds")
+speakrs <- read_excel_allsheets(file.path(tabs,"speakers_locals.xlsx"))
+saveRDS(speakrs$Sheet1, file = here(data,"speakrs.rds"))
+
 
 ## software criteria tables
-
-
-
-survey123 <- read_excel_allsheets(file.path(Xdatfldr,"Survey123_app_criteria2.xlsx"))
-powerapp <- read_excel_allsheets(file.path(Xdatfldr,"Power_app_criteria.xlsx"))
-fulcrum <- read_excel_allsheets(file.path(Xdatfldr,"Fulcrum.xlsx"))
+## currently not saved - maybe I don't need to save to rds
+survey123 <- read_excel_allsheets(file.path(tabs,"Survey123_app_criteria2.xlsx"))
+powerapp <- read_excel_allsheets(file.path(tabs,"Power_app_criteria.xlsx"))
+fulcrum <- read_excel_allsheets(file.path(tabs,"Fulcrum.xlsx"))
 
