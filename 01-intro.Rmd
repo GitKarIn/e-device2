@@ -2,7 +2,7 @@
 
 # Introduction 
 
-This bookdown document is intended to be a 'living document' which develops as more IEP surveys adopt the use of electronic data entry tools.  Optimally, new e-device experiences and information can be shared with the IEP community through on-going presentations to the DUWG working group and updates to this documented. 
+This bookdown document is intended to be a 'living document' which develops as more IEP surveys adopt the use of electronic data entry tools.  Optimally, new e-device experiences and information can be shared with the IEP community through on-going presentations to the DUWG working group and updates to this document. 
 
 ## E-device Working Group Overview
 
@@ -25,7 +25,7 @@ Third, group members potentially test specific e-devices apps by making use of f
 
 The initial e-device questionnaire was used to identify the most common e-device apps used within IEP (\@ref(fig:survey)) the key questions/concerns about using e-devices [key questions](#keyqest) as well as the key criteria that will be used to evaluate each software options explored by the working group [criteria](#crittop). These criteria served as the outline for software reviews.   
 
-Seven different field data entry software applications were evaluated over six months (\@ref(tab:spkr)); Each month, an expert user was invited to present the particular app, and efforts were made to find a local IEP representative to also trial the software and present their first hand impressions.
+Seven different field data entry software applications were evaluated over eight meetings (\@ref(tab:spkr)); Each month, an expert user was invited to present the particular app, and efforts were made to find a local IEP representative to also trial the software and present their first hand impressions.
 
 The intended product from this DUWG subgroup research is a central repository document that summarizes the range of data entry software apps used by IEP and associated surveys, as well as reviews of the various methods used to transfer field data to published databases.  Eventually, this compilation may include information on field hardware devices/weatherizing kits, and methods used for integrating external sensors such as fish boards. The summary document intends to include a list of reference persons who have experience with one or more of the electronic data software or methods.  It is anticipated that this document can be used by survey leads to aid in decision making on electronic field data entry options.
 
