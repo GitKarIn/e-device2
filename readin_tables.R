@@ -1,5 +1,6 @@
 library(readxl)
 library(dplyr)
+library(here)
 
 read_excel_allsheets <- function(filename, tibble = FALSE) {
   sheets <- readxl::excel_sheets(filename)
@@ -8,7 +9,7 @@ read_excel_allsheets <- function(filename, tibble = FALSE) {
   names(x) <- sheets
   x
 }
-Xdatfldr = "C:/Users/KAlstad/Documents/Github_C/e-device2/tables"
+Xdatfldr = here("tables")
 
 ## e-device survey results
 

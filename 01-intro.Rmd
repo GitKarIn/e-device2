@@ -35,7 +35,7 @@ The intended product from this DUWG subgroup research is a central repository do
 
 library(kableExtra)
 library(dplyr)
-
+library(here)
 
 spkrs<-  readRDS(here(data,"speakrs.rds")) 
 spkrs[] <- lapply(spkrs, function(x) ifelse(is.na(x), "", x))
