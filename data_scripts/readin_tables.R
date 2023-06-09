@@ -54,21 +54,17 @@ Survey3$exp_status[grepl("I am currently using",Survey3$exp_status)]<-"I am curr
 
 ## Save to .rs file ##
 # Maybe I don't need to save to rds
-saveRDS(Survey3, file = here(data,"Survey3.rds"))
 
-<<<<<<< HEAD
-=======
 saveRDS(Survey3, file = "Survey3.rds")
 
->>>>>>> 4340a3d3212562e4a4e6d172b02e489187e58e98
 popapps <- read_excel(file.path(tabs,"most_common_apps.xlsx"),sheet = "Sheet1")
 popapps[is.na(popapps)] <- " "
-saveRDS(popapps, file = here(data,"popapps.rds"))
+saveRDS(popapps, file = here("popapps.rds"))
 
 
 ## pros cons table for summary
 proscons <- read_excel_allsheets(file.path(tabs,"ProsCons.xlsx"))
-saveRDS(proscons, file = here(data,"proscons.rds"))
+saveRDS(proscons, file = here("proscons.rds"))
 
 
 ## pros cons table for summary
@@ -78,28 +74,17 @@ saveRDS(criteria, file = "criteria.rds")
 
 ## e-device criteria table for intro
 criteria <- read_excel_allsheets(file.path(tabs,"Template_app_criteria_intro.xlsx"))
-<<<<<<< HEAD
-saveRDS(criteria, file = here(data,"criteria.rds"))
-=======
+
 saveRDS(criteria, file = "criteria.rds")
->>>>>>> 4340a3d3212562e4a4e6d172b02e489187e58e98
 
 
 ## speakers
 speakrs <- read_excel_allsheets(file.path(tabs,"speakers_locals.xlsx"))
-<<<<<<< HEAD
-saveRDS(speakrs$Sheet1, file = here(data,"speakrs.rds"))
-
-=======
 saveRDS(speakrs$Sheet1, file = "speakrs.rds")
->>>>>>> 4340a3d3212562e4a4e6d172b02e489187e58e98
 
 
 ## software criteria tables
-<<<<<<< HEAD
 ## currently not saved - maybe I don't need to save to rds
-=======
->>>>>>> 4340a3d3212562e4a4e6d172b02e489187e58e98
 survey123 <- read_excel_allsheets(file.path(tabs,"Survey123_app_criteria2.xlsx"))
 powerapp <- read_excel_allsheets(file.path(tabs,"Power_app_criteria.xlsx"))
 fulcrum <- read_excel_allsheets(file.path(tabs,"Fulcrum.xlsx"))

@@ -59,14 +59,6 @@ knitr::include_graphics("images/survey123/survey123_xlsform2.png", error = FALSE
 
 ```{r forminit, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
-<<<<<<< HEAD
-=======
-library(kableExtra)
-
-# source("setup.R")
-# source(file.path(data_scripts_root,"readin_tables.R"))
-
->>>>>>> 4340a3d3212562e4a4e6d172b02e489187e58e98
 s123form <- survey123$Forms_Options
 s123dat <- survey123$Data_Interface 
 s123phot <- survey123$Photos_ExtSensors

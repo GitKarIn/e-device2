@@ -21,7 +21,7 @@ library(dplyr)
 
 
 
-criteria_in <- readRDS(here(data,"criteria.rds")) 
+criteria_in <- readRDS(here("criteria.rds")) 
 forms <- criteria_in$Forms_Options %>% select(-QC)
 forms[] <- lapply(forms, function(x) ifelse(is.na(x), "", x))
 
@@ -59,7 +59,7 @@ kable(forms, format = "html", escape = F, caption = "Forms Options.", booktabs =
 library(kableExtra)
 library(dplyr)
 
-criteria_in <- readRDS(here(data,"criteria.rds")) 
+criteria_in <- readRDS(here("criteria.rds")) 
 dataint <- criteria_in$Data_Interface
 dataint[] <- lapply(dataint, function(x) ifelse(is.na(x), "", x))
 
@@ -101,7 +101,7 @@ kable(dataint, format = "html", escape = F, caption = "Data Interface Options.",
 library(kableExtra)
 library(dplyr)
 
-criteria_in <- readRDS(here(data,"criteria.rds")) 
+criteria_in <- readRDS(here("criteria.rds")) 
 photsens <- criteria_in$Photos_ExtSensors
 photsens[] <- lapply(photsens, function(x) ifelse(is.na(x), "", x))
 
@@ -139,7 +139,7 @@ photsens %>%
 library(kableExtra)
 library(dplyr)
 
-criteria_in <- readRDS(here(data,"criteria.rds")) 
+criteria_in <- readRDS(here("criteria.rds")) 
 HWplats <- criteria_in$HW_Platforms
 HWplats[] <- lapply(HWplats, function(x) ifelse(is.na(x), "", x))
 
@@ -173,7 +173,7 @@ HWplats %>%
 library(kableExtra)
 library(dplyr)
 
-criteria_in <- readRDS(here(data,"criteria.rds")) 
+criteria_in <- readRDS(here("criteria.rds")) 
 securfac <- criteria_in$Security_Factors
 securfac[] <- lapply(securfac, function(x) ifelse(is.na(x), "", x))
 
@@ -206,7 +206,7 @@ securfac %>%
 library(kableExtra)
 library(dplyr)
 
-criteria_in <- readRDS(here(data,"criteria.rds")) 
+criteria_in <- readRDS(here("criteria.rds")) 
 busmod <- criteria_in$Business_Model
 busmod[] <- lapply(busmod, function(x) ifelse(is.na(x), "", x))
 
