@@ -3,7 +3,6 @@ bookdown::bs4_book:
   theme:
     primary: "#096B72"
     bootswatch: yeti
-    #h1-font-size: "2rem"
   #repo: https://github.com/GitKarIn/e-device2.git
 # bookdown::pdf_book:
 #   latex_engine: pdflatex 
@@ -11,6 +10,3 @@ bookdown::bs4_book:
 #   keep_tex: yes
 #   always_allow_html: true
 #bookdown::epub_book: default
-# output:
-#   word_document:
-#     reference_docx: my-styles.docx

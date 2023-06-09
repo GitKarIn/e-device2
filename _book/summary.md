@@ -1,20 +1,32 @@
 
-<!-- --- -->
-<!-- title: "exec_summ" -->
-<!-- author: "K.Alstad" -->
-<!-- date: "2023-06-08" -->
-<!-- output: pdf_document -->
-<!-- --- -->
-
-
-
-
 # Summary for Managers {-}
 
+## Big Potential: Electronic Data Entry Methods in IEP Surveys
 
-## Purpose
+Digital data entry methods have the potential to significantly increase the turn-around data from survey to  publication by reducing field entry errors, eliminating manual entry QC checks, and improving overall processing efficiency. 
 
-## Methods
+Recent innovations in electronic data transfer, cloud processing and AI technology have been integrated into most commercially available data collection software;  these tools provide high-performance solutions, and some are genuinely providing a user-friendly development interface.
+
+## Goal of this Repository 
+
+This bookdown document is set-up as an **Open-access Repository for Information related to Electronic Field Data Entry Software/Hardware for IEP Survey Applications**.
+
+This document is intended as resource for IEP survey leads in selecting and deploying digital data-entry procedures.  
+
+The initial information was gathered from interviews and presentations organized during a IEP Data Users Working Group sub-team (6/2022-6/2023).  
+
+A Github-based bookdown framework has been established to support open sharing and on-going community updates as survey teams add new digital data-entry tools to their program.  
+
+
+## Approach
+
+The general approach: 
+
+1. **Poll IEP surveys** to learn what digital data entry tools are currently used by survey teams within the IEP network; 
+2. **Evaluate the top software tools** with interviews/presentations from experienced users and product vendors; 
+3. **Conduct software trials** using specifically configured app for an IEP survey;
+4. **Continue to encourage participation** to grow this IEP community exchange and technical information sharing using an Open-document forum.
+
 
 ## Findings
 
@@ -24,61 +36,45 @@
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Software </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Guest Presenter (Expert) </th>
-   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Local Expert or Newby </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Pros </th>
+   <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"> Cons </th>
   </tr>
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Survey123 (ESRI) </td>
-   <td style="text-align:left;max-width: 7cm; "> -- </td>
-   <td style="text-align:left;max-width: 10cm; "> JT Robinson, DWR </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Pendragon </td>
-   <td style="text-align:left;max-width: 7cm; "> Daniel Phillips, Rep. </td>
-   <td style="text-align:left;max-width: 10cm; "> Doug Burch, CDFW </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Fulcrum </td>
-   <td style="text-align:left;max-width: 7cm; "> Kaelin Cawley, NEON </td>
-   <td style="text-align:left;max-width: 10cm; "> -- </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;">  </td>
-   <td style="text-align:left;max-width: 7cm; "> Jessica Morten, NOAA </td>
-   <td style="text-align:left;max-width: 10cm; "> Jillian Burns, CDFW </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> FEED/VIMS </td>
-   <td style="text-align:left;max-width: 7cm; "> Chris Bonzek, Rep. </td>
-   <td style="text-align:left;max-width: 10cm; "> Initiated by SFBS </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> PowerApps/Canvas </td>
-   <td style="text-align:left;max-width: 7cm; "> Tuongvan Nguyen, IEP/CDFW (new to P. App) </td>
-   <td style="text-align:left;max-width: 10cm; "> Karrin Alstad &amp; Jillian Burns, CDFW </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> BigFin Scientific </td>
-   <td style="text-align:left;max-width: 7cm; "> Chris Carol, Rep. </td>
-   <td style="text-align:left;max-width: 10cm; "> Initiated by SFBS </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;">  </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Survey123 </td>
    <td style="text-align:left;max-width: 7cm; ">  </td>
    <td style="text-align:left;max-width: 10cm; ">  </td>
   </tr>
   <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> R scrape of PDF Forms </td>
-   <td style="text-align:left;max-width: 7cm; "> Trinh Nguyen </td>
-   <td style="text-align:left;max-width: 10cm; "> Currently have a SFBS template </td>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Power Apps </td>
+   <td style="text-align:left;max-width: 7cm; ">  </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Fulcrum </td>
+   <td style="text-align:left;max-width: 7cm; ">  </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Pendragon </td>
+   <td style="text-align:left;max-width: 7cm; ">  </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> FEED </td>
+   <td style="text-align:left;max-width: 7cm; ">  </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Big Fin </td>
+   <td style="text-align:left;max-width: 7cm; ">  </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> PDF with R-scraping code </td>
+   <td style="text-align:left;max-width: 7cm; "> Inexpensive, </td>
+   <td style="text-align:left;max-width: 10cm; ">  </td>
   </tr>
 </tbody>
 </table></div>
-
-
-
-
-## Next Steps
-

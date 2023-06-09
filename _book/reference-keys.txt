@@ -116,3 +116,8 @@ responses-from-experienced-e-device-users
 responses-from-non-experienced-seeking-e-solutions
 appendix--
 gloss
+output
+great-potential-electronic-data-entry-methods-in-iep-surveys
+goal-of-this-repository
+approach-1
+big-potential-electronic-data-entry-methods-in-iep-surveys

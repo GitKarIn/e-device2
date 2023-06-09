@@ -63,7 +63,7 @@ saveRDS(popapps, file = here("popapps.rds"))
 
 
 ## pros cons table for summary
-proscons <- read_excel_allsheets(file.path(tabs,"ProsCons.xlsx"))
+proscons <- read_excel(file.path(tabs,"ProsCons.xlsx"))
 saveRDS(proscons, file = here("proscons.rds"))
 
 
