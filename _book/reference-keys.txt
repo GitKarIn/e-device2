@@ -1,3 +1,4 @@
+tab:proscons
 tab:spkr
 fig:survey
 tab:surv2
@@ -45,8 +46,10 @@ bookdown-file-organization
 how-to-contribute-two-ways
 submit-changes-to-the-e-device-package-using-the-github-interface
 send-proposed-changes-or-additions-directly-to
-summary-findings
-what-still-needs-to-be-reviewed
+purpose
+methods
+findings
+next-steps
 introduction
 e-device-working-group-overview
 goals

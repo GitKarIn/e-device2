@@ -1,6 +1,7 @@
 book_filename: "e-device2"
 new_session: true
-before_chapter_script: _common.R
+before_chapter_script: setup.R
+#before_chapter_script: ["setup.R", "readin_tables.R"]
 delete_merged_file: true
 language:
   ui:
@@ -16,7 +17,7 @@ language:
     code: "Code"
 includes:
       before_body: titlepage.html
-# before_chapter_script: ["script1.R", "script2.R"]
+
 split_by: section
 rmd_files:
   - index.Rmd

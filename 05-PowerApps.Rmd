@@ -55,9 +55,6 @@ knitr::include_graphics("images/PowerApps/Start_Canvas3.jpg", error = FALSE)
 
 library(kableExtra)
 
-source("setup.R")
-source(file.path(data_scripts_root,"readin_tables.R"))
-
 powform <- powerapp$Forms_Options
 powdat <- powerapp$Data_Interface 
 powhot <- powerapp$Photos_ExtSensors
