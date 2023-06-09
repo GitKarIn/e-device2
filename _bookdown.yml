@@ -20,6 +20,7 @@ includes:
 split_by: section
 rmd_files:
   - index.Rmd
+  - summary.Rmd
   - 01-intro.Rmd
   - 02-survey.Rmd
   - 03-criteria.Rmd
@@ -31,4 +32,5 @@ rmd_files:
   - 12-hardware.Rmd
   - appendix1.Rmd
   - appendix2.Rmd
+  - glossary.Rmd
   

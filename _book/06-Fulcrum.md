@@ -2,11 +2,13 @@
 
 ## Fulcrum App Overview    {#fultop}
 
-The Fulcrum App is a mobile data collection platform that provides tools to collect and analyze data in field surveys. There are two key components to the Fulcrum platform: the mobile app is for data collectors in the field and a web-based dashboard that provides an at-a-glance view of all field data collections in real time and summaries to date which can be accessible to anyone working on the project. Fulcrum is currently being used by at least two major ecosystem monitoring field surveys: NOAA Ship Strikes Survey and National Ecological Observatory Network (hundreds of Fulcrum applications are currently deployed).  Fulcrum can be use with both iOS and Android mobile devices. 
+The Fulcrum App is a mobile data collection platform that provides tools to collect and analyze data in field surveys. There are two key components to the Fulcrum platform: the mobile app is for data collectors in the field and a web-based dashboard that provides an at-a-glance view of all field data collections in real time and summaries to date which can be accessible to anyone working on the project. 
+
+Users can design forms using the intuitive, web-based drag-and-drop designer and deploy to their mobile workforce for gathering information like Text, Photos, SpatialVideo, SpatialAudio, Signatures, Barcodes, GPS Location, and more.
+
+Fulcrum is currently being used by at least two major ecosystem monitoring field surveys: NOAA Ship Strikes Survey and National Ecological Observatory Network (hundreds of Fulcrum applications are currently deployed). Fulcrum can be use with both iOS and Android mobile devices. 
  
- 
-Fulcrum is a hosted mobile forms platform that enables users to build custom apps for capturing information from the field. Users can design forms using the intuitive, web-based drag-and-drop designer and deploy to their mobile workforce for gathering information like Text, Photos, SpatialVideo, SpatialAudio, Signatures, Barcodes, GPS Location, and more.
- 
+
 
 ## Fulcrum App: Key Features 
 
@@ -16,8 +18,8 @@ The Fulcrum App provides a clean and professional look in both the mobile and th
 
 
 <div class="figure">
-<img src="images/Fulcrum/profess_look.jpg" alt="Screen capture of the web-based Fulcrum app devopement tool demonstrating the the general look of the app for a mobile device" width="90%" />
-<p class="caption">(\#fig:fulook)Screen capture of the web-based Fulcrum app devopement tool demonstrating the the general look of the app for a mobile device</p>
+<img src="images/Fulcrum/profess_look.jpg" alt="Screen capture of the web-based Fulcrum app devopement tool demonstrating the the general look of the app for a mobile device (three different screens are shown)" width="90%" />
+<p class="caption">(\#fig:fulook)Screen capture of the web-based Fulcrum app devopement tool demonstrating the the general look of the app for a mobile device (three different screens are shown)</p>
 </div>
 
 

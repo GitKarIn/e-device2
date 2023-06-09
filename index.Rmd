@@ -3,27 +3,26 @@ title: "Electronic Data Entry Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+url: https://github.com/GitKarIn/e-device2.git
 documentclass: book
-bibliography: [book.bib, packages.bib]
-#url: https://github.com/GitKarIn/e-device2.git
-cover-image: C:/Users/KAlstad/Documents/Github_C/e-device2/images/IEP_logo_compliant_colors.jpg
-description: |
+# output:
+#   bookdown::gitbook: default
+# latex_engine: pdflatex
+description: 
   This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys. This project is in-progress and has not been fully reviewed by the IEP DUWG e-device team.
+bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 always_allow_html: yes
 ---
 
-# Overview {-}
+# Preamble {-}
 
-This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools, including reviews different software options, hardware, and factors regarding interfacing with external sensor inputs and downstream databases.  This information had been gleaned from interviews and presentations from e-device vendors, experienced IEP survey teams and some external agencies. The intent is that this document will serve as a resource for IEP surveys seeking to update data entry protocols, and that the information in this document will be updated and maintained regularly by designated IEP DUWG members. 
+This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools, including reviews of different software options, hardware, and factors regarding interfacing with external sensor inputs and downstream databases.  
 
+The initial information was gleaned from interviews and presentations organized during a DUWG e-device focus group (6/2022-6/2023) but these reports are far from exhaustive of the many software/hardware options that are available for field data entry.  Meanwhile communication and cloud processing technology is advancing rapidly.  
 
-## Summary Findings
-
-
-
-## What Still Needs To Be Reviewed 
+This initiative generally asks that all experience IEP survey teams, or those that are adding digital data-entry tools to their program, please share these experiences and help to develop this resource for other IEP surveys seeking to update data entry protocols,
 
 
 

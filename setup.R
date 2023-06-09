@@ -19,4 +19,4 @@ tabs_root <-  file.path(root,"tables")
 
 source(file.path(data_scripts_root,"readin_tables.R"))
 
-Xdatfldr = "C:/Users/KAlstad/Kar_Docs/ProjectMangmt/e-Devices/DeviceComparisons"
+

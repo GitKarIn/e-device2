@@ -41,12 +41,12 @@ tab:fulchard
 tab:fulcsec
 tab:fulpbus
 fig:Yolodemo
-summary-findings
-what-still-needs-to-be-reviewed
 bookdown-file-organization
 how-to-contribute-two-ways
 submit-changes-to-the-e-device-package-using-the-github-interface
 send-proposed-changes-or-additions-directly-to
+summary-findings
+what-still-needs-to-be-reviewed
 introduction
 e-device-working-group-overview
 goals
@@ -112,3 +112,4 @@ survey-responses
 responses-from-experienced-e-device-users
 responses-from-non-experienced-seeking-e-solutions
 appendix--
+gloss
