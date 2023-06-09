@@ -25,7 +25,11 @@ library(kableExtra)
 library(dplyr)
 
 
+<<<<<<< HEAD
 spkrs<- readRDS(here(data,"speakrs.rds")) 
+=======
+spkrs<- readRDS("speakrs.rds") 
+>>>>>>> 4340a3d3212562e4a4e6d172b02e489187e58e98
 spkrs[] <- lapply(spkrs, function(x) ifelse(is.na(x), "", x))
 
 spkrs %>%
