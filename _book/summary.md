@@ -45,12 +45,12 @@ The general approach:
   <tr>
    <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Survey123 </td>
    <td style="text-align:left;max-width: 7cm; "> Exceptional Geo-referencing tools </td>
-   <td style="text-align:left;max-width: 10cm; ">  </td>
+   <td style="text-align:left;max-width: 10cm; "> Form building tool requires significant learning time; Trial study could not easilly configure a listing of lengths for review in the field </td>
   </tr>
   <tr>
    <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Power Apps </td>
-   <td style="text-align:left;max-width: 7cm; "> Connectors to databases including SQL &amp; OneDrive is No-Code (easy to set up) and functions smoothly </td>
-   <td style="text-align:left;max-width: 10cm; ">  </td>
+   <td style="text-align:left;max-width: 7cm; "> *Connectors to databases including SQL &amp; OneDrive is No-Code (easy to set up) and functions smoothly;   Able to set up on-the-fly editing, listings and frequency plots to review lengths in the field </td>
+   <td style="text-align:left;max-width: 10cm; "> API connectors to external devices requires the Azure license </td>
   </tr>
   <tr>
    <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Fulcrum </td>

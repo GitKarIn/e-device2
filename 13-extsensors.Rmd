@@ -30,7 +30,7 @@ The gateway allows you to see data from a NMEA 2000 marine digital network on a 
 
 
 
-```{r nmea, echo=FALSE,  out.width= "70%", fig.align='center',fig.cap="This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station."}
+```{r nmea, echo=FALSE,  out.width= "100%", fig.align='center',fig.cap="This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station."}
 knitr::include_graphics(c("images/Sensors/NMEAnetwork.png"))
 ```
 

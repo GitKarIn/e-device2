@@ -31,7 +31,7 @@ The gateway allows you to see data from a NMEA 2000 marine digital network on a 
 
 
 <div class="figure" style="text-align: center">
-<img src="images/Sensors/NMEAnetwork.png" alt="This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station." width="70%" />
+<img src="images/Sensors/NMEAnetwork.png" alt="This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station." width="100%" />
 <p class="caption">(\#fig:nmea)This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station.</p>
 </div>
 
@@ -48,7 +48,7 @@ Here is a blurb from an email from the Furuno technical expert regarding this me
 
 
 <div class="figure" style="text-align: center">
-<img src="images/Sensors/NMEA2000methods.png" alt="Here is a blurb from an email from the Furuno technical expert regarding this method of data extraction from the navigation equipment." width="70%" />
+<img src="images/Sensors/NMEA2000methods.png" alt="Here is a blurb from an email from the Furuno technical expert regarding this method of data extraction from the navigation equipment." width="100%" />
 <p class="caption">(\#fig:nmea2)Here is a blurb from an email from the Furuno technical expert regarding this method of data extraction from the navigation equipment.</p>
 </div>
 
