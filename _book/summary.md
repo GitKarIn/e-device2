@@ -1,7 +1,7 @@
 
 # Summary for Managers {-}
 
-## Big Potential: Electronic Data Entry Methods in IEP Surveys
+## Big Potential for Electronic Data Entry Methods Applied to IEP Surveys
 
 Digital data entry methods have the potential to significantly increase the turn-around data from survey to  publication by reducing field entry errors, eliminating manual entry QC checks, and improving overall processing efficiency. 
 
@@ -22,13 +22,14 @@ A Github-based bookdown framework has been established to support open sharing a
 
 The general approach: 
 
-1. **Poll IEP surveys** to learn what digital data entry tools are currently used by survey teams within the IEP network; 
+1. **Poll IEP survey teams** to learn what digital data entry tools are currently used within the IEP network; 
 2. **Evaluate the top software tools** with interviews/presentations from experienced users and product vendors; 
-3. **Conduct software trials** using specifically configured app for an IEP survey;
-4. **Continue to encourage participation** to grow this IEP community exchange and technical information sharing using an Open-document forum.
+3. **Conduct software trials** using apps specifically configured for IEP survey data collections;
+4. **Continue to encourage participation** to grow this IEP community sharing and exchange of technical information using an Open-document forum.
 
 
 ## Findings
+
 
 
 <div style="border: 1px solid #ddd; padding: 5px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
@@ -43,12 +44,12 @@ The general approach:
 <tbody>
   <tr>
    <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Survey123 </td>
-   <td style="text-align:left;max-width: 7cm; ">  </td>
+   <td style="text-align:left;max-width: 7cm; "> Exceptional Geo-referencing tools </td>
    <td style="text-align:left;max-width: 10cm; ">  </td>
   </tr>
   <tr>
    <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> Power Apps </td>
-   <td style="text-align:left;max-width: 7cm; ">  </td>
+   <td style="text-align:left;max-width: 7cm; "> Connectors to databases including SQL &amp; OneDrive is No-Code (easy to set up) and functions smoothly </td>
    <td style="text-align:left;max-width: 10cm; ">  </td>
   </tr>
   <tr>

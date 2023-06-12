@@ -37,15 +37,17 @@ library(kableExtra)
 library(dplyr)
 library(here)
 
-spkrs<-  readRDS(here("speakrs.rds")) 
-spkrs[] <- lapply(spkrs, function(x) ifelse(is.na(x), "", x))
+# spkrs<-  readRDS(here("speakrs.rds")) 
+# spkrs[] <- lapply(spkrs, function(x) ifelse(is.na(x), "", x))
 
-spkrs %>%
+speakrs[is.na(speakrs)] <- ""
+
+speakrs %>%
   # Group by category column and collapse repeating values
   group_by(Software) %>%
   mutate(Software = ifelse(duplicated(Software), "", Software))  %>%
 
-kable(spkrs, format = "html", escape = F, caption = "Guest speakers and local trials.", booktabs = TRUE,align='l') %>%
+kable(speakrs, format = "html", escape = F, caption = "Guest speakers and local trials.", booktabs = TRUE,align='l') %>%
   kable_paper() %>% 
   # kable_styling(bootstrap_options = c("striped", "hover"),full_width = FALSE, fixed_thead = TRUE,
   #               font_size = 20) %>%

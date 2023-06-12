@@ -79,8 +79,12 @@ saveRDS(criteria, file = "criteria.rds")
 
 
 ## speakers
-speakrs <- read_excel_allsheets(file.path(tabs,"speakers_locals.xlsx"))
-saveRDS(speakrs$Sheet1, file = "speakrs.rds")
+speakrs <- read_excel(file.path(tabs,"speakers_locals.xlsx"))
+#saveRDS(speakrs$Sheet1, file = "speakrs.rds")
+
+## expert network
+experts <- read_excel(file.path(tabs,"ExpertNet.xlsx"))
+#saveRDS(experts$Sheet1, file = "experts.rds")
 
 
 ## software criteria tables

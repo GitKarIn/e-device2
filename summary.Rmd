@@ -1,7 +1,7 @@
 
 # Summary for Managers {-}
 
-## Big Potential: Electronic Data Entry Methods in IEP Surveys
+## Big Potential for Electronic Data Entry Methods Applied to IEP Surveys
 
 Digital data entry methods have the potential to significantly increase the turn-around data from survey to  publication by reducing field entry errors, eliminating manual entry QC checks, and improving overall processing efficiency. 
 
@@ -22,13 +22,14 @@ A Github-based bookdown framework has been established to support open sharing a
 
 The general approach: 
 
-1. **Poll IEP surveys** to learn what digital data entry tools are currently used by survey teams within the IEP network; 
+1. **Poll IEP survey teams** to learn what digital data entry tools are currently used within the IEP network; 
 2. **Evaluate the top software tools** with interviews/presentations from experienced users and product vendors; 
-3. **Conduct software trials** using specifically configured app for an IEP survey;
-4. **Continue to encourage participation** to grow this IEP community exchange and technical information sharing using an Open-document forum.
+3. **Conduct software trials** using apps specifically configured for IEP survey data collections;
+4. **Continue to encourage participation** to grow this IEP community sharing and exchange of technical information using an Open-document forum.
 
 
 ## Findings
+
 
 
 ```{r proscons, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='speakers', out.width='100%', tab.asp=.75, tab.align='left'}

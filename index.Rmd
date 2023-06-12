@@ -3,27 +3,35 @@ title: "Electronic Data Entry Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
-url: https://github.com/GitKarIn/e-device2.git
+url: "https://github.com/GitKarIn/e-device2.git"
 documentclass: book
-# output:
-#   bookdown::gitbook: default
-# latex_engine: pdflatex
-description: 
-  This bookdown document is intended to summarize the research collected by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys. This project is in-progress and has not been fully reviewed by the IEP DUWG e-device team.
-bibliography: [book.bib, packages.bib]
+description: "This bookdown document is intended to summarize the research collected
+  by IEP DUWG members regarding the use of electronic data entry tools in IEP Surveys.
+  This project is in-progress and has not been fully reviewed by the IEP DUWG e-device
+  team."
+bibliography:
+- book.bib
+- packages.bib
 biblio-style: apalike
-csl: chicago-fullnote-bibliography.csl
+csl: "chicago-fullnote-bibliography.csl"
 always_allow_html: yes
 ---
 
-# Preamble {-}
+# Electronic Data Entry Options for IEP Surveys  {-}
+
+## Preamble
 
 This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools, including reviews of different software options, hardware, and factors regarding interfacing with external sensor inputs and downstream databases.  
 
 The initial information was gleaned from interviews and presentations organized during a DUWG e-device focus group (6/2022-6/2023) but these reports are far from exhaustive of the many software/hardware options that are available for field data entry.  Meanwhile communication and cloud processing technology is advancing rapidly.  
 
-This initiative generally asks that all experience IEP survey teams, or those that are adding digital data-entry tools to their program, please share these experiences and help to develop this resource for other IEP surveys seeking to update data entry protocols,
+This initiative generally asks that all experience IEP survey teams, or those that are adding digital data-entry tools to their program, please share these experiences and help to develop this resource for other IEP surveys seeking to update data entry protocols.
 
+
+
+```{r ieplog, echo=FALSE,  out.width= "70%", fig.align='center',fig.cap=""}
+knitr::include_graphics(c("images/bothlogo.JPG"))
+```
 
 
 ## Bookdown File Organization
@@ -56,11 +64,11 @@ This document is configured using the bookdown::bs4_book format for HTML output 
 ## How to Contribute: Two Ways
 
 
-### Submit changes to the e-device package using the Github interface:
+###  **Submit changes to the e-device package using Github:** 
 
 1. Create a fork off of the primary package: https://github.com/GitKarIn/e-device2.git
 
-2. Clone this fork to your own system
+2. Clone this fork to your own local repository
 
 3. Render the book:
 
@@ -77,9 +85,15 @@ bookdown::render_book()
 
 
 
-### Send proposed changes or additions directly to:
+###  **Email proposed changes/edits to the document manager:** 
 
-karrin.alstad@wildlife.ca.gov
+1. Print out the page of the document that needs to be changed using the web browser print options 
+
+(*Note: The current version of the document is not configured to be exported to a pdf file because there seems to be a bookdown conflict between the Kable() table configurations and the pdf rendering.   If anyone has suggestions as to how to adjust the Bookdown::bs4_book settings by making changes to the output.yaml or to the .css file to allow it to rendo to pdf, this input would be very welcome.*)
+
+2. Use a pdf editor to insert comments or changes.
+
+3. E-mail these edited pdf pages to: karrin.alstad@wildlife.ca.gov
 
 
 

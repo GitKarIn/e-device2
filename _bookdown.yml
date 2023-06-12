@@ -31,7 +31,9 @@ rmd_files:
   - 10-survey123demo.Rmd
   - 11-powerappsdemo.Rmd
   - 12-hardware.Rmd
+  - 13-extsensors.Rmd
   - appendix1.Rmd
   - appendix2.Rmd
   - glossary.Rmd
+  - expertnet.Rmd
   

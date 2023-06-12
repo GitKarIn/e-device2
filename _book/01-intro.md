@@ -77,11 +77,6 @@ The intended product from this DUWG subgroup research is a central repository do
    <td style="text-align:left;max-width: 10cm; "> Initiated by SFBS </td>
   </tr>
   <tr>
-   <td style="text-align:left;max-width: 4.5cm; font-weight: bold;">  </td>
-   <td style="text-align:left;max-width: 7cm; ">  </td>
-   <td style="text-align:left;max-width: 10cm; ">  </td>
-  </tr>
-  <tr>
    <td style="text-align:left;max-width: 4.5cm; font-weight: bold;"> R scrape of PDF Forms </td>
    <td style="text-align:left;max-width: 7cm; "> Trinh Nguyen </td>
    <td style="text-align:left;max-width: 10cm; "> Currently have a SFBS template </td>
