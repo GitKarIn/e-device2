@@ -1,7 +1,7 @@
 --- 
 title: "Electronic Data Entry Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
-date: "2023-06-12"
+date: "2023-06-13"
 site: bookdown::bookdown_site
 url: "https://github.com/GitKarIn/e-device2.git"
 documentclass: book
@@ -21,11 +21,11 @@ always_allow_html: yes
 
 ## Preamble
 
-This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools, including reviews of different software options, hardware, and factors regarding interfacing with external sensor inputs and downstream databases.  
+This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools, including reviews of different software options, hardware, and factors regarding interfacing with external sensors and downstream databases.  
 
-The initial information was gleaned from interviews and presentations organized during a DUWG e-device focus group (6/2022-6/2023) but these reports are far from exhaustive of the many software/hardware options that are available for field data entry.  Meanwhile communication and cloud processing technology is advancing rapidly.  
+The initial information was gleaned from interviews and presentations organized during a DUWG Electronic Data Entry Device ("e-device") focus group (6/2022-6/2023), but these reports are far from exhaustive of the many software/hardware options that are available for field data entry.  Meanwhile communication and cloud processing technology is advancing rapidly.  
 
-This initiative generally asks that all experience IEP survey teams, or those that are adding digital data-entry tools to their program, please share these experiences and help to develop this resource for other IEP surveys seeking to update data entry protocols.
+This initiative generally asks that all IEP survey teams that have e-device experience, or those that are adding digital data-entry tools to their program, please share these experiences and help to develop this resource for other IEP surveys seeking to update data entry protocols.
 
 
 
@@ -86,7 +86,7 @@ bookdown::render_book()
 
 ###  **Email proposed changes/edits to the document manager:** 
 
-1. Print out the page of the document that needs to be changed using the web browser print options 
+1. Print to pdf each page of the document that needs to be changed using the web browser print options 
 
 (*Note: The current version of the document is not configured to be exported to a pdf file because there seems to be a bookdown conflict between the Kable() table configurations and the pdf rendering.   If anyone has suggestions as to how to adjust the Bookdown::bs4_book settings by making changes to the output.yaml or to the .css file to allow it to rendo to pdf, this input would be very welcome.*)
 

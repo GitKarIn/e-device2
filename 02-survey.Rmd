@@ -12,7 +12,7 @@ Three groups were targeted for this questionnaire:
 
 ## Questionnaire Respondents 
 
-The IEP e-device questionnaire was run for approximately a month and received 24 responses (Figure \@ref(fig:survey). A link to the original questionnaire and to the compiled questionnaire responses is included in the Appendix 2.   
+The IEP e-device questionnaire was run for approximately a month and received 24 responses (Figure \@ref(fig:survey). A link to the original questionnaire and to the compiled questionnaire responses is included in the Appendix [See IEP E-device Survey](#appx_1).
 
 
 
@@ -32,7 +32,7 @@ pie(sms$`n()`, labels = pie_labels, col=c("#A9D18E", "#1B8CF0", "#E06F7D", "#D1B
 
 ```
 
-Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  ). 
+Among the 24 respondents, half of these were IEP associates and external contacts that are already using e-device applications for their survey data collections.  Five (20%) of the respondents were IEP associates who were currently seeking e-device solutions for their survey data collections. Two of the respondents indicated that they have already determined that electronic data entry would not work for their IEP survey application, and 5 respondents did not answer the question about their e-device use experience/status. An experienced e-device user resource list has been initiated, including contact names, software type, and type of survey application; this list will be expanded as possible (Appendix  D) [Expert Network](#expnet).
 
 
 ## Most Common Software Applications Used

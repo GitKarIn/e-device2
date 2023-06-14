@@ -1,7 +1,7 @@
 --- 
 title: "Electronic Data Entry Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
-date: "`r Sys.Date()`"
+date: "2023-06-14"
 site: bookdown::bookdown_site
 url: "https://github.com/GitKarIn/e-device2.git"
 documentclass: book
@@ -29,9 +29,7 @@ This initiative generally asks that all IEP survey teams that have e-device expe
 
 
 
-```{r ieplog, echo=FALSE,  out.width= "70%", fig.align='center',fig.cap=""}
-knitr::include_graphics(c("images/bothlogo.JPG"))
-```
+<img src="images/bothlogo.JPG" width="70%" style="display: block; margin: auto;" />
 
 
 ## Bookdown File Organization
@@ -75,7 +73,8 @@ This document is configured using the bookdown::bs4_book format for HTML output 
 -  Click on the **Build** pane in the RStudio IDE and Click on **Build Book** tool
 
 -  Or, build the book from the R console:
-```{r, eval=FALSE}
+
+```r
 bookdown::render_book()
 ```
 

@@ -4,8 +4,8 @@ library(readxl)
 #library(tidyverse)
 library(bookdown)
 library(png)
-library(grid)
-library(svglite)
+#library(grid)
+#library(svglite)
 library(here)
 
 # Define global variables -----------------------------------------------------------

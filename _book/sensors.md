@@ -22,7 +22,7 @@ https://discord.gg/XHW2cbGwXk
 
 
 
-# Navigation Systems
+# Navigation Data
 
 ## NMEA2000 CanBUS to USB converter
 
@@ -30,9 +30,10 @@ The gateway allows you to see data from a NMEA 2000 marine digital network on a 
 
 
 
-```{r nmea, echo=FALSE,  out.width= "100%", fig.align='center',fig.cap="This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station."}
-knitr::include_graphics(c("images/Sensors/NMEAnetwork.png"))
-```
+<div class="figure" style="text-align: center">
+<img src="images/Sensors/NMEAnetwork.png" alt="This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station." width="100%" />
+<p class="caption">(\#fig:nmea)This picture shows how the scientists laptop can plug into the system without getting in the way of the captains station.</p>
+</div>
 
 The device is called a NMEA2000 CanBUS to USB converter. There are several commercial versions offered. The USB100 from Maretron is the most common: https://www.maretron.com/products/usb100.php ($295)
 
@@ -46,7 +47,8 @@ https://www.basspro.com/shop/en/ancor-nmea-2000-power-cable-with-tee?hvarAID=sho
 Here is a blurb from an email from the Furuno technical expert regarding this method of data extraction from the navigation equipment:
 
 
-```{r nmea2, echo=FALSE,  out.width= "100%", fig.align='center',fig.cap="Here is a blurb from an email from the Furuno technical expert regarding this method of data extraction from the navigation equipment."}
-knitr::include_graphics(c("images/Sensors/NMEA2000methods.png"))
-``` 
+<div class="figure" style="text-align: center">
+<img src="images/Sensors/NMEA2000methods.png" alt="Here is a blurb from an email from the Furuno technical expert regarding this method of data extraction from the navigation equipment." width="100%" />
+<p class="caption">(\#fig:nmea2)Here is a blurb from an email from the Furuno technical expert regarding this method of data extraction from the navigation equipment.</p>
+</div>
 

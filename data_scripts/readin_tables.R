@@ -52,7 +52,7 @@ Survey3$Agency[grepl("UC",Survey3$Agency)]<-"UC"
 Survey3$exp_status[grepl("I have previously used",Survey3$exp_status)]<-"I have previously used"
 Survey3$exp_status[grepl("I am currently using",Survey3$exp_status)]<-"I am currently using"
 
-## Save to .rs file ##
+## Save to .rds file ##
 # Maybe I don't need to save to rds
 
 saveRDS(Survey3, file = "Survey3.rds")

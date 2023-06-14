@@ -16,30 +16,30 @@
 
 
 
-### Big Fin: Data Interface {##BFdat}
+### Big Fin: Data Interface {#BFdat}
 
 
 
-###  Big Fin: Photo Integration and External Sensors {##BFpho}
+###  Big Fin: Photo Integration and External Sensors {#BFpho}
 
 
 
 
 
-###  Big Fin:  Hardware Platforms  {##BFhrd}
+###  Big Fin:  Hardware Platforms  {#BFhrd}
 
 [Top of section](#BFtop)
 
 
 
-### Big Fin: Security Factors {##BFsec}
+### Big Fin: Security Factors {#BFsec}
 
 
 
 
-### Big Fin: Business Model and Customer Support {##BFbus}
+### Big Fin: Business Model and Customer Support {#BFbus}
 
-[Top of section](##BFtop)
+[Top of section](#BFtop)
 
 
 
