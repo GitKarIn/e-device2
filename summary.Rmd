@@ -1,6 +1,6 @@
-# Summary for Managers {-}
+# Executive Summary {-}
 
-## Take Home Message: {-}
+## **Take Home Message:** {-}
 
 **IEP should transition to electronic data entry in order to improve efficiency and data quality.**
 
@@ -8,13 +8,15 @@ Digital data entry methods significantly increase the turn-around time of data f
 
 
 
-## Problem: {-}
+## **Problem:** {-}
 
-**IEP still uses paper data sheets for most surveys.**  Several surveys have tried out different e-devices for collecting field data, but they haven't been broadly adopted and people are not sure which ones are best.  
+**IEP still uses paper data sheets for most surveys.**  
+
+Several surveys have tried out different e-devices for collecting field data, but they haven't been broadly adopted and people are not sure which ones are best.  
 
 
 
-## Method: {-}
+## **Method:** {-}
 
 The DUWG formed a sub-team and carried out the following steps:
 
@@ -25,7 +27,7 @@ The DUWG formed a sub-team and carried out the following steps:
 5. **Summarized Pros and Cons** of the top e-device software options.
 
 
-## Solutions: {-}
+## **Solutions:** {-}
 
 ### 1. The Top Data Entry Software Apps Are Listed (Pros and Cons)  {-}
 

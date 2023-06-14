@@ -1,4 +1,4 @@
-# Summary for Managers {-}
+# Executive Summary {-}
 
 ## Take Home Message: {-}
 
@@ -8,9 +8,11 @@ Digital data entry methods significantly increase the turn-around time of data f
 
 
 
-## Problem: {-}
+## **Problems:** {-}
 
-**IEP still uses paper data sheets for most surveys.**  Several surveys have tried out different e-devices for collecting field data, but they haven't been broadly adopted and people are not sure which ones are best.  
+**IEP still uses paper data sheets for most surveys.**  
+
+Several surveys have tried out different e-devices for collecting field data, but they haven't been broadly adopted and people are not sure which ones are best.  
 
 
 
