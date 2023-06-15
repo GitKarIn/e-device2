@@ -1,7 +1,7 @@
 --- 
 title: "Electronic Data Entry Options for IEP Surveys"
 author: "IEP DUWG 'e-Device' Sub-group led by Karrin Alstad"
-date: "2023-06-14"
+date: "2023-06-15"
 site: bookdown::bookdown_site
 url: "https://github.com/GitKarIn/e-device2.git"
 documentclass: book
@@ -21,15 +21,56 @@ always_allow_html: yes
 
 ## Preamble
 
-This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools, including reviews of different software options, hardware, and factors regarding interfacing with external sensors and downstream databases.  
+**This bookdown document is intended as a repository of technical information related to the use of electronic field data entry tools**, including reviews of different software options, hardware, and factors regarding interfacing with external sensors and downstream databases.  
 
-The initial information was gleaned from interviews and presentations organized during a DUWG Electronic Data Entry Device ("e-device") focus group (6/2022-6/2023), but these reports are far from exhaustive of the many software/hardware options that are available for field data entry.  Meanwhile communication and cloud processing technology is advancing rapidly.  
+The initial information was gleaned from interviews and presentations organized during a DUWG Electronic Data Entry Device ("e-device") focus group (6/2022-6/2023), but these reports are far from exhaustive and there are many software/hardware options for field data entry that have not yet been reviewed.  Meanwhile communication and cloud processing technology is advancing rapidly.  
 
-This initiative generally asks that all IEP survey teams that have e-device experience, or those that are adding digital data-entry tools to their program, please share these experiences and help to develop this resource for other IEP surveys seeking to update data entry protocols.
+**This initiative generally asks that all IEP survey teams that have e-device experience, or those that are adding digital data-entry tools to their program, please share these experiences and help to develop this resource for other IEP surveys seeking to update data entry protocols.**
 
 
 
 <img src="images/bothlogo.JPG" width="70%" style="display: block; margin: auto;" />
+
+
+
+
+## **How to Contribute: Two Ways**
+
+<!-- # specifying font style for bold because H3 does not render bold "**" option-->
+::: {#Tab1  style="font-size:18px; font-family: Segoe UI;"}
+**Best Way: Submit changes to the e-device package using Github:** 
+:::
+
+1. Create a fork off of the primary package: https://github.com/GitKarIn/e-device2.git
+
+2. Clone this fork to your own local repository
+
+3. Render the book:
+
+-  Click on the Build pane in the RStudio IDE and Click on Build Book tool
+
+-  Or, build the book from the R console:
+
+```r
+bookdown::render_book()
+```
+
+4. Compose changes or updates to the book contents
+
+5. Check for merge conflicts and submit a pull request
+
+<!-- # specifying font style for bold because H3 does not render bold "**" option-->
+::: {#Tab1  style="font-size:18px; font-family: Segoe UI;"}
+**Back-up Way: Email proposed changes/edits to the document manager:** 
+:::
+
+
+1. Print to pdf each page of the document that needs to be changed using the web browser print options (*Note: The current version is not rendered a pdf doc due to a conflict with Kable(). Input welcome*)
+
+2. Use a pdf editor to insert comments or changes.
+
+3. E-mail these edited pdf pages to: karrin.alstad@wildlife.ca.gov
+
 
 
 ## Bookdown File Organization
@@ -57,45 +98,6 @@ This document is configured using the bookdown::bs4_book format for HTML output 
   
   * style.css: contains css formatting instructions.  Beyond default settings, a couple of css codes for table formatting have been added.
   
-
-
-## How to Contribute: Two Ways
-
-
-###  **Submit changes to the e-device package using Github:** 
-
-1. Create a fork off of the primary package: https://github.com/GitKarIn/e-device2.git
-
-2. Clone this fork to your own local repository
-
-3. Render the book:
-
--  Click on the **Build** pane in the RStudio IDE and Click on **Build Book** tool
-
--  Or, build the book from the R console:
-
-```r
-bookdown::render_book()
-```
-
-4. Compose changes or updates to the book contents
-
-5. Check for merge conflicts and submit a pull request
-
-
-
-###  **Email proposed changes/edits to the document manager:** 
-
-1. Print to pdf each page of the document that needs to be changed using the web browser print options 
-
-(*Note: The current version of the document is not configured to be exported to a pdf file because there seems to be a bookdown conflict between the Kable() table configurations and the pdf rendering.   If anyone has suggestions as to how to adjust the Bookdown::bs4_book settings by making changes to the output.yaml or to the .css file to allow it to rendo to pdf, this input would be very welcome.*)
-
-2. Use a pdf editor to insert comments or changes.
-
-3. E-mail these edited pdf pages to: karrin.alstad@wildlife.ca.gov
-
-
-
 
 
 

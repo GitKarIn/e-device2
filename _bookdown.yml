@@ -1,7 +1,9 @@
 book_filename: "e-device2"
 new_session: true
+# this runs the setup.R program before rendering the chapters
+# the setup.R program calls readin_tables.R which pulls in all tables
 before_chapter_script: setup.R
-#before_chapter_script: ["setup.R", "readin_tables.R"]
+
 delete_merged_file: true
 language:
   ui:
@@ -17,7 +19,10 @@ language:
     code: "Code"
 includes:
       before_body: titlepage.html
-
+# this works with other html code in the summary.rmdto suppress the table header 
+# (this exec summary to be submitted as a separate document)
+# header-includes:
+#     - \usepackage{caption}
 split_by: section
 rmd_files:
   - index.Rmd

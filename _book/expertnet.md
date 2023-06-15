@@ -1,6 +1,6 @@
 # Expert Network   {#expnet}
 
-One of the goal the e-device sub-group was to develop a listing of IEP associated scientists and staff who have expertise in different software approaches.  The names listed here are those who are willing to be a contact for anyone within IEP who is interested in the corresponding Software or Hardware listed. One caveat is that the listed personnel would not be able to replace a full-time technical support staff or programmer, and so reasonable consideration is needed to maintain this type of network resource.  
+One of the goal the e-device sub-group was to develop a listing of IEP associated scientists and staff who have expertise in different software approaches.  The names listed here are those who are willing to be a contact by anyone within IEP who is interested in the corresponding Software or Hardware listed. One caveat is that the listed personnel would not be able to replace a full-time technical support staff or programmer, and so reasonable consideration is needed to maintain this type of network resource.  
 
 
 <table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>

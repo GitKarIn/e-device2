@@ -62,15 +62,8 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 
 
 
-
-
-
-
-
-
-
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:s123form)Forms Options</caption>
+<caption style="font-size: initial !important;">(\#tab:s1form)Forms Options</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -303,7 +296,7 @@ XLSForm formatting language is described at: https://xlsform.org/en/.
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:s123dat)Data Interface Options</caption>
+<caption style="font-size: initial !important;">(\#tab:s12dat)Data Interface Options</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -415,7 +408,7 @@ https://www.g2.com/products/arcgis-survey123/reviews#survey-response-2743872 </t
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:s123phot)Photo Integration and External Sensors</caption>
+<caption style="font-size: initial !important;">(\#tab:s12pho)Photo Integration and External Sensors</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Category </th>
@@ -502,7 +495,7 @@ https://www.esri.com/arcgis-blog/products/survey123/announcements/barcode-scanni
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:s123hard)Hardware Platform Options</caption>
+<caption style="font-size: initial !important;">(\#tab:s12har)Hardware Platform Options</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
@@ -571,7 +564,7 @@ https://www.esri.com/arcgis-blog/products/survey123/announcements/barcode-scanni
 
 
 <div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:600px; overflow-x: scroll; width:800px; "><table class=" lightable-paper table" style='font-family: "Arial Narrow", arial, helvetica, sans-serif; margin-left: auto; margin-right: auto; font-size: 18px; width: auto !important; margin-left: auto; margin-right: auto;'>
-<caption style="font-size: initial !important;">(\#tab:s123sec)Security Factors</caption>
+<caption style="font-size: initial !important;">(\#tab:s12sec)Security Factors</caption>
  <thead>
   <tr>
    <th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;position: sticky; top:0; background-color: #FFFFFF;"> Feature </th>
@@ -630,7 +623,7 @@ Esri's flagship software, ArcGIS, runs on Azure. Esri provides deployment tooli
 
 
 
-### Survey123: Business Model and Customer Support {#s123bus}
+### Survey123: Business Model and Customer Support {#s12bus}
 
 [Top of section](#s12top)
 

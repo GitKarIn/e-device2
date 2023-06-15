@@ -1,11 +1,8 @@
 # Load libraries --------------------------------------------------------------------
 library(dplyr)
 library(readxl)
-#library(tidyverse)
 library(bookdown)
 library(png)
-#library(grid)
-#library(svglite)
 library(here)
 
 # Define global variables -----------------------------------------------------------

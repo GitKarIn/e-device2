@@ -54,9 +54,6 @@ knitr::include_graphics("images/survey123/survey123_xlsform2.png", error = FALSE
 
 ### Survey123: Forms Options
 
-
-
-
 ```{r forminit, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE }
 
 s123form <- survey123$Forms_Options
@@ -68,11 +65,7 @@ s123bus  <- survey123$Business_Model
 ```
 
 
-
-
-
-
-```{r s123form, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Forms Options', out.width='70%', tab.asp=.75, tab.align='left' }
+```{r s1form, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Forms Options', out.width='70%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
@@ -111,7 +104,7 @@ kable(s123form, format = "html", escape = F, caption = 'Forms Options',
 
 
 
-```{r s123dat, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Options', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r s12dat, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Data Interface Options', out.width='100%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
@@ -155,7 +148,7 @@ kable(s123dat, format = "html", escape = F, caption = 'Data Interface Options',
 ###  Survey123: Photo Integration and External Sensors {#s12pho}
 
 
-```{r s123phot, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Photo Integration and External Sensors', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r s12pho, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Photo Integration and External Sensors', out.width='100%', tab.asp=.75, tab.align='left' }
 
 
 library(kableExtra)
@@ -203,7 +196,7 @@ kable(s123phot, format = "html", escape = F, caption = 'Photo Integration and Ex
 
 
 
-```{r s123hard, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Hardware Platform Options', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r s12har, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Hardware Platform Options', out.width='100%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
@@ -236,7 +229,7 @@ kable(s123hard, format = "html", escape = F, caption = 'Hardware Platform Option
 
 
 
-```{r s123sec, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Security Factors', out.width='100%', tab.asp=.75, tab.align='left' }
+```{r s12sec, echo = FALSE, include=TRUE, message=FALSE, warning=FALSE,  tab.cap='Security Factors', out.width='100%', tab.asp=.75, tab.align='left' }
 
 library(kableExtra)
 
@@ -265,7 +258,7 @@ kable(s123sec, format = "html", escape = F, caption = 'Security Factors', bookta
 
 
 
-### Survey123: Business Model and Customer Support {#s123bus}
+### Survey123: Business Model and Customer Support {#s12bus}
 
 [Top of section](#s12top)
 
